@@ -3,6 +3,63 @@
 
 ---
 
+## 🏛️ Prefácio: Como o Programa de Pontos Realmente Ganha Dinheiro?
+### *O Modelo de Negócio e a Lógica Econômica do Pontua+*
+
+Para compreender o impacto do **Pontos no Pix** e embasar a decisão estratégica da diretoria, é fundamental revisitar as engrenagens de rentabilidade de um programa de fidelidade operado por empresa coligada:
+
+Um programa de pontos **não é apenas um catálogo de recompensas**; ele opera como uma **fintech de emissão e custódia de passivo circulante**. O lucro do programa é gerado em 5 alavancas econômicas:
+
+```
+          ┌─────────────────────────────────────────────────────────────┐
+          │             1. VENDA DE PONTOS AO BANCO (EARN)              │
+          │   Banco Aurora compra pontos com a taxa de intercâmbio      │
+          └──────────────────────────────┬──────────────────────────────┘
+                                         │ Entrada de Caixa (Cash-in)
+                                         ▼
+                 ┌───────────────────────────────────────────────┐
+                 │      2. FLOAT FINANCEIRO (Custódia do Saldo)  │
+                 │   Rendimento do saldo investido em CDI/Selic  │
+                 └───────────────┬───────────────────────────────┘
+                                 │
+                 ┌───────────────┴───────────────┐
+                 ▼                               ▼
+  ┌─────────────────────────────┐ ┌─────────────────────────────┐
+  │ 3. BREAKAGE (Expiração)     │ │ 4. SPREAD DE RESGATE (BURN) │
+  │ 15% a 20% expiram sem uso   │ │ Resgate em produtos/viagens │
+  │ Margem de Lucro = 100%      │ │ - Varejo Próprio: Alta margem
+  └─────────────────────────────┘ │ - Aéreas: Margem apertada   │
+                                  │ - Pix: Margem negativa / cash
+                                  └─────────────────────────────┘
+```
+
+1. **Venda de Pontos ao Banco Emissor (Receita Primária de Emissão):**
+   * Toda vez que o portador usa o cartão de crédito, o Banco Aurora recolhe a tarifa de intercâmbio (*interchange fee*, ~1% a 2% da transação).
+   * O banco usa parte dessa receita para comprar pontos da operadora do Pontua+ a um valor fixo unitário contratual. A operadora recebe dinheiro líquido à vista no momento da emissão (*earn*).
+2. **Float Financeiro (Receita de Aplicação dos Saldos em Custódia):**
+   * Entre a emissão do ponto e o resgate efetivo pelo cliente (janela média de 12 a 24 meses), o caixa recebido do banco fica aplicado rendendo CDI. Em um programa com bilhões de pontos em estoque, a receita financeira sobre o saldo em trânsito é uma das maiores linhas de lucro líquido.
+3. **Breakage (Expiração de Pontos = Margem de 100%):**
+   * Historicamente, uma parcela previsível dos pontos emitidos não é resgatada e expira por decurso de prazo (meta de $\le 20\%$).
+   * Quando o ponto expira, a operadora baixa o passivo contábil sem entregar produto nem desembolsar dinheiro. **Toda a receita recebida do banco por esses pontos converte-se em margem de lucro de 100%**.
+4. **Spread Comercial no Resgate (Burn Margin):**
+   * No **Varejo Próprio (Casa&Cia, MegaMagazine):** A operadora negocia mercadorias a preço de atacado e precifica o resgate em pontos com spread comercial positivo de 20% a 30%. O dinheiro gasto pelo programa fica dentro do próprio conglomerado econômico.
+   * Em **Passagens Aéreas:** As companhias aéreas cobram caro pelos assentos. O custo por ponto da passagem (~R$ 0,0162) costuma superar o valor líquido repassado pelo banco, operando como um *loss leader* (produto chamariz) necessário para manter os cartões de alta renda (Black e Infinite) atraentes.
+5. **Venda Adicional de Pontos ao Cliente (Top-up):**
+   * Margem direta vendendo pacotes de pontos para clientes completarem passagens (R$ 101k faturados em *Compra Pontos*).
+
+---
+
+### ⚠️ Onde o "Pontos no Pix" Rompeu Essa Lógica Econômica?
+Ao lançar o Pix a **R$ 0,019 por ponto**, o programa introduziu uma modalidade que vai contra quase todas as fontes de lucro tradicionais:
+* **Zera o Spread Comercial:** O programa desembolsa moeda corrente à vista (~R$ 175k/mês) em vez de entregar um produto físico comprado com desconto de atacado.
+* **Destrói o Breakage Futuro:** O Pix ativou principalmente clientes de entrada (**Essencial e Gold**), cujos pequenos saldos antes ficavam parados e eventualmente expiravam (gerando lucro de 100%). Agora esses clientes sacam o dinheiro imediatamente.
+* **Aumenta o Custo Médio Unitário:** Pagar R$ 0,019 por ponto líquido em dinheiro é mais caro do que o custo de uma passagem aérea (~R$ 0,0162) e muito mais caro do que o custo de parceiros de varejo (~R$ 0,0125).
+* **Dilui o Contrato com o Banco:** Ao adicionar ~10M de pontos/mês de dinheiro vivo, espremeu o Varejo abaixo dos 20% contratuais.
+
+Com esse racional econômico estabelecido, avaliemos o que aconteceu em detalhes.
+
+---
+
 ## 1. Visão Geral: O Que Aconteceu Após o Lançamento do Pix?
 
 Em **27/05/2026**, o Pontua+ lançou a funcionalidade **Pontos no Pix** (R$ 0,019 por ponto; ~53 pontos = R$ 1,00). O resgate nessa modalidade cresceu vertiginosamente.
