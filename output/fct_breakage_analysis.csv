@@ -1,0 +1,4 @@
+escopo_analise,base_denominador,volume_expirado,taxa_percentual,meta_teto_pct,status_avaliacao,explicacao
+1. Breakage da Migração (Conceito Oficial),324024198.0,64090805.0,19.78,20.0,DENTRO DA META,"Calculado estritamente como pontos expirados sobre pontos creditados na migração (19,78% <= 20%)."
+2. Breakage Global do Programa (Orgânico + Migração),765238192.0,64090805.0,8.38,20.0,DENTRO DA META,Calculado sobre toda a emissão do Pontua+. Créditos orgânicos têm 2 anos de validade e ainda não expiraram.
+3. Confusão do Diretor: Razão Expiração / Resgates (Fev-Abr/2026),54625711.0,21275419.0,38.95,20.0,ERRO DE CONCEITO DO DIRETOR,"O diretor dividiu expiração por resgates no trimestre anterior ao Pix (39,2% ~ 40%), o que não é breakage."

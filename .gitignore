@@ -2,3 +2,6 @@
 storytelling_diretoria.md
 .claude/
 linha_do_tempo.sh
+.venv/
+*.duckdb
+output/*.duckdb

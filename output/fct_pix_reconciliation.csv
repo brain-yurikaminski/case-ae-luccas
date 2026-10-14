@@ -1,0 +1,6 @@
+mes,relatorio_transacoes,relatorio_pontos,relatorio_reais,relatorio_razao_operador,pedidos_aprovados,pontos_aprovados,reais_aprovados,custo_real_por_ponto_aprovado,pedidos_brutos_sistema,pontos_brutos_sistema,pedidos_nao_aprovados,pontos_nao_aprovados,simulacao_calculo_operador,transacoes_batem_com_bruto,pontos_batem_com_bruto,preco_unitario_foi_exatamente_19_centavos
+2026-05,85.0,1202701.0,19921.29,0.016564,75,1051095,19970.829999999994,0.019,85,1202701,10,151606,0.016564,true,true,true
+2026-06,822.0,10709419.0,174261.75,0.016272,704,9215135,175087.9499999998,0.019,822,10709419,118,1494284,0.016272,true,true,true
+2026-07,759.0,10445204.0,169868.42,0.016263,648,8960664,170253.02999999997,0.019,759,10445204,111,1484540,0.016263,true,true,true
+2026-08,783.0,10672206.0,177263.34,0.01661,677,9366874,177970.86999999988,0.019,783,10672206,106,1305332,0.01661,true,true,true
+2026-09,843.0,11516757.0,177056.0,0.015374,704,9385666,178328.0499999998,0.019,843,11516757,139,2131091,0.015374,true,true,true
