@@ -2,6 +2,7 @@
 **Candidato:** Lucas Oliveira  
 **Branch de Entrega:** `entrega`  
 **Stack Técnica:** SQL / DuckDB / Python 3.9+ / Pytest  
+**Tempo de Trabalho:** ~2h45 (dentro do limite sugerido de 4h)  
 
 ---
 
