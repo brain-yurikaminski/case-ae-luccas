@@ -1,176 +1,4 @@
 user_id,first_pix_at,total_pix_orders,total_pix_points,total_pix_reais,resgatou_antes_de_qualquer_comunicacao,resgatou_antes_do_email,recebeu_email,visualizou_email,clicou_email,recebeu_push,visualizou_push,clicou_push,canal_atribuicao
-243983795951,2026-06-14 20:15:40-03,2,24285,461.40999999999997,false,false,true,false,false,true,false,false,Organic / App Discovery
-271304884851,2026-08-15 08:00:43-03,1,12747,242.19,false,false,false,false,false,true,false,false,Organic / App Discovery
-867151565278,2026-07-26 19:53:48-03,2,21175,402.33000000000004,false,false,true,false,false,true,false,true,Direct Click Attribution
-610667891907,2026-07-23 18:18:00-03,1,8286,157.43,false,false,false,false,false,true,true,false,View-Through Attribution
-307394720551,2026-06-12 13:30:03-03,2,18371,349.04999999999995,false,false,true,true,false,true,false,false,View-Through Attribution
-334632091131,2026-08-23 07:54:52-03,1,5044,95.84,false,false,true,true,false,true,true,false,View-Through Attribution
-856542289736,2026-09-08 08:35:49-03,1,8666,164.65,false,false,true,true,false,true,false,false,View-Through Attribution
-481560417793,2026-09-17 13:10:07-03,1,98084,1863.6,false,false,true,false,false,true,false,false,Organic / App Discovery
-485037683779,2026-09-06 20:06:34-03,2,11159,212.02,false,false,true,false,false,true,true,false,View-Through Attribution
-642794925365,2026-06-15 14:32:38-03,1,11144,211.74,false,false,true,false,false,true,true,false,View-Through Attribution
-781208091607,2026-08-21 11:15:34-03,1,3120,59.28,false,false,true,false,false,true,false,false,Organic / App Discovery
-308943194383,2026-07-18 21:44:29-03,1,5893,111.97,false,false,true,true,false,true,true,false,View-Through Attribution
-912869707386,2026-07-24 11:31:42-03,1,9864,187.42,false,false,true,false,false,true,true,false,View-Through Attribution
-902116608923,2026-06-09 22:34:24-03,1,8471,160.95,false,false,true,false,false,true,false,false,Organic / App Discovery
-693578552010,2026-06-01 11:22:06-03,2,23365,443.93,false,false,true,false,false,true,true,false,View-Through Attribution
-664478680686,2026-08-17 12:26:15-03,1,6100,115.9,false,false,true,false,false,true,true,false,View-Through Attribution
-555177776612,2026-08-12 06:58:55-03,1,43849,833.13,false,false,false,false,false,false,true,false,View-Through Attribution
-978228535610,2026-09-15 22:59:34-03,1,10707,203.43,false,false,false,false,false,true,false,false,Organic / App Discovery
-531549075230,2026-08-08 14:58:58-03,1,12721,241.7,false,false,true,true,false,true,true,false,View-Through Attribution
-544788743796,2026-06-24 15:02:30-03,2,28166,535.1600000000001,false,false,true,false,false,true,false,false,Organic / App Discovery
-511978360148,2026-06-13 16:17:10-03,1,5973,113.49,false,false,true,false,false,false,true,false,View-Through Attribution
-459463630209,2026-07-03 10:06:01-03,1,35296,670.62,false,false,true,false,false,true,false,false,Organic / App Discovery
-179248376879,2026-07-31 12:11:37-03,1,6968,132.39,false,false,true,false,false,true,true,false,View-Through Attribution
-649872340074,2026-06-04 23:59:24-03,2,16425,312.08,false,false,false,false,false,true,false,false,Organic / App Discovery
-661783958277,2026-07-05 15:06:10-03,2,22395,425.51,false,false,true,false,false,true,true,false,View-Through Attribution
-978022147432,2026-06-25 20:30:02-03,1,35116,667.2,false,false,true,false,false,true,true,false,View-Through Attribution
-730818310030,2026-07-14 14:37:59-03,1,7914,150.37,false,false,true,true,false,true,false,false,View-Through Attribution
-240956601497,2026-09-27 12:34:34-03,1,5957,113.18,false,false,true,false,false,true,false,false,Organic / App Discovery
-291282417498,2026-09-18 13:39:13-03,1,11420,216.98,false,false,true,false,false,true,false,false,Organic / App Discovery
-719572029212,2026-09-26 16:54:00-03,1,12736,241.98,false,false,false,false,false,false,true,false,View-Through Attribution
-617537720940,2026-05-27 17:04:43-03,2,17813,338.44,true,true,false,false,false,true,false,false,Pre-Campaign Organic
-140577208045,2026-09-02 19:27:54-03,1,14464,274.82,false,false,true,false,false,true,true,false,View-Through Attribution
-691093375266,2026-09-18 10:05:40-03,1,7848,149.11,false,false,true,false,false,true,false,false,Organic / App Discovery
-483298031151,2026-06-23 12:54:53-03,2,16897,321.05,false,false,true,false,false,true,false,false,Organic / App Discovery
-779878494899,2026-07-28 18:56:29-03,3,43419,824.96,false,false,true,false,false,true,false,false,Organic / App Discovery
-489755882924,2026-08-26 14:19:50-03,1,5556,105.56,false,false,true,false,false,true,false,false,Organic / App Discovery
-225189710612,2026-06-26 20:51:37-03,1,4377,83.16,false,false,false,false,false,true,true,false,View-Through Attribution
-924502081221,2026-08-09 10:52:23-03,3,14574,276.90999999999997,false,false,false,false,false,true,true,false,View-Through Attribution
-464850544068,2026-06-12 14:45:11-03,3,49810,946.3900000000001,false,false,true,false,false,true,false,false,Organic / App Discovery
-698707451277,2026-08-03 13:47:40-03,1,7114,135.17,false,false,false,false,false,true,true,false,View-Through Attribution
-275482894046,2026-08-31 16:27:42-03,1,5624,106.86,false,false,true,false,false,true,false,false,Organic / App Discovery
-975425380386,2026-09-03 10:38:16-03,1,7477,142.06,false,false,true,true,false,true,false,false,View-Through Attribution
-447283658801,2026-09-24 18:45:05-03,3,29245,555.66,false,false,true,false,false,true,true,false,View-Through Attribution
-310826125848,2026-09-18 21:09:47-03,1,4823,91.64,false,false,true,false,false,false,true,false,View-Through Attribution
-519615528160,2026-06-14 13:58:02-03,2,39751,755.27,false,false,true,false,false,false,true,false,View-Through Attribution
-419251702986,2026-08-07 13:35:59-03,1,84734,1609.95,false,false,false,false,false,true,true,false,View-Through Attribution
-337620486744,2026-07-12 14:32:35-03,1,9150,173.85,false,false,true,false,false,true,false,false,Organic / App Discovery
-168972743002,2026-07-02 16:44:54-03,1,16006,304.11,false,false,false,false,false,true,false,false,Organic / App Discovery
-851511621086,2026-08-18 13:08:27-03,1,3535,67.17,false,false,false,false,false,false,true,false,View-Through Attribution
-823636860666,2026-06-21 21:00:37-03,1,14911,283.31,false,false,false,false,false,true,false,false,Organic / App Discovery
-704669296923,2026-07-10 13:45:18-03,3,73091,1388.7399999999998,false,false,false,false,false,true,true,false,View-Through Attribution
-252173300398,2026-07-21 21:33:26-03,2,13213,251.05,false,false,true,false,false,true,false,false,Organic / App Discovery
-311730593998,2026-09-16 18:49:29-03,1,4241,80.58,false,false,true,true,false,true,true,false,View-Through Attribution
-316164742845,2026-05-30 18:39:53-03,1,4421,84.0,false,false,false,false,false,false,true,false,View-Through Attribution
-675486332024,2026-09-14 11:23:02-03,1,19167,364.17,false,false,true,true,true,true,false,false,Direct Click Attribution
-662035581448,2026-06-07 18:00:40-03,2,24008,456.15,false,false,true,false,false,false,true,false,View-Through Attribution
-396987568143,2026-07-24 14:21:17-03,1,1943,36.92,false,false,true,false,false,true,true,true,Direct Click Attribution
-800608660234,2026-08-22 16:08:49-03,1,24585,467.12,false,false,true,false,false,true,false,false,Organic / App Discovery
-505304190219,2026-06-05 17:32:33-03,1,18105,344.0,false,false,true,false,false,true,false,false,Organic / App Discovery
-455839361792,2026-07-04 13:16:05-03,1,38794,737.09,false,false,false,false,false,true,true,false,View-Through Attribution
-385477245032,2026-09-14 11:35:08-03,1,5645,107.26,false,false,true,true,false,true,false,false,View-Through Attribution
-592709891171,2026-09-16 08:14:35-03,1,28843,548.02,false,false,true,true,false,true,false,false,View-Through Attribution
-579506760783,2026-08-01 13:50:12-03,2,70969,1348.4099999999999,false,false,true,false,false,true,true,false,View-Through Attribution
-708165120778,2026-09-26 15:44:49-03,1,17166,326.15,false,false,true,false,false,true,false,false,Organic / App Discovery
-229014201866,2026-08-27 21:01:50-03,1,27327,519.21,false,false,false,false,false,true,false,false,Organic / App Discovery
-261143336640,2026-06-23 10:09:03-03,1,4525,85.98,false,false,true,false,false,false,true,false,View-Through Attribution
-763212282340,2026-07-09 12:51:42-03,1,17903,340.16,false,false,true,true,false,true,false,false,View-Through Attribution
-855280925437,2026-06-06 18:19:52-03,2,9106,173.01,false,false,true,false,false,true,false,false,Organic / App Discovery
-707647008164,2026-07-02 23:59:24-03,1,14673,278.79,false,false,true,false,false,true,false,false,Organic / App Discovery
-729534544532,2026-06-07 16:20:56-03,2,10669,202.71,false,false,true,true,false,true,false,false,View-Through Attribution
-182906681643,2026-08-17 19:07:42-03,1,15246,289.67,false,false,true,false,false,true,true,false,View-Through Attribution
-218343275732,2026-07-13 17:18:21-03,2,22751,432.27000000000004,false,false,true,false,false,false,false,true,Direct Click Attribution
-853943202024,2026-09-22 14:28:54-03,1,7940,150.86,false,false,true,false,false,true,true,false,View-Through Attribution
-597194531169,2026-08-11 17:19:33-03,2,10997,208.94,false,false,true,false,false,true,true,false,View-Through Attribution
-359561680216,2026-07-25 10:37:50-03,1,29812,566.43,false,false,true,true,false,true,false,false,View-Through Attribution
-737861137737,2026-08-23 15:56:22-03,1,8651,164.37,false,false,true,false,false,true,true,false,View-Through Attribution
-556661363502,2026-06-09 19:03:33-03,2,8178,155.38,false,false,true,false,false,true,false,false,Organic / App Discovery
-453482381940,2026-06-25 16:40:45-03,2,45801,870.22,false,false,false,false,false,false,true,true,Direct Click Attribution
-488182928746,2026-08-21 14:17:39-03,1,43969,835.41,false,false,true,false,false,true,false,false,Organic / App Discovery
-222499798732,2026-09-06 21:47:27-03,1,4735,89.97,false,false,true,true,false,true,true,false,View-Through Attribution
-194702199891,2026-09-13 13:13:23-03,1,10385,197.32,false,false,false,false,false,true,false,false,Organic / App Discovery
-470840418935,2026-07-06 12:28:45-03,1,5429,103.15,false,false,true,true,false,false,true,false,View-Through Attribution
-638770381187,2026-07-14 18:56:26-03,3,16863,320.4,false,false,true,false,false,false,false,true,Direct Click Attribution
-302315095433,2026-08-24 13:15:52-03,1,66388,1261.37,false,false,false,false,false,true,false,true,Direct Click Attribution
-637263908256,2026-07-25 13:35:20-03,3,17235,327.47,false,false,true,false,false,true,true,false,View-Through Attribution
-240603493325,2026-09-24 18:57:29-03,1,42065,799.24,false,false,true,false,false,true,true,false,View-Through Attribution
-747581414504,2026-09-26 18:32:13-03,1,9362,177.88,false,false,true,false,false,true,true,false,View-Through Attribution
-746714668779,2026-09-23 05:42:44-03,1,12985,246.72,false,false,true,false,false,true,false,false,Organic / App Discovery
-954640575745,2026-06-02 18:08:38-03,1,4366,82.95,false,false,true,false,false,true,false,false,Organic / App Discovery
-154628856294,2026-08-10 11:01:25-03,1,3728,70.83,false,false,false,false,false,true,false,false,Organic / App Discovery
-231673929654,2026-09-09 14:36:25-03,1,19480,370.12,false,false,true,false,false,true,false,false,Organic / App Discovery
-646292558155,2026-07-03 12:06:23-03,4,56453,1072.61,false,false,true,false,false,true,false,false,Organic / App Discovery
-942090741735,2026-06-07 08:33:11-03,1,13481,256.14,false,false,false,false,false,true,false,false,Organic / App Discovery
-846056149636,2026-07-15 18:58:32-03,1,11940,226.86,false,false,true,false,false,true,true,false,View-Through Attribution
-993035126783,2026-07-08 17:14:52-03,1,21738,413.02,false,false,true,false,false,true,true,false,View-Through Attribution
-400345741867,2026-08-18 15:47:49-03,1,21794,414.09,false,false,true,true,true,true,false,false,Direct Click Attribution
-880609838562,2026-07-21 13:46:17-03,2,7877,149.66,false,false,true,false,false,true,true,false,View-Through Attribution
-638144365015,2026-07-25 15:21:03-03,1,7493,142.37,false,false,true,false,false,true,false,false,Organic / App Discovery
-988976302039,2026-06-14 13:26:22-03,1,3894,73.99,false,false,false,false,false,false,true,false,View-Through Attribution
-374839384731,2026-06-23 16:14:43-03,1,8871,168.55,false,false,false,false,false,true,true,false,View-Through Attribution
-571997308435,2026-08-28 17:36:39-03,1,20394,387.49,false,false,false,false,false,true,false,false,Organic / App Discovery
-209131916847,2026-06-10 16:27:19-03,1,3578,67.98,false,false,true,false,false,true,false,false,Organic / App Discovery
-450685576623,2026-08-01 07:04:53-03,1,25597,486.34,false,false,true,false,false,false,false,true,Direct Click Attribution
-306772530823,2026-09-18 17:38:29-03,1,6090,115.71,false,false,true,false,false,true,true,false,View-Through Attribution
-531150561218,2026-09-01 14:17:47-03,1,11192,212.65,false,false,false,false,false,true,true,false,View-Through Attribution
-189987614852,2026-09-12 13:36:06-03,1,3952,75.09,false,false,true,false,false,true,false,false,Organic / App Discovery
-618072252315,2026-07-07 22:36:43-03,1,6909,131.27,false,false,false,false,false,true,false,false,Organic / App Discovery
-781932990786,2026-08-24 16:41:32-03,1,3634,69.05,false,false,true,false,false,true,false,false,Organic / App Discovery
-388147595139,2026-07-22 14:17:40-03,2,13245,251.66,false,false,false,false,false,true,false,false,Organic / App Discovery
-838097919505,2026-08-23 13:26:46-03,1,18078,343.48,false,false,true,false,false,false,true,false,View-Through Attribution
-296384989912,2026-06-14 18:00:11-03,1,12294,233.59,false,false,true,true,false,true,false,false,View-Through Attribution
-165260612885,2026-07-12 10:08:03-03,1,13870,263.53,false,false,true,false,false,true,false,false,Organic / App Discovery
-895928670802,2026-08-22 14:01:03-03,1,18767,356.57,false,false,false,false,false,true,true,false,View-Through Attribution
-829965201682,2026-08-30 13:24:14-03,1,40976,778.54,false,false,true,true,false,true,true,false,View-Through Attribution
-543556535218,2026-06-11 10:23:23-03,1,6794,129.09,false,false,false,false,false,true,true,false,View-Through Attribution
-722505560286,2026-08-05 19:14:14-03,1,4689,89.09,false,false,true,false,false,true,false,false,Organic / App Discovery
-774887225836,2026-05-31 06:14:26-03,1,4947,93.99,false,false,true,true,false,true,true,false,View-Through Attribution
-417805466190,2026-06-10 10:44:37-03,1,23845,453.06,false,false,false,false,false,true,true,false,View-Through Attribution
-525053749840,2026-08-19 14:39:10-03,1,4765,90.54,false,false,true,true,false,true,false,false,View-Through Attribution
-370785106869,2026-06-09 20:41:09-03,2,9653,183.41,false,false,true,false,false,true,true,false,View-Through Attribution
-372621573738,2026-09-23 11:48:48-03,1,39230,745.37,false,false,true,false,false,true,true,false,View-Through Attribution
-215896864089,2026-09-19 15:15:27-03,1,16161,307.06,false,false,true,false,false,true,false,false,Organic / App Discovery
-281042764359,2026-08-08 17:31:30-03,1,13536,257.18,false,false,true,false,false,true,false,false,Organic / App Discovery
-653002198185,2026-06-12 20:05:59-03,2,31021,589.4,false,false,true,false,false,true,true,false,View-Through Attribution
-736130170265,2026-09-18 16:06:06-03,1,18709,355.47,false,false,true,false,false,true,true,false,View-Through Attribution
-314825384152,2026-06-19 16:19:28-03,5,82199,1561.7799999999997,false,false,true,false,false,true,true,false,View-Through Attribution
-312023710097,2026-08-15 14:33:36-03,1,6109,116.07,false,false,true,false,false,true,true,false,View-Through Attribution
-587266800708,2026-06-14 21:13:31-03,1,17610,334.59,false,false,true,false,false,true,false,false,Organic / App Discovery
-245047761688,2026-06-28 12:19:43-03,1,17798,338.16,false,false,true,false,false,true,false,false,Organic / App Discovery
-801285066810,2026-06-24 20:11:53-03,1,5551,105.47,false,false,true,false,false,true,false,false,Organic / App Discovery
-880670097203,2026-08-28 21:55:47-03,1,1692,32.15,false,false,true,false,false,true,false,false,Organic / App Discovery
-372986609883,2026-09-25 13:15:57-03,1,5572,105.87,false,false,true,false,false,true,false,false,Organic / App Discovery
-426913529949,2026-07-04 19:42:44-03,1,1874,35.61,false,false,true,false,false,true,false,false,Organic / App Discovery
-404006971055,2026-06-02 13:36:26-03,2,14305,271.8,false,false,true,true,false,true,false,false,View-Through Attribution
-297451654477,2026-06-19 16:23:50-03,2,22886,434.84000000000003,false,false,true,false,false,true,false,false,Organic / App Discovery
-697565523067,2026-07-12 15:59:55-03,1,51919,986.46,false,false,true,false,false,true,false,false,Organic / App Discovery
-755051302722,2026-06-10 18:07:05-03,1,7728,146.83,false,false,false,false,false,true,true,false,View-Through Attribution
-736205026730,2026-09-14 16:30:27-03,1,20107,382.03,false,false,true,false,false,true,false,false,Organic / App Discovery
-386657340999,2026-07-08 20:06:29-03,2,12290,233.51,false,false,true,true,true,true,true,false,Direct Click Attribution
-224015747474,2026-09-05 15:35:33-03,1,11153,211.91,false,false,false,false,false,true,true,false,View-Through Attribution
-892869491145,2026-08-22 14:42:13-03,1,5080,96.52,false,false,true,false,false,false,true,false,View-Through Attribution
-737060149795,2026-06-18 14:12:04-03,2,9669,183.70999999999998,false,false,true,false,false,true,false,false,Organic / App Discovery
-475558793013,2026-06-23 13:15:28-03,1,20610,391.59,false,false,true,false,false,true,false,false,Organic / App Discovery
-309353104496,2026-09-24 21:49:13-03,1,7374,140.11,false,false,true,true,false,true,true,false,View-Through Attribution
-148673410189,2026-06-20 20:24:24-03,1,36351,690.67,false,false,true,true,false,true,false,false,View-Through Attribution
-782569915876,2026-06-04 14:57:18-03,2,20345,386.55,false,false,false,false,false,true,false,false,Organic / App Discovery
-520054782120,2026-08-23 22:52:50-03,1,10179,193.4,false,false,true,false,false,true,true,false,View-Through Attribution
-732456091346,2026-08-02 13:55:11-03,1,9611,182.61,false,false,true,false,false,true,true,false,View-Through Attribution
-753194974000,2026-07-31 14:27:12-03,1,2822,53.62,false,false,true,true,false,true,false,false,View-Through Attribution
-298122858634,2026-06-16 14:29:37-03,1,8263,157.0,false,false,true,true,true,true,true,true,Direct Click Attribution
-672389979051,2026-09-07 17:28:31-03,1,21324,405.16,false,false,false,false,false,true,false,false,Organic / App Discovery
-349272269954,2026-08-01 16:21:31-03,1,11860,225.34,false,false,true,false,false,true,false,false,Organic / App Discovery
-405469624265,2026-07-23 11:56:16-03,1,4299,81.68,false,false,true,true,false,false,true,false,View-Through Attribution
-621016877487,2026-08-09 15:31:43-03,1,11423,217.04,false,false,true,false,false,true,true,true,Direct Click Attribution
-359757804393,2026-08-09 21:40:51-03,1,2526,47.99,false,false,true,true,false,true,true,false,View-Through Attribution
-434251848110,2026-08-22 09:21:53-03,1,8093,153.77,false,false,true,false,false,true,true,false,View-Through Attribution
-939204302333,2026-08-23 17:05:06-03,1,9315,176.99,false,false,true,false,false,true,false,false,Organic / App Discovery
-219470661903,2026-06-09 17:19:43-03,2,26302,499.74,false,false,true,true,false,true,true,false,View-Through Attribution
-602712200419,2026-08-08 19:27:57-03,1,5848,111.11,false,false,true,false,false,true,false,false,Organic / App Discovery
-760551400233,2026-09-11 15:21:44-03,1,3737,71.0,false,false,false,false,false,true,true,false,View-Through Attribution
-177106343554,2026-06-12 13:02:00-03,1,10935,207.77,false,false,true,false,false,true,false,false,Organic / App Discovery
-889864010466,2026-06-25 22:22:02-03,1,28500,541.5,false,false,true,false,false,true,true,false,View-Through Attribution
-426752325872,2026-09-07 10:24:52-03,1,12953,246.11,false,false,true,false,false,true,true,false,View-Through Attribution
-673115656751,2026-08-16 15:55:18-03,3,45792,870.06,false,false,true,true,false,true,false,false,View-Through Attribution
-350897191427,2026-07-26 14:39:58-03,1,7510,142.69,false,false,true,false,false,true,true,false,View-Through Attribution
-614742149117,2026-09-05 12:40:23-03,1,5782,109.86,false,false,true,false,false,true,false,false,Organic / App Discovery
-897641951083,2026-09-10 16:12:45-03,1,7838,148.92,false,false,true,true,false,true,true,false,View-Through Attribution
-287562046566,2026-06-19 12:34:02-03,2,18834,357.85,false,false,false,false,false,true,false,false,Organic / App Discovery
-122718232793,2026-06-27 19:34:18-03,1,8184,155.5,false,false,true,false,false,true,false,false,Organic / App Discovery
-885651151329,2026-06-30 17:35:58-03,1,16285,309.42,false,false,false,false,false,false,true,false,View-Through Attribution
-903258864810,2026-05-28 14:10:45-03,3,43452,825.5799999999999,false,false,true,false,false,true,true,false,View-Through Attribution
-689977165423,2026-07-03 15:43:11-03,3,31334,595.3499999999999,false,false,true,true,false,false,true,false,View-Through Attribution
 194486403673,2026-08-21 23:59:24-03,1,18603,353.46,false,false,true,false,false,true,true,false,View-Through Attribution
 916674453295,2026-07-10 15:16:43-03,1,10239,194.54,false,false,true,false,false,true,false,false,Organic / App Discovery
 537238057035,2026-08-24 17:40:03-03,1,8964,170.32,false,false,true,true,false,true,false,false,View-Through Attribution
@@ -261,6 +89,409 @@ user_id,first_pix_at,total_pix_orders,total_pix_points,total_pix_reais,resgatou_
 916535916031,2026-06-19 19:01:22-03,1,16319,310.06,false,false,true,false,false,false,true,false,View-Through Attribution
 335471730639,2026-07-14 07:50:42-03,2,18439,350.34000000000003,false,false,true,false,false,true,false,false,Organic / App Discovery
 482756882304,2026-09-23 14:27:35-03,1,5054,96.03,false,false,true,false,false,false,false,true,Direct Click Attribution
+243983795951,2026-06-14 20:15:40-03,2,24285,461.40999999999997,false,false,true,false,false,true,false,false,Organic / App Discovery
+271304884851,2026-08-15 08:00:43-03,1,12747,242.19,false,false,false,false,false,true,false,false,Organic / App Discovery
+867151565278,2026-07-26 19:53:48-03,2,21175,402.33000000000004,false,false,true,false,false,true,false,true,Direct Click Attribution
+610667891907,2026-07-23 18:18:00-03,1,8286,157.43,false,false,false,false,false,true,true,false,View-Through Attribution
+307394720551,2026-06-12 13:30:03-03,2,18371,349.04999999999995,false,false,true,true,false,true,false,false,View-Through Attribution
+334632091131,2026-08-23 07:54:52-03,1,5044,95.84,false,false,true,true,false,true,true,false,View-Through Attribution
+856542289736,2026-09-08 08:35:49-03,1,8666,164.65,false,false,true,true,false,true,false,false,View-Through Attribution
+481560417793,2026-09-17 13:10:07-03,1,98084,1863.6,false,false,true,false,false,true,false,false,Organic / App Discovery
+485037683779,2026-09-06 20:06:34-03,2,11159,212.02,false,false,true,false,false,true,true,false,View-Through Attribution
+642794925365,2026-06-15 14:32:38-03,1,11144,211.74,false,false,true,false,false,true,true,false,View-Through Attribution
+781208091607,2026-08-21 11:15:34-03,1,3120,59.28,false,false,true,false,false,true,false,false,Organic / App Discovery
+308943194383,2026-07-18 21:44:29-03,1,5893,111.97,false,false,true,true,false,true,true,false,View-Through Attribution
+912869707386,2026-07-24 11:31:42-03,1,9864,187.42,false,false,true,false,false,true,true,false,View-Through Attribution
+902116608923,2026-06-09 22:34:24-03,1,8471,160.95,false,false,true,false,false,true,false,false,Organic / App Discovery
+693578552010,2026-06-01 11:22:06-03,2,23365,443.93,false,false,true,false,false,true,true,false,View-Through Attribution
+664478680686,2026-08-17 12:26:15-03,1,6100,115.9,false,false,true,false,false,true,true,false,View-Through Attribution
+555177776612,2026-08-12 06:58:55-03,1,43849,833.13,false,false,false,false,false,false,true,false,View-Through Attribution
+978228535610,2026-09-15 22:59:34-03,1,10707,203.43,false,false,false,false,false,true,false,false,Organic / App Discovery
+531549075230,2026-08-08 14:58:58-03,1,12721,241.7,false,false,true,true,false,true,true,false,View-Through Attribution
+544788743796,2026-06-24 15:02:30-03,2,28166,535.1600000000001,false,false,true,false,false,true,false,false,Organic / App Discovery
+511978360148,2026-06-13 16:17:10-03,1,5973,113.49,false,false,true,false,false,false,true,false,View-Through Attribution
+459463630209,2026-07-03 10:06:01-03,1,35296,670.62,false,false,true,false,false,true,false,false,Organic / App Discovery
+179248376879,2026-07-31 12:11:37-03,1,6968,132.39,false,false,true,false,false,true,true,false,View-Through Attribution
+649872340074,2026-06-04 23:59:24-03,2,16425,312.08,false,false,false,false,false,true,false,false,Organic / App Discovery
+661783958277,2026-07-05 15:06:10-03,2,22395,425.51,false,false,true,false,false,true,true,false,View-Through Attribution
+978022147432,2026-06-25 20:30:02-03,1,35116,667.2,false,false,true,false,false,true,true,false,View-Through Attribution
+730818310030,2026-07-14 14:37:59-03,1,7914,150.37,false,false,true,true,false,true,false,false,View-Through Attribution
+240956601497,2026-09-27 12:34:34-03,1,5957,113.18,false,false,true,false,false,true,false,false,Organic / App Discovery
+291282417498,2026-09-18 13:39:13-03,1,11420,216.98,false,false,true,false,false,true,false,false,Organic / App Discovery
+719572029212,2026-09-26 16:54:00-03,1,12736,241.98,false,false,false,false,false,false,true,false,View-Through Attribution
+617537720940,2026-05-27 17:04:43-03,2,17813,338.44,true,true,false,false,false,true,false,false,Pre-Campaign Organic
+140577208045,2026-09-02 19:27:54-03,1,14464,274.82,false,false,true,false,false,true,true,false,View-Through Attribution
+691093375266,2026-09-18 10:05:40-03,1,7848,149.11,false,false,true,false,false,true,false,false,Organic / App Discovery
+483298031151,2026-06-23 12:54:53-03,2,16897,321.05,false,false,true,false,false,true,false,false,Organic / App Discovery
+779878494899,2026-07-28 18:56:29-03,3,43419,824.96,false,false,true,false,false,true,false,false,Organic / App Discovery
+489755882924,2026-08-26 14:19:50-03,1,5556,105.56,false,false,true,false,false,true,false,false,Organic / App Discovery
+225189710612,2026-06-26 20:51:37-03,1,4377,83.16,false,false,false,false,false,true,true,false,View-Through Attribution
+924502081221,2026-08-09 10:52:23-03,3,14574,276.90999999999997,false,false,false,false,false,true,true,false,View-Through Attribution
+464850544068,2026-06-12 14:45:11-03,3,49810,946.3900000000001,false,false,true,false,false,true,false,false,Organic / App Discovery
+698707451277,2026-08-03 13:47:40-03,1,7114,135.17,false,false,false,false,false,true,true,false,View-Through Attribution
+275482894046,2026-08-31 16:27:42-03,1,5624,106.86,false,false,true,false,false,true,false,false,Organic / App Discovery
+975425380386,2026-09-03 10:38:16-03,1,7477,142.06,false,false,true,true,false,true,false,false,View-Through Attribution
+447283658801,2026-09-24 18:45:05-03,3,29245,555.66,false,false,true,false,false,true,true,false,View-Through Attribution
+310826125848,2026-09-18 21:09:47-03,1,4823,91.64,false,false,true,false,false,false,true,false,View-Through Attribution
+519615528160,2026-06-14 13:58:02-03,2,39751,755.27,false,false,true,false,false,false,true,false,View-Through Attribution
+419251702986,2026-08-07 13:35:59-03,1,84734,1609.95,false,false,false,false,false,true,true,false,View-Through Attribution
+337620486744,2026-07-12 14:32:35-03,1,9150,173.85,false,false,true,false,false,true,false,false,Organic / App Discovery
+168972743002,2026-07-02 16:44:54-03,1,16006,304.11,false,false,false,false,false,true,false,false,Organic / App Discovery
+851511621086,2026-08-18 13:08:27-03,1,3535,67.17,false,false,false,false,false,false,true,false,View-Through Attribution
+823636860666,2026-06-21 21:00:37-03,1,14911,283.31,false,false,false,false,false,true,false,false,Organic / App Discovery
+704669296923,2026-07-10 13:45:18-03,3,73091,1388.7399999999998,false,false,false,false,false,true,true,false,View-Through Attribution
+252173300398,2026-07-21 21:33:26-03,2,13213,251.05,false,false,true,false,false,true,false,false,Organic / App Discovery
+311730593998,2026-09-16 18:49:29-03,1,4241,80.58,false,false,true,true,false,true,true,false,View-Through Attribution
+316164742845,2026-05-30 18:39:53-03,1,4421,84.0,false,false,false,false,false,false,true,false,View-Through Attribution
+675486332024,2026-09-14 11:23:02-03,1,19167,364.17,false,false,true,true,true,true,false,false,Direct Click Attribution
+662035581448,2026-06-07 18:00:40-03,2,24008,456.15,false,false,true,false,false,false,true,false,View-Through Attribution
+396987568143,2026-07-24 14:21:17-03,1,1943,36.92,false,false,true,false,false,true,true,true,Direct Click Attribution
+800608660234,2026-08-22 16:08:49-03,1,24585,467.12,false,false,true,false,false,true,false,false,Organic / App Discovery
+505304190219,2026-06-05 17:32:33-03,1,18105,344.0,false,false,true,false,false,true,false,false,Organic / App Discovery
+455839361792,2026-07-04 13:16:05-03,1,38794,737.09,false,false,false,false,false,true,true,false,View-Through Attribution
+385477245032,2026-09-14 11:35:08-03,1,5645,107.26,false,false,true,true,false,true,false,false,View-Through Attribution
+592709891171,2026-09-16 08:14:35-03,1,28843,548.02,false,false,true,true,false,true,false,false,View-Through Attribution
+579506760783,2026-08-01 13:50:12-03,2,70969,1348.4099999999999,false,false,true,false,false,true,true,false,View-Through Attribution
+708165120778,2026-09-26 15:44:49-03,1,17166,326.15,false,false,true,false,false,true,false,false,Organic / App Discovery
+229014201866,2026-08-27 21:01:50-03,1,27327,519.21,false,false,false,false,false,true,false,false,Organic / App Discovery
+261143336640,2026-06-23 10:09:03-03,1,4525,85.98,false,false,true,false,false,false,true,false,View-Through Attribution
+763212282340,2026-07-09 12:51:42-03,1,17903,340.16,false,false,true,true,false,true,false,false,View-Through Attribution
+855280925437,2026-06-06 18:19:52-03,2,9106,173.01,false,false,true,false,false,true,false,false,Organic / App Discovery
+707647008164,2026-07-02 23:59:24-03,1,14673,278.79,false,false,true,false,false,true,false,false,Organic / App Discovery
+729534544532,2026-06-07 16:20:56-03,2,10669,202.71,false,false,true,true,false,true,false,false,View-Through Attribution
+182906681643,2026-08-17 19:07:42-03,1,15246,289.67,false,false,true,false,false,true,true,false,View-Through Attribution
+218343275732,2026-07-13 17:18:21-03,2,22751,432.27000000000004,false,false,true,false,false,false,false,true,Direct Click Attribution
+853943202024,2026-09-22 14:28:54-03,1,7940,150.86,false,false,true,false,false,true,true,false,View-Through Attribution
+597194531169,2026-08-11 17:19:33-03,2,10997,208.94,false,false,true,false,false,true,true,false,View-Through Attribution
+359561680216,2026-07-25 10:37:50-03,1,29812,566.43,false,false,true,true,false,true,false,false,View-Through Attribution
+737861137737,2026-08-23 15:56:22-03,1,8651,164.37,false,false,true,false,false,true,true,false,View-Through Attribution
+556661363502,2026-06-09 19:03:33-03,2,8178,155.38,false,false,true,false,false,true,false,false,Organic / App Discovery
+453482381940,2026-06-25 16:40:45-03,2,45801,870.22,false,false,false,false,false,false,true,true,Direct Click Attribution
+488182928746,2026-08-21 14:17:39-03,1,43969,835.41,false,false,true,false,false,true,false,false,Organic / App Discovery
+222499798732,2026-09-06 21:47:27-03,1,4735,89.97,false,false,true,true,false,true,true,false,View-Through Attribution
+194702199891,2026-09-13 13:13:23-03,1,10385,197.32,false,false,false,false,false,true,false,false,Organic / App Discovery
+470840418935,2026-07-06 12:28:45-03,1,5429,103.15,false,false,true,true,false,false,true,false,View-Through Attribution
+638770381187,2026-07-14 18:56:26-03,3,16863,320.4,false,false,true,false,false,false,false,true,Direct Click Attribution
+428136127973,2026-06-26 19:16:23-03,2,36132,686.51,false,false,true,false,false,true,true,false,View-Through Attribution
+796337802456,2026-06-24 20:32:56-03,1,7324,139.16,false,false,false,false,false,true,false,false,Organic / App Discovery
+585259086319,2026-08-29 08:46:59-03,1,5610,106.59,false,false,true,false,false,true,false,false,Organic / App Discovery
+744614119103,2026-06-15 19:11:16-03,1,7739,147.04,false,false,true,false,false,true,false,false,Organic / App Discovery
+888678605340,2026-07-04 16:10:02-03,1,11549,219.43,false,false,false,false,false,true,true,false,View-Through Attribution
+719888014292,2026-06-03 14:25:26-03,1,3882,73.76,false,false,true,false,false,true,true,false,View-Through Attribution
+547467707787,2026-06-25 15:23:51-03,1,20308,385.85,false,false,true,false,false,true,false,false,Organic / App Discovery
+232943403770,2026-07-24 15:24:00-03,2,17455,331.65,false,false,true,false,false,true,false,false,Organic / App Discovery
+851803342856,2026-07-08 19:56:23-03,1,14282,271.36,false,false,true,false,false,true,false,false,Organic / App Discovery
+411587908489,2026-07-22 23:59:24-03,1,16147,306.79,false,false,true,false,false,true,false,false,Organic / App Discovery
+225843536586,2026-08-10 14:15:03-03,2,56596,1075.33,false,false,true,false,false,true,false,false,Organic / App Discovery
+497739272282,2026-08-02 21:23:17-03,1,2082,39.56,false,false,false,false,false,true,false,false,Organic / App Discovery
+326583974153,2026-07-07 14:50:32-03,1,15105,287.0,false,false,false,false,false,false,true,false,View-Through Attribution
+134438179344,2026-08-19 20:21:04-03,1,7655,145.45,false,false,true,false,false,true,false,false,Organic / App Discovery
+140012040738,2026-07-09 16:37:31-03,1,34645,658.26,false,false,true,true,false,true,false,false,View-Through Attribution
+812414463384,2026-07-09 16:17:14-03,2,44973,854.49,false,false,true,false,false,true,true,false,View-Through Attribution
+476106988062,2026-07-07 09:56:28-03,1,10363,196.9,false,false,true,false,false,true,false,false,Organic / App Discovery
+359997317202,2026-07-15 22:52:22-03,1,44655,848.45,false,false,true,false,false,false,true,false,View-Through Attribution
+862938574335,2026-08-19 10:59:29-03,1,14853,282.21,false,false,false,false,false,true,false,false,Organic / App Discovery
+732566723427,2026-09-15 18:15:51-03,1,7259,137.92,false,false,false,false,false,true,false,true,Direct Click Attribution
+414242989889,2026-06-15 19:24:40-03,3,63123,1199.34,false,false,true,false,false,true,true,false,View-Through Attribution
+527569033659,2026-09-09 14:32:25-03,1,17718,336.64,false,false,true,true,false,true,true,false,View-Through Attribution
+574497285976,2026-08-02 14:25:50-03,1,10924,207.56,false,false,true,true,false,true,false,false,View-Through Attribution
+824401705715,2026-08-26 16:54:58-03,2,13657,259.49,false,false,true,false,false,true,false,false,Organic / App Discovery
+291315168476,2026-08-13 13:58:10-03,2,22870,434.53,false,false,true,true,false,false,true,false,View-Through Attribution
+605740769860,2026-08-02 13:07:16-03,1,4767,90.57,false,false,true,true,true,true,false,false,Direct Click Attribution
+829395528785,2026-09-22 21:42:16-03,2,26615,505.69000000000005,false,false,true,false,false,true,true,false,View-Through Attribution
+280464298938,2026-07-25 16:18:59-03,3,14208,269.95,false,false,true,false,false,true,false,false,Organic / App Discovery
+687177746193,2026-06-16 23:59:24-03,1,59155,1123.95,false,false,false,false,false,true,false,false,Organic / App Discovery
+553461045858,2026-08-03 16:41:16-03,1,5886,111.83,false,false,true,false,false,true,false,true,Direct Click Attribution
+351203883978,2026-07-31 09:21:07-03,2,72955,1386.15,false,false,true,false,false,true,false,false,Organic / App Discovery
+224853788600,2026-07-17 17:44:55-03,1,7146,135.77,false,false,true,true,false,false,true,false,View-Through Attribution
+861976977075,2026-06-17 13:14:03-03,2,51286,974.43,false,false,true,false,false,false,true,false,View-Through Attribution
+479766932357,2026-06-18 09:32:07-03,1,3087,58.65,false,false,true,false,false,true,true,false,View-Through Attribution
+405482078509,2026-07-30 13:46:28-03,1,6280,119.32,false,false,true,false,false,true,true,false,View-Through Attribution
+162242690930,2026-09-21 19:53:34-03,1,4869,92.51,false,false,false,false,false,false,true,false,View-Through Attribution
+139958867227,2026-09-04 19:38:10-03,1,27284,518.4,false,false,true,false,false,true,true,false,View-Through Attribution
+831785189358,2026-09-03 14:17:07-03,2,29438,559.3199999999999,false,false,true,true,false,true,false,false,View-Through Attribution
+900478040871,2026-07-12 22:36:25-03,2,8971,170.45,false,false,false,false,false,true,true,false,View-Through Attribution
+887570591961,2026-08-09 15:12:19-03,1,11503,218.56,false,false,true,false,false,true,true,false,View-Through Attribution
+899968740427,2026-09-12 11:59:20-03,1,16247,308.69,false,false,true,false,false,true,true,false,View-Through Attribution
+421489867375,2026-06-02 19:07:10-03,1,13226,251.29,false,false,false,false,false,true,false,false,Organic / App Discovery
+958058548171,2026-09-02 16:03:05-03,2,20268,385.09,false,false,false,false,false,true,false,false,Organic / App Discovery
+618484337362,2026-09-01 15:20:52-03,2,15594,296.29,false,false,true,false,false,true,false,false,Organic / App Discovery
+447128318762,2026-09-22 11:27:01-03,1,8285,157.42,false,false,false,false,false,true,false,false,Organic / App Discovery
+643021820004,2026-07-25 17:27:23-03,1,9796,186.12,false,false,true,false,false,true,true,false,View-Through Attribution
+635025983927,2026-09-29 16:14:32-03,1,26903,511.16,false,false,true,true,false,true,true,false,View-Through Attribution
+426001074178,2026-07-05 10:09:14-03,1,9955,189.15,false,false,false,false,false,true,false,false,Organic / App Discovery
+669410455297,2026-09-20 14:13:13-03,1,7048,133.91,false,false,false,false,false,true,true,false,View-Through Attribution
+376177263562,2026-05-29 14:56:01-03,1,52708,1001.45,false,false,true,false,false,true,false,false,Organic / App Discovery
+289778417770,2026-09-02 22:40:17-03,1,7038,133.72,false,false,true,false,false,true,true,false,View-Through Attribution
+801502788598,2026-08-23 11:24:51-03,1,5691,108.13,false,false,true,true,false,true,true,false,View-Through Attribution
+490339479865,2026-07-25 13:51:41-03,1,18001,342.02,false,false,true,false,false,true,true,false,View-Through Attribution
+696044195184,2026-06-25 17:51:31-03,1,33874,643.61,false,false,true,true,false,true,true,false,View-Through Attribution
+275119305625,2026-08-20 23:59:24-03,2,17025,323.47,false,false,true,false,false,true,true,false,View-Through Attribution
+828432597760,2026-09-26 13:46:12-03,1,21730,412.87,false,false,false,false,false,true,false,false,Organic / App Discovery
+651649937928,2026-07-13 15:33:18-03,1,19955,379.15,false,false,false,false,false,true,true,false,View-Through Attribution
+958412276636,2026-06-08 15:57:27-03,2,16777,318.77,false,false,true,false,false,true,false,false,Organic / App Discovery
+637720691877,2026-06-02 20:54:52-03,2,16462,312.78000000000003,false,false,true,false,false,false,true,false,View-Through Attribution
+802118605466,2026-06-28 13:02:59-03,1,9672,183.77,false,false,true,false,false,true,true,false,View-Through Attribution
+583492643165,2026-08-08 13:50:48-03,1,14554,276.53,false,false,true,true,false,true,true,false,View-Through Attribution
+115835864533,2026-09-22 16:33:19-03,1,4519,85.86,false,false,true,true,false,true,false,false,View-Through Attribution
+370120133428,2026-08-20 17:18:32-03,3,29667,563.67,false,false,true,true,false,true,true,false,View-Through Attribution
+185854070671,2026-08-24 18:37:30-03,1,10111,192.11,false,false,true,false,false,true,true,false,View-Through Attribution
+192790643663,2026-08-25 18:17:07-03,1,4681,88.94,false,false,true,false,false,true,true,false,View-Through Attribution
+910091204954,2026-07-12 22:39:03-03,2,19671,373.75,false,false,true,false,false,true,true,false,View-Through Attribution
+283302777290,2026-06-28 15:24:26-03,3,52905,1005.19,false,false,true,true,false,true,true,false,View-Through Attribution
+913553499097,2026-08-28 15:17:03-03,1,13978,265.58,false,false,true,false,false,true,true,false,View-Through Attribution
+926660668590,2026-05-29 15:36:49-03,3,33979,645.6,false,false,true,true,false,false,true,false,View-Through Attribution
+250407784787,2026-08-10 21:10:29-03,3,47477,902.0699999999999,false,false,true,false,false,true,true,false,View-Through Attribution
+992749430755,2026-09-06 11:14:22-03,3,39674,753.81,false,false,true,false,false,false,true,false,View-Through Attribution
+893457083598,2026-08-15 12:18:46-03,1,36488,693.27,false,false,true,true,false,true,true,false,View-Through Attribution
+265676586336,2026-08-05 17:07:06-03,1,8912,169.33,false,false,true,true,false,true,true,false,View-Through Attribution
+915356675066,2026-06-15 21:31:29-03,1,6057,115.08,false,false,true,false,false,true,true,false,View-Through Attribution
+992423196608,2026-06-27 21:33:22-03,1,42538,808.22,false,false,true,false,false,true,true,false,View-Through Attribution
+485242465802,2026-07-21 17:25:54-03,3,66218,1258.1399999999999,false,false,true,true,false,false,true,false,View-Through Attribution
+816730715330,2026-06-03 12:22:46-03,1,12572,238.87,false,false,true,false,false,true,true,false,View-Through Attribution
+586732899141,2026-08-28 15:57:01-03,1,75143,1427.72,false,false,true,true,false,true,true,false,View-Through Attribution
+293455066500,2026-07-29 23:00:25-03,1,9447,179.49,false,false,true,false,false,true,true,false,View-Through Attribution
+937153044687,2026-08-31 11:00:06-03,2,11490,218.31,false,false,false,false,false,true,false,false,Organic / App Discovery
+597314883153,2026-08-21 19:16:49-03,1,17938,340.82,false,false,true,false,false,false,true,false,View-Through Attribution
+838794580184,2026-09-01 16:06:16-03,1,23261,441.96,false,false,true,false,false,true,true,false,View-Through Attribution
+838943719765,2026-08-08 14:11:57-03,1,3504,66.58,false,false,true,false,false,true,false,true,Direct Click Attribution
+338819712660,2026-08-04 15:50:10-03,1,10343,196.52,false,false,false,false,false,true,true,false,View-Through Attribution
+653140719006,2026-06-30 20:00:38-03,1,3961,75.26,false,false,true,false,false,true,false,false,Organic / App Discovery
+579933623115,2026-07-12 19:56:56-03,1,16518,313.84,false,false,true,false,false,true,false,false,Organic / App Discovery
+671880744371,2026-06-20 18:53:05-03,2,61459,1167.72,false,false,true,false,false,true,false,false,Organic / App Discovery
+255409587863,2026-06-07 21:55:55-03,2,15569,295.81,false,false,true,false,false,true,false,false,Organic / App Discovery
+265533025870,2026-08-17 17:05:27-03,2,14133,268.53000000000003,false,false,false,false,false,true,false,false,Organic / App Discovery
+347775529997,2026-09-01 16:27:56-03,2,26162,497.08000000000004,false,false,true,false,false,true,true,false,View-Through Attribution
+945014626555,2026-06-05 17:47:43-03,1,22090,419.71,false,false,true,false,false,true,false,false,Organic / App Discovery
+105163953157,2026-09-30 10:11:53-03,1,13208,250.95,false,false,true,true,false,true,true,false,View-Through Attribution
+136992995387,2026-09-04 18:56:04-03,1,6814,129.47,false,false,true,false,false,true,true,false,View-Through Attribution
+669220467505,2026-08-29 20:18:23-03,1,6826,129.69,false,false,true,true,false,true,true,false,View-Through Attribution
+578057472544,2026-06-13 19:15:10-03,1,25750,489.25,false,false,true,false,false,true,true,false,View-Through Attribution
+982348400736,2026-09-08 16:11:03-03,2,12045,228.86,false,false,true,false,false,true,false,false,Organic / App Discovery
+387369603268,2026-07-06 08:23:03-03,2,17133,325.52,false,false,true,false,false,true,true,false,View-Through Attribution
+476406467373,2026-09-09 17:28:39-03,1,6541,124.28,false,false,false,false,false,true,false,false,Organic / App Discovery
+548082128352,2026-08-17 15:31:46-03,1,8981,170.64,false,false,true,true,false,true,false,false,View-Through Attribution
+714083425077,2026-09-10 14:56:37-03,1,19977,379.56,false,false,true,false,false,true,true,false,View-Through Attribution
+189269361153,2026-08-04 14:07:12-03,1,8286,157.43,false,false,true,false,false,true,false,false,Organic / App Discovery
+189371489558,2026-07-10 10:15:50-03,2,18157,344.98,false,false,true,true,false,true,true,false,View-Through Attribution
+940580775879,2026-07-02 12:44:16-03,2,37161,706.06,false,false,true,true,false,true,true,false,View-Through Attribution
+505038382190,2026-06-06 13:00:06-03,1,14593,277.27,false,false,true,true,false,true,false,false,View-Through Attribution
+322877104645,2026-08-24 17:15:46-03,2,54082,1027.56,false,false,false,false,false,false,true,false,View-Through Attribution
+150438518328,2026-08-22 18:10:07-03,1,11049,209.93,false,false,true,false,false,true,true,false,View-Through Attribution
+622279477533,2026-07-15 20:00:52-03,1,13959,265.22,false,false,true,true,false,true,false,false,View-Through Attribution
+559572873121,2026-07-07 12:41:07-03,2,57923,1100.54,false,false,true,false,false,true,false,false,Organic / App Discovery
+529668999148,2026-06-29 16:18:49-03,1,6129,116.45,false,false,true,true,false,false,true,false,View-Through Attribution
+585619158976,2026-06-29 07:29:45-03,1,15645,297.26,false,false,true,false,false,true,true,false,View-Through Attribution
+839756435924,2026-07-15 09:07:24-03,2,7604,144.48000000000002,false,false,false,false,false,true,true,false,View-Through Attribution
+213127336808,2026-07-03 12:11:04-03,2,27375,520.12,false,false,false,false,false,true,true,false,View-Through Attribution
+663361143084,2026-07-13 15:54:07-03,3,61398,1166.5700000000002,false,false,true,false,false,true,false,false,Organic / App Discovery
+387306023168,2026-09-18 19:27:15-03,1,2457,46.68,false,false,true,true,false,true,false,false,View-Through Attribution
+182040763216,2026-08-03 15:06:47-03,1,7524,142.96,false,false,true,false,false,true,false,false,Organic / App Discovery
+265889280543,2026-09-07 19:49:35-03,1,2098,39.86,false,false,true,false,false,true,true,false,View-Through Attribution
+372301042257,2026-05-27 18:45:42-03,1,16500,313.5,true,true,true,true,false,true,false,false,Pre-Campaign Organic
+397242553485,2026-06-18 17:14:06-03,3,115517,2194.83,false,false,true,false,false,true,false,false,Organic / App Discovery
+212731477630,2026-09-04 16:36:17-03,1,8026,152.49,false,false,true,false,false,true,false,false,Organic / App Discovery
+424744780989,2026-09-05 13:33:38-03,1,22373,425.09,false,false,false,false,false,true,false,false,Organic / App Discovery
+927207983741,2026-05-30 12:38:22-03,1,2419,45.96,false,false,true,false,false,true,false,false,Organic / App Discovery
+739628800256,2026-08-13 17:24:00-03,1,1020,19.38,false,false,false,false,false,true,true,false,View-Through Attribution
+380241811328,2026-06-18 12:47:45-03,2,12946,245.98000000000002,false,false,true,false,false,true,false,false,Organic / App Discovery
+252536046387,2026-08-27 18:35:49-03,1,28282,537.36,false,false,false,false,false,true,false,false,Organic / App Discovery
+522699791986,2026-06-27 09:14:26-03,1,9028,171.53,false,false,true,true,true,true,true,false,Direct Click Attribution
+308949938008,2026-06-30 11:48:49-03,1,11289,214.49,false,false,false,false,false,true,false,false,Organic / App Discovery
+611927730048,2026-06-04 23:26:24-03,2,30683,582.98,false,false,false,false,false,true,false,false,Organic / App Discovery
+466963881807,2026-06-24 13:28:29-03,2,39208,744.9499999999999,false,false,true,false,false,true,true,false,View-Through Attribution
+274554184630,2026-09-28 16:17:34-03,1,4289,81.49,false,false,false,false,false,false,true,false,View-Through Attribution
+845418694254,2026-05-27 14:28:49-03,1,6395,121.51,true,true,false,false,false,true,true,false,Pre-Campaign Organic
+622627071758,2026-07-21 11:42:05-03,1,25505,484.6,false,false,true,false,false,true,false,false,Organic / App Discovery
+767349335776,2026-09-15 11:31:50-03,1,38370,729.03,false,false,true,false,false,true,true,false,View-Through Attribution
+991686814771,2026-08-17 23:59:24-03,1,7692,146.15,false,false,false,false,false,true,true,false,View-Through Attribution
+363183797525,2026-09-26 22:43:35-03,1,13290,252.51,false,false,true,false,false,true,false,false,Organic / App Discovery
+375280246626,2026-09-07 12:11:51-03,1,19452,369.59,false,false,true,false,false,false,true,false,View-Through Attribution
+682843093807,2026-06-09 12:27:57-03,1,13528,257.03,false,false,true,false,false,false,true,false,View-Through Attribution
+443098837183,2026-06-14 08:29:39-03,1,13654,259.43,false,false,true,false,false,true,false,false,Organic / App Discovery
+787468720279,2026-08-23 19:54:14-03,2,9568,181.79,false,false,true,true,false,true,true,false,View-Through Attribution
+202955208348,2026-09-07 18:50:40-03,1,7358,139.8,false,false,true,false,false,true,false,false,Organic / App Discovery
+875906865336,2026-08-29 17:19:55-03,1,8378,159.18,false,false,true,true,false,true,true,false,View-Through Attribution
+783234392302,2026-09-24 20:10:52-03,1,6683,126.98,false,false,true,false,false,true,true,false,View-Through Attribution
+703476342032,2026-08-24 23:59:24-03,1,7624,144.86,false,false,true,true,true,true,false,false,Direct Click Attribution
+138892368505,2026-06-10 12:36:44-03,1,6619,125.76,false,false,true,false,false,true,true,false,View-Through Attribution
+930413164801,2026-09-10 14:34:16-03,1,11434,217.25,false,false,true,true,false,true,true,false,View-Through Attribution
+560843343852,2026-08-03 20:00:14-03,1,21748,413.21,false,false,true,true,false,true,true,false,View-Through Attribution
+353198053293,2026-09-05 12:45:09-03,1,9338,177.42,false,false,false,false,false,true,false,false,Organic / App Discovery
+700393053621,2026-08-27 15:30:46-03,1,27111,515.11,false,false,false,false,false,true,false,false,Organic / App Discovery
+178265419742,2026-09-09 11:09:46-03,1,5394,102.49,false,false,true,false,false,true,false,false,Organic / App Discovery
+877307730381,2026-08-24 23:03:28-03,1,2712,51.53,false,false,true,true,false,true,true,false,View-Through Attribution
+296545764338,2026-06-01 15:56:53-03,1,6888,130.87,false,false,false,false,false,true,false,false,Organic / App Discovery
+628629058040,2026-07-03 13:15:08-03,1,20533,390.13,false,false,true,true,false,true,false,false,View-Through Attribution
+776181611632,2026-07-14 22:53:28-03,1,13247,251.69,false,false,true,false,false,true,false,true,Direct Click Attribution
+257409753368,2026-08-23 15:14:02-03,2,10000,190.01,false,false,true,true,false,true,true,false,View-Through Attribution
+117135564748,2026-06-02 15:59:05-03,2,17986,341.73,false,false,true,false,false,true,true,false,View-Through Attribution
+181378509686,2026-07-21 10:04:55-03,2,7840,148.96,false,false,true,true,false,true,true,false,View-Through Attribution
+501305746887,2026-09-13 10:07:45-03,1,7668,145.69,false,false,true,false,false,true,true,false,View-Through Attribution
+451051211576,2026-06-06 16:51:01-03,1,30991,588.83,false,false,true,true,false,true,true,false,View-Through Attribution
+501841726070,2026-06-06 17:24:26-03,2,30615,581.6800000000001,false,false,true,false,false,true,false,false,Organic / App Discovery
+934619430016,2026-09-19 11:58:21-03,1,3875,73.63,false,false,true,true,false,true,true,false,View-Through Attribution
+763582483822,2026-08-17 19:01:56-03,1,18991,360.83,false,false,false,false,false,true,true,false,View-Through Attribution
+892966207679,2026-09-24 10:15:18-03,1,5764,109.52,false,false,true,false,false,true,true,false,View-Through Attribution
+203989222098,2026-07-15 15:08:59-03,2,46800,889.2,false,false,true,true,false,true,true,false,View-Through Attribution
+427601760335,2026-08-03 18:53:20-03,1,9308,176.85,false,false,true,true,false,true,true,true,Direct Click Attribution
+969729945310,2026-08-23 10:37:13-03,1,14702,279.34,false,false,true,false,false,true,true,false,View-Through Attribution
+568208859082,2026-06-23 15:53:29-03,1,8160,155.04,false,false,true,false,false,false,true,false,View-Through Attribution
+497117440687,2026-06-29 23:59:24-03,1,21817,414.52,false,false,true,false,false,true,false,true,Direct Click Attribution
+356516476168,2026-07-22 12:22:27-03,4,60862,1156.38,false,false,true,true,false,true,false,false,View-Through Attribution
+687874746861,2026-05-28 15:13:43-03,1,5838,110.92,false,false,false,false,false,true,true,false,View-Through Attribution
+671760819691,2026-07-10 22:03:50-03,1,11427,217.11,false,false,true,false,false,true,true,false,View-Through Attribution
+276644120733,2026-08-29 23:19:46-03,1,4260,80.94,false,false,true,false,false,true,true,false,View-Through Attribution
+243013021504,2026-08-20 16:58:02-03,1,9720,184.68,false,false,true,true,false,true,true,false,View-Through Attribution
+105185711420,2026-09-18 04:12:48-03,1,12258,232.9,false,false,true,false,false,true,true,false,View-Through Attribution
+609484812115,2026-08-31 19:51:29-03,1,44714,849.57,false,false,true,false,false,true,false,false,Organic / App Discovery
+728554365238,2026-07-20 20:37:38-03,1,2485,47.22,false,false,true,false,false,true,true,false,View-Through Attribution
+320788383613,2026-06-09 17:26:49-03,2,10452,198.59,false,false,false,false,false,true,false,false,Organic / App Discovery
+526998516693,2026-07-07 18:49:30-03,1,5944,112.94,false,false,true,true,true,true,false,false,Direct Click Attribution
+704338520420,2026-07-15 21:17:10-03,1,21280,404.32,false,false,true,false,false,true,false,true,Direct Click Attribution
+376581113277,2026-07-18 17:23:23-03,2,7824,148.64999999999998,false,false,true,false,false,true,false,false,Organic / App Discovery
+279987255761,2026-06-06 21:14:10-03,1,21498,408.46,false,false,true,true,false,true,false,false,View-Through Attribution
+154203471120,2026-06-28 13:52:01-03,1,31797,604.14,false,false,true,false,false,true,true,false,View-Through Attribution
+562808924490,2026-06-21 14:12:44-03,1,25006,475.11,false,false,true,true,false,true,true,false,View-Through Attribution
+914240576335,2026-07-18 15:32:49-03,1,16888,320.87,false,false,true,false,false,true,false,false,Organic / App Discovery
+320323767202,2026-09-10 14:14:26-03,2,14595,277.29999999999995,false,false,true,true,false,true,true,false,View-Through Attribution
+219912691889,2026-06-18 18:39:36-03,1,6455,122.65,false,false,false,false,false,true,false,false,Organic / App Discovery
+553573403326,2026-07-28 14:02:50-03,1,9345,177.56,false,false,true,false,false,true,true,false,View-Through Attribution
+753754266864,2026-09-16 16:21:04-03,1,10195,193.71,false,false,true,true,false,true,true,false,View-Through Attribution
+722328549401,2026-07-25 10:26:08-03,2,36669,696.71,false,false,true,false,false,true,true,false,View-Through Attribution
+122908412490,2026-08-07 11:49:16-03,1,8005,152.1,false,false,true,false,false,true,false,false,Organic / App Discovery
+256130755397,2026-07-18 06:12:30-03,1,4645,88.26,false,false,true,false,false,true,true,false,View-Through Attribution
+438273288508,2026-07-17 13:51:58-03,3,17874,339.61,false,false,true,false,false,false,true,false,View-Through Attribution
+757989095782,2026-05-27 11:39:15-03,4,159425,3029.09,true,true,true,false,false,true,false,false,Pre-Campaign Organic
+435578748497,2026-05-28 12:09:21-03,2,8422,160.01,false,true,false,false,false,true,false,false,Organic / App Discovery
+118958911932,2026-07-12 16:13:05-03,2,11863,225.39999999999998,false,false,false,false,false,true,false,false,Organic / App Discovery
+130176489539,2026-08-23 14:28:57-03,2,5304,100.78,false,false,true,false,false,true,false,false,Organic / App Discovery
+666335749075,2026-06-02 14:04:47-03,3,32631,619.99,false,false,true,false,false,true,false,false,Organic / App Discovery
+818699862637,2026-07-08 21:25:02-03,2,6924,131.56,false,false,false,false,false,true,true,false,View-Through Attribution
+888180253496,2026-08-09 18:10:08-03,1,31618,600.74,false,false,true,true,false,true,true,false,View-Through Attribution
+314826828450,2026-08-24 16:22:03-03,1,13344,253.54,false,false,true,false,false,true,false,false,Organic / App Discovery
+683712243683,2026-06-12 12:10:47-03,2,23566,447.76,false,false,true,false,false,true,false,false,Organic / App Discovery
+970329921864,2026-07-30 19:30:26-03,2,19435,369.27,false,false,true,false,false,true,false,false,Organic / App Discovery
+695492856210,2026-06-10 16:38:59-03,1,12704,241.38,false,false,true,false,false,true,true,false,View-Through Attribution
+517751529840,2026-07-09 18:23:57-03,1,4044,76.84,false,false,true,false,false,false,true,false,View-Through Attribution
+636899679411,2026-08-01 16:35:10-03,1,10441,198.38,false,false,true,true,false,true,true,false,View-Through Attribution
+312854584386,2026-07-16 22:50:37-03,1,1238,23.52,false,false,true,false,false,true,true,false,View-Through Attribution
+263476044513,2026-07-15 15:14:52-03,2,26251,498.77,false,false,false,false,false,true,false,false,Organic / App Discovery
+425323353038,2026-07-27 17:26:01-03,2,59261,1125.96,false,false,true,false,false,true,true,false,View-Through Attribution
+618977163398,2026-06-19 14:23:56-03,1,13804,262.28,false,false,true,false,false,true,true,false,View-Through Attribution
+434858998840,2026-07-10 10:58:06-03,2,26512,503.73,false,false,false,false,false,true,false,false,Organic / App Discovery
+817055671392,2026-09-13 15:47:52-03,1,7760,147.44,false,false,false,false,false,true,false,false,Organic / App Discovery
+349127406338,2026-08-04 15:30:11-03,1,5318,101.04,false,false,true,false,false,false,true,false,View-Through Attribution
+321281271776,2026-09-13 14:07:31-03,1,5894,111.99,false,false,true,false,false,true,false,false,Organic / App Discovery
+799093532676,2026-08-21 22:20:38-03,2,18655,354.45,false,false,true,false,false,true,false,false,Organic / App Discovery
+922017321164,2026-06-12 14:07:40-03,1,6467,122.87,false,false,true,false,false,true,true,false,View-Through Attribution
+229564373110,2026-09-11 17:06:32-03,1,10792,205.05,false,false,true,false,false,true,false,false,Organic / App Discovery
+153873268569,2026-06-24 18:22:15-03,2,28387,539.36,false,false,false,false,false,true,true,false,View-Through Attribution
+468816798084,2026-08-30 18:20:14-03,1,4784,90.9,false,false,true,true,false,true,true,false,View-Through Attribution
+159186695187,2026-06-26 19:35:46-03,1,8171,155.25,false,false,true,true,false,true,false,false,View-Through Attribution
+310650625344,2026-07-22 19:26:34-03,1,3286,62.43,false,false,true,false,false,true,true,false,View-Through Attribution
+356909449243,2026-09-02 17:06:31-03,1,58240,1106.56,false,false,true,false,false,true,true,false,View-Through Attribution
+327872508941,2026-06-18 12:52:22-03,2,11979,227.6,false,false,false,false,false,true,false,false,Organic / App Discovery
+561332005580,2026-07-24 17:32:34-03,1,8406,159.71,false,false,false,false,false,true,false,false,Organic / App Discovery
+906725443785,2026-06-23 12:24:21-03,2,16652,316.38,false,false,true,false,false,true,true,false,View-Through Attribution
+508660546719,2026-09-10 23:00:12-03,1,6728,127.83,false,false,true,true,false,true,false,false,View-Through Attribution
+459203440148,2026-06-24 14:31:24-03,1,12266,233.05,false,false,true,false,false,true,true,false,View-Through Attribution
+923725684281,2026-06-03 14:48:32-03,3,24465,464.84,false,false,false,false,false,true,false,false,Organic / App Discovery
+927259754210,2026-07-01 13:19:41-03,2,16399,311.58,false,false,true,false,false,true,true,false,View-Through Attribution
+285081515095,2026-08-20 11:37:15-03,2,55340,1051.46,false,false,true,false,false,true,false,true,Direct Click Attribution
+672068221028,2026-09-30 11:17:52-03,1,36628,695.93,false,false,true,false,false,true,true,false,View-Through Attribution
+983884622573,2026-07-18 12:05:16-03,1,87770,1667.63,false,false,true,false,false,true,true,false,View-Through Attribution
+354825325869,2026-07-10 15:47:05-03,1,36749,698.23,false,false,true,false,false,true,true,false,View-Through Attribution
+988167081032,2026-08-04 16:17:40-03,1,17240,327.56,false,false,false,false,false,true,false,false,Organic / App Discovery
+302315095433,2026-08-24 13:15:52-03,1,66388,1261.37,false,false,false,false,false,true,false,true,Direct Click Attribution
+637263908256,2026-07-25 13:35:20-03,3,17235,327.47,false,false,true,false,false,true,true,false,View-Through Attribution
+240603493325,2026-09-24 18:57:29-03,1,42065,799.24,false,false,true,false,false,true,true,false,View-Through Attribution
+747581414504,2026-09-26 18:32:13-03,1,9362,177.88,false,false,true,false,false,true,true,false,View-Through Attribution
+746714668779,2026-09-23 05:42:44-03,1,12985,246.72,false,false,true,false,false,true,false,false,Organic / App Discovery
+954640575745,2026-06-02 18:08:38-03,1,4366,82.95,false,false,true,false,false,true,false,false,Organic / App Discovery
+154628856294,2026-08-10 11:01:25-03,1,3728,70.83,false,false,false,false,false,true,false,false,Organic / App Discovery
+231673929654,2026-09-09 14:36:25-03,1,19480,370.12,false,false,true,false,false,true,false,false,Organic / App Discovery
+646292558155,2026-07-03 12:06:23-03,4,56453,1072.61,false,false,true,false,false,true,false,false,Organic / App Discovery
+942090741735,2026-06-07 08:33:11-03,1,13481,256.14,false,false,false,false,false,true,false,false,Organic / App Discovery
+846056149636,2026-07-15 18:58:32-03,1,11940,226.86,false,false,true,false,false,true,true,false,View-Through Attribution
+993035126783,2026-07-08 17:14:52-03,1,21738,413.02,false,false,true,false,false,true,true,false,View-Through Attribution
+400345741867,2026-08-18 15:47:49-03,1,21794,414.09,false,false,true,true,true,true,false,false,Direct Click Attribution
+880609838562,2026-07-21 13:46:17-03,2,7877,149.66,false,false,true,false,false,true,true,false,View-Through Attribution
+638144365015,2026-07-25 15:21:03-03,1,7493,142.37,false,false,true,false,false,true,false,false,Organic / App Discovery
+988976302039,2026-06-14 13:26:22-03,1,3894,73.99,false,false,false,false,false,false,true,false,View-Through Attribution
+374839384731,2026-06-23 16:14:43-03,1,8871,168.55,false,false,false,false,false,true,true,false,View-Through Attribution
+571997308435,2026-08-28 17:36:39-03,1,20394,387.49,false,false,false,false,false,true,false,false,Organic / App Discovery
+209131916847,2026-06-10 16:27:19-03,1,3578,67.98,false,false,true,false,false,true,false,false,Organic / App Discovery
+450685576623,2026-08-01 07:04:53-03,1,25597,486.34,false,false,true,false,false,false,false,true,Direct Click Attribution
+306772530823,2026-09-18 17:38:29-03,1,6090,115.71,false,false,true,false,false,true,true,false,View-Through Attribution
+531150561218,2026-09-01 14:17:47-03,1,11192,212.65,false,false,false,false,false,true,true,false,View-Through Attribution
+189987614852,2026-09-12 13:36:06-03,1,3952,75.09,false,false,true,false,false,true,false,false,Organic / App Discovery
+618072252315,2026-07-07 22:36:43-03,1,6909,131.27,false,false,false,false,false,true,false,false,Organic / App Discovery
+781932990786,2026-08-24 16:41:32-03,1,3634,69.05,false,false,true,false,false,true,false,false,Organic / App Discovery
+388147595139,2026-07-22 14:17:40-03,2,13245,251.66,false,false,false,false,false,true,false,false,Organic / App Discovery
+838097919505,2026-08-23 13:26:46-03,1,18078,343.48,false,false,true,false,false,false,true,false,View-Through Attribution
+296384989912,2026-06-14 18:00:11-03,1,12294,233.59,false,false,true,true,false,true,false,false,View-Through Attribution
+165260612885,2026-07-12 10:08:03-03,1,13870,263.53,false,false,true,false,false,true,false,false,Organic / App Discovery
+895928670802,2026-08-22 14:01:03-03,1,18767,356.57,false,false,false,false,false,true,true,false,View-Through Attribution
+829965201682,2026-08-30 13:24:14-03,1,40976,778.54,false,false,true,true,false,true,true,false,View-Through Attribution
+543556535218,2026-06-11 10:23:23-03,1,6794,129.09,false,false,false,false,false,true,true,false,View-Through Attribution
+722505560286,2026-08-05 19:14:14-03,1,4689,89.09,false,false,true,false,false,true,false,false,Organic / App Discovery
+774887225836,2026-05-31 06:14:26-03,1,4947,93.99,false,false,true,true,false,true,true,false,View-Through Attribution
+417805466190,2026-06-10 10:44:37-03,1,23845,453.06,false,false,false,false,false,true,true,false,View-Through Attribution
+525053749840,2026-08-19 14:39:10-03,1,4765,90.54,false,false,true,true,false,true,false,false,View-Through Attribution
+370785106869,2026-06-09 20:41:09-03,2,9653,183.41,false,false,true,false,false,true,true,false,View-Through Attribution
+372621573738,2026-09-23 11:48:48-03,1,39230,745.37,false,false,true,false,false,true,true,false,View-Through Attribution
+215896864089,2026-09-19 15:15:27-03,1,16161,307.06,false,false,true,false,false,true,false,false,Organic / App Discovery
+281042764359,2026-08-08 17:31:30-03,1,13536,257.18,false,false,true,false,false,true,false,false,Organic / App Discovery
+653002198185,2026-06-12 20:05:59-03,2,31021,589.4,false,false,true,false,false,true,true,false,View-Through Attribution
+736130170265,2026-09-18 16:06:06-03,1,18709,355.47,false,false,true,false,false,true,true,false,View-Through Attribution
+314825384152,2026-06-19 16:19:28-03,5,82199,1561.7799999999997,false,false,true,false,false,true,true,false,View-Through Attribution
+312023710097,2026-08-15 14:33:36-03,1,6109,116.07,false,false,true,false,false,true,true,false,View-Through Attribution
+587266800708,2026-06-14 21:13:31-03,1,17610,334.59,false,false,true,false,false,true,false,false,Organic / App Discovery
+245047761688,2026-06-28 12:19:43-03,1,17798,338.16,false,false,true,false,false,true,false,false,Organic / App Discovery
+801285066810,2026-06-24 20:11:53-03,1,5551,105.47,false,false,true,false,false,true,false,false,Organic / App Discovery
+880670097203,2026-08-28 21:55:47-03,1,1692,32.15,false,false,true,false,false,true,false,false,Organic / App Discovery
+372986609883,2026-09-25 13:15:57-03,1,5572,105.87,false,false,true,false,false,true,false,false,Organic / App Discovery
+426913529949,2026-07-04 19:42:44-03,1,1874,35.61,false,false,true,false,false,true,false,false,Organic / App Discovery
+404006971055,2026-06-02 13:36:26-03,2,14305,271.8,false,false,true,true,false,true,false,false,View-Through Attribution
+297451654477,2026-06-19 16:23:50-03,2,22886,434.84000000000003,false,false,true,false,false,true,false,false,Organic / App Discovery
+697565523067,2026-07-12 15:59:55-03,1,51919,986.46,false,false,true,false,false,true,false,false,Organic / App Discovery
+755051302722,2026-06-10 18:07:05-03,1,7728,146.83,false,false,false,false,false,true,true,false,View-Through Attribution
+736205026730,2026-09-14 16:30:27-03,1,20107,382.03,false,false,true,false,false,true,false,false,Organic / App Discovery
+386657340999,2026-07-08 20:06:29-03,2,12290,233.51,false,false,true,true,true,true,true,false,Direct Click Attribution
+224015747474,2026-09-05 15:35:33-03,1,11153,211.91,false,false,false,false,false,true,true,false,View-Through Attribution
+892869491145,2026-08-22 14:42:13-03,1,5080,96.52,false,false,true,false,false,false,true,false,View-Through Attribution
+737060149795,2026-06-18 14:12:04-03,2,9669,183.70999999999998,false,false,true,false,false,true,false,false,Organic / App Discovery
+475558793013,2026-06-23 13:15:28-03,1,20610,391.59,false,false,true,false,false,true,false,false,Organic / App Discovery
+309353104496,2026-09-24 21:49:13-03,1,7374,140.11,false,false,true,true,false,true,true,false,View-Through Attribution
+148673410189,2026-06-20 20:24:24-03,1,36351,690.67,false,false,true,true,false,true,false,false,View-Through Attribution
+782569915876,2026-06-04 14:57:18-03,2,20345,386.55,false,false,false,false,false,true,false,false,Organic / App Discovery
+520054782120,2026-08-23 22:52:50-03,1,10179,193.4,false,false,true,false,false,true,true,false,View-Through Attribution
+732456091346,2026-08-02 13:55:11-03,1,9611,182.61,false,false,true,false,false,true,true,false,View-Through Attribution
+753194974000,2026-07-31 14:27:12-03,1,2822,53.62,false,false,true,true,false,true,false,false,View-Through Attribution
+298122858634,2026-06-16 14:29:37-03,1,8263,157.0,false,false,true,true,true,true,true,true,Direct Click Attribution
+672389979051,2026-09-07 17:28:31-03,1,21324,405.16,false,false,false,false,false,true,false,false,Organic / App Discovery
+349272269954,2026-08-01 16:21:31-03,1,11860,225.34,false,false,true,false,false,true,false,false,Organic / App Discovery
+405469624265,2026-07-23 11:56:16-03,1,4299,81.68,false,false,true,true,false,false,true,false,View-Through Attribution
+621016877487,2026-08-09 15:31:43-03,1,11423,217.04,false,false,true,false,false,true,true,true,Direct Click Attribution
+359757804393,2026-08-09 21:40:51-03,1,2526,47.99,false,false,true,true,false,true,true,false,View-Through Attribution
+434251848110,2026-08-22 09:21:53-03,1,8093,153.77,false,false,true,false,false,true,true,false,View-Through Attribution
+939204302333,2026-08-23 17:05:06-03,1,9315,176.99,false,false,true,false,false,true,false,false,Organic / App Discovery
+219470661903,2026-06-09 17:19:43-03,2,26302,499.74,false,false,true,true,false,true,true,false,View-Through Attribution
+602712200419,2026-08-08 19:27:57-03,1,5848,111.11,false,false,true,false,false,true,false,false,Organic / App Discovery
+760551400233,2026-09-11 15:21:44-03,1,3737,71.0,false,false,false,false,false,true,true,false,View-Through Attribution
+177106343554,2026-06-12 13:02:00-03,1,10935,207.77,false,false,true,false,false,true,false,false,Organic / App Discovery
+889864010466,2026-06-25 22:22:02-03,1,28500,541.5,false,false,true,false,false,true,true,false,View-Through Attribution
+426752325872,2026-09-07 10:24:52-03,1,12953,246.11,false,false,true,false,false,true,true,false,View-Through Attribution
+673115656751,2026-08-16 15:55:18-03,3,45792,870.06,false,false,true,true,false,true,false,false,View-Through Attribution
+350897191427,2026-07-26 14:39:58-03,1,7510,142.69,false,false,true,false,false,true,true,false,View-Through Attribution
+614742149117,2026-09-05 12:40:23-03,1,5782,109.86,false,false,true,false,false,true,false,false,Organic / App Discovery
+897641951083,2026-09-10 16:12:45-03,1,7838,148.92,false,false,true,true,false,true,true,false,View-Through Attribution
+287562046566,2026-06-19 12:34:02-03,2,18834,357.85,false,false,false,false,false,true,false,false,Organic / App Discovery
+122718232793,2026-06-27 19:34:18-03,1,8184,155.5,false,false,true,false,false,true,false,false,Organic / App Discovery
+885651151329,2026-06-30 17:35:58-03,1,16285,309.42,false,false,false,false,false,false,true,false,View-Through Attribution
+903258864810,2026-05-28 14:10:45-03,3,43452,825.5799999999999,false,false,true,false,false,true,true,false,View-Through Attribution
+689977165423,2026-07-03 15:43:11-03,3,31334,595.3499999999999,false,false,true,true,false,false,true,false,View-Through Attribution
 950724880353,2026-09-10 09:02:50-03,1,8257,156.88,false,false,true,false,false,false,true,false,View-Through Attribution
 990476953498,2026-07-27 17:31:50-03,1,4208,79.95,false,false,false,false,false,true,false,false,Organic / App Discovery
 171241490174,2026-05-27 16:28:56-03,3,61479,1168.1,true,true,true,false,false,true,false,false,Pre-Campaign Organic
@@ -349,83 +580,6 @@ user_id,first_pix_at,total_pix_orders,total_pix_points,total_pix_reais,resgatou_
 779850660134,2026-06-15 20:41:33-03,1,14166,269.15,false,false,false,false,false,false,true,false,View-Through Attribution
 827559626636,2026-09-25 05:01:32-03,2,9726,184.8,false,false,true,false,false,true,true,false,View-Through Attribution
 998599789591,2026-07-06 07:44:42-03,1,22761,432.46,false,false,true,false,false,false,true,false,View-Through Attribution
-181378509686,2026-07-21 10:04:55-03,2,7840,148.96,false,false,true,true,false,true,true,false,View-Through Attribution
-501305746887,2026-09-13 10:07:45-03,1,7668,145.69,false,false,true,false,false,true,true,false,View-Through Attribution
-451051211576,2026-06-06 16:51:01-03,1,30991,588.83,false,false,true,true,false,true,true,false,View-Through Attribution
-501841726070,2026-06-06 17:24:26-03,2,30615,581.6800000000001,false,false,true,false,false,true,false,false,Organic / App Discovery
-934619430016,2026-09-19 11:58:21-03,1,3875,73.63,false,false,true,true,false,true,true,false,View-Through Attribution
-763582483822,2026-08-17 19:01:56-03,1,18991,360.83,false,false,false,false,false,true,true,false,View-Through Attribution
-892966207679,2026-09-24 10:15:18-03,1,5764,109.52,false,false,true,false,false,true,true,false,View-Through Attribution
-203989222098,2026-07-15 15:08:59-03,2,46800,889.2,false,false,true,true,false,true,true,false,View-Through Attribution
-427601760335,2026-08-03 18:53:20-03,1,9308,176.85,false,false,true,true,false,true,true,true,Direct Click Attribution
-969729945310,2026-08-23 10:37:13-03,1,14702,279.34,false,false,true,false,false,true,true,false,View-Through Attribution
-568208859082,2026-06-23 15:53:29-03,1,8160,155.04,false,false,true,false,false,false,true,false,View-Through Attribution
-497117440687,2026-06-29 23:59:24-03,1,21817,414.52,false,false,true,false,false,true,false,true,Direct Click Attribution
-356516476168,2026-07-22 12:22:27-03,4,60862,1156.38,false,false,true,true,false,true,false,false,View-Through Attribution
-687874746861,2026-05-28 15:13:43-03,1,5838,110.92,false,false,false,false,false,true,true,false,View-Through Attribution
-671760819691,2026-07-10 22:03:50-03,1,11427,217.11,false,false,true,false,false,true,true,false,View-Through Attribution
-276644120733,2026-08-29 23:19:46-03,1,4260,80.94,false,false,true,false,false,true,true,false,View-Through Attribution
-243013021504,2026-08-20 16:58:02-03,1,9720,184.68,false,false,true,true,false,true,true,false,View-Through Attribution
-105185711420,2026-09-18 04:12:48-03,1,12258,232.9,false,false,true,false,false,true,true,false,View-Through Attribution
-609484812115,2026-08-31 19:51:29-03,1,44714,849.57,false,false,true,false,false,true,false,false,Organic / App Discovery
-728554365238,2026-07-20 20:37:38-03,1,2485,47.22,false,false,true,false,false,true,true,false,View-Through Attribution
-320788383613,2026-06-09 17:26:49-03,2,10452,198.59,false,false,false,false,false,true,false,false,Organic / App Discovery
-526998516693,2026-07-07 18:49:30-03,1,5944,112.94,false,false,true,true,true,true,false,false,Direct Click Attribution
-704338520420,2026-07-15 21:17:10-03,1,21280,404.32,false,false,true,false,false,true,false,true,Direct Click Attribution
-376581113277,2026-07-18 17:23:23-03,2,7824,148.64999999999998,false,false,true,false,false,true,false,false,Organic / App Discovery
-279987255761,2026-06-06 21:14:10-03,1,21498,408.46,false,false,true,true,false,true,false,false,View-Through Attribution
-154203471120,2026-06-28 13:52:01-03,1,31797,604.14,false,false,true,false,false,true,true,false,View-Through Attribution
-562808924490,2026-06-21 14:12:44-03,1,25006,475.11,false,false,true,true,false,true,true,false,View-Through Attribution
-914240576335,2026-07-18 15:32:49-03,1,16888,320.87,false,false,true,false,false,true,false,false,Organic / App Discovery
-320323767202,2026-09-10 14:14:26-03,2,14595,277.29999999999995,false,false,true,true,false,true,true,false,View-Through Attribution
-219912691889,2026-06-18 18:39:36-03,1,6455,122.65,false,false,false,false,false,true,false,false,Organic / App Discovery
-553573403326,2026-07-28 14:02:50-03,1,9345,177.56,false,false,true,false,false,true,true,false,View-Through Attribution
-753754266864,2026-09-16 16:21:04-03,1,10195,193.71,false,false,true,true,false,true,true,false,View-Through Attribution
-722328549401,2026-07-25 10:26:08-03,2,36669,696.71,false,false,true,false,false,true,true,false,View-Through Attribution
-122908412490,2026-08-07 11:49:16-03,1,8005,152.1,false,false,true,false,false,true,false,false,Organic / App Discovery
-256130755397,2026-07-18 06:12:30-03,1,4645,88.26,false,false,true,false,false,true,true,false,View-Through Attribution
-438273288508,2026-07-17 13:51:58-03,3,17874,339.61,false,false,true,false,false,false,true,false,View-Through Attribution
-757989095782,2026-05-27 11:39:15-03,4,159425,3029.09,true,true,true,false,false,true,false,false,Pre-Campaign Organic
-435578748497,2026-05-28 12:09:21-03,2,8422,160.01,false,true,false,false,false,true,false,false,Organic / App Discovery
-118958911932,2026-07-12 16:13:05-03,2,11863,225.39999999999998,false,false,false,false,false,true,false,false,Organic / App Discovery
-130176489539,2026-08-23 14:28:57-03,2,5304,100.78,false,false,true,false,false,true,false,false,Organic / App Discovery
-666335749075,2026-06-02 14:04:47-03,3,32631,619.99,false,false,true,false,false,true,false,false,Organic / App Discovery
-818699862637,2026-07-08 21:25:02-03,2,6924,131.56,false,false,false,false,false,true,true,false,View-Through Attribution
-888180253496,2026-08-09 18:10:08-03,1,31618,600.74,false,false,true,true,false,true,true,false,View-Through Attribution
-314826828450,2026-08-24 16:22:03-03,1,13344,253.54,false,false,true,false,false,true,false,false,Organic / App Discovery
-683712243683,2026-06-12 12:10:47-03,2,23566,447.76,false,false,true,false,false,true,false,false,Organic / App Discovery
-970329921864,2026-07-30 19:30:26-03,2,19435,369.27,false,false,true,false,false,true,false,false,Organic / App Discovery
-695492856210,2026-06-10 16:38:59-03,1,12704,241.38,false,false,true,false,false,true,true,false,View-Through Attribution
-517751529840,2026-07-09 18:23:57-03,1,4044,76.84,false,false,true,false,false,false,true,false,View-Through Attribution
-636899679411,2026-08-01 16:35:10-03,1,10441,198.38,false,false,true,true,false,true,true,false,View-Through Attribution
-312854584386,2026-07-16 22:50:37-03,1,1238,23.52,false,false,true,false,false,true,true,false,View-Through Attribution
-263476044513,2026-07-15 15:14:52-03,2,26251,498.77,false,false,false,false,false,true,false,false,Organic / App Discovery
-425323353038,2026-07-27 17:26:01-03,2,59261,1125.96,false,false,true,false,false,true,true,false,View-Through Attribution
-618977163398,2026-06-19 14:23:56-03,1,13804,262.28,false,false,true,false,false,true,true,false,View-Through Attribution
-434858998840,2026-07-10 10:58:06-03,2,26512,503.73,false,false,false,false,false,true,false,false,Organic / App Discovery
-817055671392,2026-09-13 15:47:52-03,1,7760,147.44,false,false,false,false,false,true,false,false,Organic / App Discovery
-349127406338,2026-08-04 15:30:11-03,1,5318,101.04,false,false,true,false,false,false,true,false,View-Through Attribution
-321281271776,2026-09-13 14:07:31-03,1,5894,111.99,false,false,true,false,false,true,false,false,Organic / App Discovery
-799093532676,2026-08-21 22:20:38-03,2,18655,354.45,false,false,true,false,false,true,false,false,Organic / App Discovery
-922017321164,2026-06-12 14:07:40-03,1,6467,122.87,false,false,true,false,false,true,true,false,View-Through Attribution
-229564373110,2026-09-11 17:06:32-03,1,10792,205.05,false,false,true,false,false,true,false,false,Organic / App Discovery
-153873268569,2026-06-24 18:22:15-03,2,28387,539.36,false,false,false,false,false,true,true,false,View-Through Attribution
-468816798084,2026-08-30 18:20:14-03,1,4784,90.9,false,false,true,true,false,true,true,false,View-Through Attribution
-159186695187,2026-06-26 19:35:46-03,1,8171,155.25,false,false,true,true,false,true,false,false,View-Through Attribution
-310650625344,2026-07-22 19:26:34-03,1,3286,62.43,false,false,true,false,false,true,true,false,View-Through Attribution
-356909449243,2026-09-02 17:06:31-03,1,58240,1106.56,false,false,true,false,false,true,true,false,View-Through Attribution
-327872508941,2026-06-18 12:52:22-03,2,11979,227.6,false,false,false,false,false,true,false,false,Organic / App Discovery
-561332005580,2026-07-24 17:32:34-03,1,8406,159.71,false,false,false,false,false,true,false,false,Organic / App Discovery
-906725443785,2026-06-23 12:24:21-03,2,16652,316.38,false,false,true,false,false,true,true,false,View-Through Attribution
-508660546719,2026-09-10 23:00:12-03,1,6728,127.83,false,false,true,true,false,true,false,false,View-Through Attribution
-459203440148,2026-06-24 14:31:24-03,1,12266,233.05,false,false,true,false,false,true,true,false,View-Through Attribution
-923725684281,2026-06-03 14:48:32-03,3,24465,464.84,false,false,false,false,false,true,false,false,Organic / App Discovery
-927259754210,2026-07-01 13:19:41-03,2,16399,311.58,false,false,true,false,false,true,true,false,View-Through Attribution
-285081515095,2026-08-20 11:37:15-03,2,55340,1051.46,false,false,true,false,false,true,false,true,Direct Click Attribution
-672068221028,2026-09-30 11:17:52-03,1,36628,695.93,false,false,true,false,false,true,true,false,View-Through Attribution
-983884622573,2026-07-18 12:05:16-03,1,87770,1667.63,false,false,true,false,false,true,true,false,View-Through Attribution
-354825325869,2026-07-10 15:47:05-03,1,36749,698.23,false,false,true,false,false,true,true,false,View-Through Attribution
-988167081032,2026-08-04 16:17:40-03,1,17240,327.56,false,false,false,false,false,true,false,false,Organic / App Discovery
 412911193403,2026-07-18 18:26:47-03,1,8982,170.66,false,false,true,true,false,true,false,false,View-Through Attribution
 188217457554,2026-08-27 16:12:43-03,1,9632,183.01,false,false,true,true,false,true,true,false,View-Through Attribution
 375324687072,2026-07-18 12:45:02-03,1,2950,56.05,false,false,true,false,false,true,true,false,View-Through Attribution
@@ -520,160 +674,6 @@ user_id,first_pix_at,total_pix_orders,total_pix_points,total_pix_reais,resgatou_
 989108834980,2026-07-23 12:48:22-03,1,25221,479.2,false,false,false,false,false,true,false,false,Organic / App Discovery
 364852633222,2026-06-01 13:29:08-03,2,73565,1397.74,false,false,true,true,false,true,true,false,View-Through Attribution
 112611625302,2026-06-14 12:33:49-03,1,7999,151.98,false,false,true,false,false,true,true,false,View-Through Attribution
-893457083598,2026-08-15 12:18:46-03,1,36488,693.27,false,false,true,true,false,true,true,false,View-Through Attribution
-265676586336,2026-08-05 17:07:06-03,1,8912,169.33,false,false,true,true,false,true,true,false,View-Through Attribution
-915356675066,2026-06-15 21:31:29-03,1,6057,115.08,false,false,true,false,false,true,true,false,View-Through Attribution
-992423196608,2026-06-27 21:33:22-03,1,42538,808.22,false,false,true,false,false,true,true,false,View-Through Attribution
-485242465802,2026-07-21 17:25:54-03,3,66218,1258.1399999999999,false,false,true,true,false,false,true,false,View-Through Attribution
-816730715330,2026-06-03 12:22:46-03,1,12572,238.87,false,false,true,false,false,true,true,false,View-Through Attribution
-586732899141,2026-08-28 15:57:01-03,1,75143,1427.72,false,false,true,true,false,true,true,false,View-Through Attribution
-293455066500,2026-07-29 23:00:25-03,1,9447,179.49,false,false,true,false,false,true,true,false,View-Through Attribution
-937153044687,2026-08-31 11:00:06-03,2,11490,218.31,false,false,false,false,false,true,false,false,Organic / App Discovery
-597314883153,2026-08-21 19:16:49-03,1,17938,340.82,false,false,true,false,false,false,true,false,View-Through Attribution
-838794580184,2026-09-01 16:06:16-03,1,23261,441.96,false,false,true,false,false,true,true,false,View-Through Attribution
-838943719765,2026-08-08 14:11:57-03,1,3504,66.58,false,false,true,false,false,true,false,true,Direct Click Attribution
-338819712660,2026-08-04 15:50:10-03,1,10343,196.52,false,false,false,false,false,true,true,false,View-Through Attribution
-653140719006,2026-06-30 20:00:38-03,1,3961,75.26,false,false,true,false,false,true,false,false,Organic / App Discovery
-579933623115,2026-07-12 19:56:56-03,1,16518,313.84,false,false,true,false,false,true,false,false,Organic / App Discovery
-671880744371,2026-06-20 18:53:05-03,2,61459,1167.72,false,false,true,false,false,true,false,false,Organic / App Discovery
-255409587863,2026-06-07 21:55:55-03,2,15569,295.81,false,false,true,false,false,true,false,false,Organic / App Discovery
-265533025870,2026-08-17 17:05:27-03,2,14133,268.53000000000003,false,false,false,false,false,true,false,false,Organic / App Discovery
-347775529997,2026-09-01 16:27:56-03,2,26162,497.08000000000004,false,false,true,false,false,true,true,false,View-Through Attribution
-945014626555,2026-06-05 17:47:43-03,1,22090,419.71,false,false,true,false,false,true,false,false,Organic / App Discovery
-105163953157,2026-09-30 10:11:53-03,1,13208,250.95,false,false,true,true,false,true,true,false,View-Through Attribution
-136992995387,2026-09-04 18:56:04-03,1,6814,129.47,false,false,true,false,false,true,true,false,View-Through Attribution
-669220467505,2026-08-29 20:18:23-03,1,6826,129.69,false,false,true,true,false,true,true,false,View-Through Attribution
-578057472544,2026-06-13 19:15:10-03,1,25750,489.25,false,false,true,false,false,true,true,false,View-Through Attribution
-982348400736,2026-09-08 16:11:03-03,2,12045,228.86,false,false,true,false,false,true,false,false,Organic / App Discovery
-387369603268,2026-07-06 08:23:03-03,2,17133,325.52,false,false,true,false,false,true,true,false,View-Through Attribution
-476406467373,2026-09-09 17:28:39-03,1,6541,124.28,false,false,false,false,false,true,false,false,Organic / App Discovery
-548082128352,2026-08-17 15:31:46-03,1,8981,170.64,false,false,true,true,false,true,false,false,View-Through Attribution
-714083425077,2026-09-10 14:56:37-03,1,19977,379.56,false,false,true,false,false,true,true,false,View-Through Attribution
-189269361153,2026-08-04 14:07:12-03,1,8286,157.43,false,false,true,false,false,true,false,false,Organic / App Discovery
-189371489558,2026-07-10 10:15:50-03,2,18157,344.98,false,false,true,true,false,true,true,false,View-Through Attribution
-940580775879,2026-07-02 12:44:16-03,2,37161,706.06,false,false,true,true,false,true,true,false,View-Through Attribution
-505038382190,2026-06-06 13:00:06-03,1,14593,277.27,false,false,true,true,false,true,false,false,View-Through Attribution
-322877104645,2026-08-24 17:15:46-03,2,54082,1027.56,false,false,false,false,false,false,true,false,View-Through Attribution
-150438518328,2026-08-22 18:10:07-03,1,11049,209.93,false,false,true,false,false,true,true,false,View-Through Attribution
-622279477533,2026-07-15 20:00:52-03,1,13959,265.22,false,false,true,true,false,true,false,false,View-Through Attribution
-559572873121,2026-07-07 12:41:07-03,2,57923,1100.54,false,false,true,false,false,true,false,false,Organic / App Discovery
-529668999148,2026-06-29 16:18:49-03,1,6129,116.45,false,false,true,true,false,false,true,false,View-Through Attribution
-585619158976,2026-06-29 07:29:45-03,1,15645,297.26,false,false,true,false,false,true,true,false,View-Through Attribution
-839756435924,2026-07-15 09:07:24-03,2,7604,144.48000000000002,false,false,false,false,false,true,true,false,View-Through Attribution
-213127336808,2026-07-03 12:11:04-03,2,27375,520.12,false,false,false,false,false,true,true,false,View-Through Attribution
-663361143084,2026-07-13 15:54:07-03,3,61398,1166.5700000000002,false,false,true,false,false,true,false,false,Organic / App Discovery
-387306023168,2026-09-18 19:27:15-03,1,2457,46.68,false,false,true,true,false,true,false,false,View-Through Attribution
-182040763216,2026-08-03 15:06:47-03,1,7524,142.96,false,false,true,false,false,true,false,false,Organic / App Discovery
-265889280543,2026-09-07 19:49:35-03,1,2098,39.86,false,false,true,false,false,true,true,false,View-Through Attribution
-372301042257,2026-05-27 18:45:42-03,1,16500,313.5,true,true,true,true,false,true,false,false,Pre-Campaign Organic
-397242553485,2026-06-18 17:14:06-03,3,115517,2194.83,false,false,true,false,false,true,false,false,Organic / App Discovery
-212731477630,2026-09-04 16:36:17-03,1,8026,152.49,false,false,true,false,false,true,false,false,Organic / App Discovery
-424744780989,2026-09-05 13:33:38-03,1,22373,425.09,false,false,false,false,false,true,false,false,Organic / App Discovery
-927207983741,2026-05-30 12:38:22-03,1,2419,45.96,false,false,true,false,false,true,false,false,Organic / App Discovery
-739628800256,2026-08-13 17:24:00-03,1,1020,19.38,false,false,false,false,false,true,true,false,View-Through Attribution
-380241811328,2026-06-18 12:47:45-03,2,12946,245.98000000000002,false,false,true,false,false,true,false,false,Organic / App Discovery
-252536046387,2026-08-27 18:35:49-03,1,28282,537.36,false,false,false,false,false,true,false,false,Organic / App Discovery
-522699791986,2026-06-27 09:14:26-03,1,9028,171.53,false,false,true,true,true,true,true,false,Direct Click Attribution
-308949938008,2026-06-30 11:48:49-03,1,11289,214.49,false,false,false,false,false,true,false,false,Organic / App Discovery
-611927730048,2026-06-04 23:26:24-03,2,30683,582.98,false,false,false,false,false,true,false,false,Organic / App Discovery
-466963881807,2026-06-24 13:28:29-03,2,39208,744.9499999999999,false,false,true,false,false,true,true,false,View-Through Attribution
-274554184630,2026-09-28 16:17:34-03,1,4289,81.49,false,false,false,false,false,false,true,false,View-Through Attribution
-845418694254,2026-05-27 14:28:49-03,1,6395,121.51,true,true,false,false,false,true,true,false,Pre-Campaign Organic
-622627071758,2026-07-21 11:42:05-03,1,25505,484.6,false,false,true,false,false,true,false,false,Organic / App Discovery
-767349335776,2026-09-15 11:31:50-03,1,38370,729.03,false,false,true,false,false,true,true,false,View-Through Attribution
-991686814771,2026-08-17 23:59:24-03,1,7692,146.15,false,false,false,false,false,true,true,false,View-Through Attribution
-363183797525,2026-09-26 22:43:35-03,1,13290,252.51,false,false,true,false,false,true,false,false,Organic / App Discovery
-375280246626,2026-09-07 12:11:51-03,1,19452,369.59,false,false,true,false,false,false,true,false,View-Through Attribution
-682843093807,2026-06-09 12:27:57-03,1,13528,257.03,false,false,true,false,false,false,true,false,View-Through Attribution
-443098837183,2026-06-14 08:29:39-03,1,13654,259.43,false,false,true,false,false,true,false,false,Organic / App Discovery
-787468720279,2026-08-23 19:54:14-03,2,9568,181.79,false,false,true,true,false,true,true,false,View-Through Attribution
-202955208348,2026-09-07 18:50:40-03,1,7358,139.8,false,false,true,false,false,true,false,false,Organic / App Discovery
-875906865336,2026-08-29 17:19:55-03,1,8378,159.18,false,false,true,true,false,true,true,false,View-Through Attribution
-783234392302,2026-09-24 20:10:52-03,1,6683,126.98,false,false,true,false,false,true,true,false,View-Through Attribution
-703476342032,2026-08-24 23:59:24-03,1,7624,144.86,false,false,true,true,true,true,false,false,Direct Click Attribution
-138892368505,2026-06-10 12:36:44-03,1,6619,125.76,false,false,true,false,false,true,true,false,View-Through Attribution
-930413164801,2026-09-10 14:34:16-03,1,11434,217.25,false,false,true,true,false,true,true,false,View-Through Attribution
-560843343852,2026-08-03 20:00:14-03,1,21748,413.21,false,false,true,true,false,true,true,false,View-Through Attribution
-353198053293,2026-09-05 12:45:09-03,1,9338,177.42,false,false,false,false,false,true,false,false,Organic / App Discovery
-700393053621,2026-08-27 15:30:46-03,1,27111,515.11,false,false,false,false,false,true,false,false,Organic / App Discovery
-178265419742,2026-09-09 11:09:46-03,1,5394,102.49,false,false,true,false,false,true,false,false,Organic / App Discovery
-877307730381,2026-08-24 23:03:28-03,1,2712,51.53,false,false,true,true,false,true,true,false,View-Through Attribution
-296545764338,2026-06-01 15:56:53-03,1,6888,130.87,false,false,false,false,false,true,false,false,Organic / App Discovery
-628629058040,2026-07-03 13:15:08-03,1,20533,390.13,false,false,true,true,false,true,false,false,View-Through Attribution
-776181611632,2026-07-14 22:53:28-03,1,13247,251.69,false,false,true,false,false,true,false,true,Direct Click Attribution
-257409753368,2026-08-23 15:14:02-03,2,10000,190.01,false,false,true,true,false,true,true,false,View-Through Attribution
-117135564748,2026-06-02 15:59:05-03,2,17986,341.73,false,false,true,false,false,true,true,false,View-Through Attribution
-428136127973,2026-06-26 19:16:23-03,2,36132,686.51,false,false,true,false,false,true,true,false,View-Through Attribution
-796337802456,2026-06-24 20:32:56-03,1,7324,139.16,false,false,false,false,false,true,false,false,Organic / App Discovery
-585259086319,2026-08-29 08:46:59-03,1,5610,106.59,false,false,true,false,false,true,false,false,Organic / App Discovery
-744614119103,2026-06-15 19:11:16-03,1,7739,147.04,false,false,true,false,false,true,false,false,Organic / App Discovery
-888678605340,2026-07-04 16:10:02-03,1,11549,219.43,false,false,false,false,false,true,true,false,View-Through Attribution
-719888014292,2026-06-03 14:25:26-03,1,3882,73.76,false,false,true,false,false,true,true,false,View-Through Attribution
-547467707787,2026-06-25 15:23:51-03,1,20308,385.85,false,false,true,false,false,true,false,false,Organic / App Discovery
-232943403770,2026-07-24 15:24:00-03,2,17455,331.65,false,false,true,false,false,true,false,false,Organic / App Discovery
-851803342856,2026-07-08 19:56:23-03,1,14282,271.36,false,false,true,false,false,true,false,false,Organic / App Discovery
-411587908489,2026-07-22 23:59:24-03,1,16147,306.79,false,false,true,false,false,true,false,false,Organic / App Discovery
-225843536586,2026-08-10 14:15:03-03,2,56596,1075.33,false,false,true,false,false,true,false,false,Organic / App Discovery
-497739272282,2026-08-02 21:23:17-03,1,2082,39.56,false,false,false,false,false,true,false,false,Organic / App Discovery
-326583974153,2026-07-07 14:50:32-03,1,15105,287.0,false,false,false,false,false,false,true,false,View-Through Attribution
-134438179344,2026-08-19 20:21:04-03,1,7655,145.45,false,false,true,false,false,true,false,false,Organic / App Discovery
-140012040738,2026-07-09 16:37:31-03,1,34645,658.26,false,false,true,true,false,true,false,false,View-Through Attribution
-812414463384,2026-07-09 16:17:14-03,2,44973,854.49,false,false,true,false,false,true,true,false,View-Through Attribution
-476106988062,2026-07-07 09:56:28-03,1,10363,196.9,false,false,true,false,false,true,false,false,Organic / App Discovery
-359997317202,2026-07-15 22:52:22-03,1,44655,848.45,false,false,true,false,false,false,true,false,View-Through Attribution
-862938574335,2026-08-19 10:59:29-03,1,14853,282.21,false,false,false,false,false,true,false,false,Organic / App Discovery
-732566723427,2026-09-15 18:15:51-03,1,7259,137.92,false,false,false,false,false,true,false,true,Direct Click Attribution
-414242989889,2026-06-15 19:24:40-03,3,63123,1199.34,false,false,true,false,false,true,true,false,View-Through Attribution
-527569033659,2026-09-09 14:32:25-03,1,17718,336.64,false,false,true,true,false,true,true,false,View-Through Attribution
-574497285976,2026-08-02 14:25:50-03,1,10924,207.56,false,false,true,true,false,true,false,false,View-Through Attribution
-824401705715,2026-08-26 16:54:58-03,2,13657,259.49,false,false,true,false,false,true,false,false,Organic / App Discovery
-291315168476,2026-08-13 13:58:10-03,2,22870,434.53,false,false,true,true,false,false,true,false,View-Through Attribution
-605740769860,2026-08-02 13:07:16-03,1,4767,90.57,false,false,true,true,true,true,false,false,Direct Click Attribution
-829395528785,2026-09-22 21:42:16-03,2,26615,505.69000000000005,false,false,true,false,false,true,true,false,View-Through Attribution
-280464298938,2026-07-25 16:18:59-03,3,14208,269.95,false,false,true,false,false,true,false,false,Organic / App Discovery
-687177746193,2026-06-16 23:59:24-03,1,59155,1123.95,false,false,false,false,false,true,false,false,Organic / App Discovery
-553461045858,2026-08-03 16:41:16-03,1,5886,111.83,false,false,true,false,false,true,false,true,Direct Click Attribution
-351203883978,2026-07-31 09:21:07-03,2,72955,1386.15,false,false,true,false,false,true,false,false,Organic / App Discovery
-224853788600,2026-07-17 17:44:55-03,1,7146,135.77,false,false,true,true,false,false,true,false,View-Through Attribution
-861976977075,2026-06-17 13:14:03-03,2,51286,974.43,false,false,true,false,false,false,true,false,View-Through Attribution
-479766932357,2026-06-18 09:32:07-03,1,3087,58.65,false,false,true,false,false,true,true,false,View-Through Attribution
-405482078509,2026-07-30 13:46:28-03,1,6280,119.32,false,false,true,false,false,true,true,false,View-Through Attribution
-162242690930,2026-09-21 19:53:34-03,1,4869,92.51,false,false,false,false,false,false,true,false,View-Through Attribution
-139958867227,2026-09-04 19:38:10-03,1,27284,518.4,false,false,true,false,false,true,true,false,View-Through Attribution
-831785189358,2026-09-03 14:17:07-03,2,29438,559.3199999999999,false,false,true,true,false,true,false,false,View-Through Attribution
-900478040871,2026-07-12 22:36:25-03,2,8971,170.45,false,false,false,false,false,true,true,false,View-Through Attribution
-887570591961,2026-08-09 15:12:19-03,1,11503,218.56,false,false,true,false,false,true,true,false,View-Through Attribution
-899968740427,2026-09-12 11:59:20-03,1,16247,308.69,false,false,true,false,false,true,true,false,View-Through Attribution
-421489867375,2026-06-02 19:07:10-03,1,13226,251.29,false,false,false,false,false,true,false,false,Organic / App Discovery
-958058548171,2026-09-02 16:03:05-03,2,20268,385.09,false,false,false,false,false,true,false,false,Organic / App Discovery
-618484337362,2026-09-01 15:20:52-03,2,15594,296.29,false,false,true,false,false,true,false,false,Organic / App Discovery
-447128318762,2026-09-22 11:27:01-03,1,8285,157.42,false,false,false,false,false,true,false,false,Organic / App Discovery
-643021820004,2026-07-25 17:27:23-03,1,9796,186.12,false,false,true,false,false,true,true,false,View-Through Attribution
-635025983927,2026-09-29 16:14:32-03,1,26903,511.16,false,false,true,true,false,true,true,false,View-Through Attribution
-426001074178,2026-07-05 10:09:14-03,1,9955,189.15,false,false,false,false,false,true,false,false,Organic / App Discovery
-669410455297,2026-09-20 14:13:13-03,1,7048,133.91,false,false,false,false,false,true,true,false,View-Through Attribution
-376177263562,2026-05-29 14:56:01-03,1,52708,1001.45,false,false,true,false,false,true,false,false,Organic / App Discovery
-289778417770,2026-09-02 22:40:17-03,1,7038,133.72,false,false,true,false,false,true,true,false,View-Through Attribution
-801502788598,2026-08-23 11:24:51-03,1,5691,108.13,false,false,true,true,false,true,true,false,View-Through Attribution
-490339479865,2026-07-25 13:51:41-03,1,18001,342.02,false,false,true,false,false,true,true,false,View-Through Attribution
-696044195184,2026-06-25 17:51:31-03,1,33874,643.61,false,false,true,true,false,true,true,false,View-Through Attribution
-275119305625,2026-08-20 23:59:24-03,2,17025,323.47,false,false,true,false,false,true,true,false,View-Through Attribution
-828432597760,2026-09-26 13:46:12-03,1,21730,412.87,false,false,false,false,false,true,false,false,Organic / App Discovery
-651649937928,2026-07-13 15:33:18-03,1,19955,379.15,false,false,false,false,false,true,true,false,View-Through Attribution
-958412276636,2026-06-08 15:57:27-03,2,16777,318.77,false,false,true,false,false,true,false,false,Organic / App Discovery
-637720691877,2026-06-02 20:54:52-03,2,16462,312.78000000000003,false,false,true,false,false,false,true,false,View-Through Attribution
-802118605466,2026-06-28 13:02:59-03,1,9672,183.77,false,false,true,false,false,true,true,false,View-Through Attribution
-583492643165,2026-08-08 13:50:48-03,1,14554,276.53,false,false,true,true,false,true,true,false,View-Through Attribution
-115835864533,2026-09-22 16:33:19-03,1,4519,85.86,false,false,true,true,false,true,false,false,View-Through Attribution
-370120133428,2026-08-20 17:18:32-03,3,29667,563.67,false,false,true,true,false,true,true,false,View-Through Attribution
-185854070671,2026-08-24 18:37:30-03,1,10111,192.11,false,false,true,false,false,true,true,false,View-Through Attribution
-192790643663,2026-08-25 18:17:07-03,1,4681,88.94,false,false,true,false,false,true,true,false,View-Through Attribution
-910091204954,2026-07-12 22:39:03-03,2,19671,373.75,false,false,true,false,false,true,true,false,View-Through Attribution
-283302777290,2026-06-28 15:24:26-03,3,52905,1005.19,false,false,true,true,false,true,true,false,View-Through Attribution
-913553499097,2026-08-28 15:17:03-03,1,13978,265.58,false,false,true,false,false,true,true,false,View-Through Attribution
-926660668590,2026-05-29 15:36:49-03,3,33979,645.6,false,false,true,true,false,false,true,false,View-Through Attribution
-250407784787,2026-08-10 21:10:29-03,3,47477,902.0699999999999,false,false,true,false,false,true,true,false,View-Through Attribution
-992749430755,2026-09-06 11:14:22-03,3,39674,753.81,false,false,true,false,false,false,true,false,View-Through Attribution
 681730738821,2026-05-30 16:12:39-03,2,21689,412.09000000000003,false,false,true,false,false,false,false,false,Organic / App Discovery
 553615838125,2026-06-02 22:32:06-03,1,2891,54.93,false,false,true,false,false,false,false,false,Organic / App Discovery
 220911379051,2026-06-03 10:38:12-03,2,18529,352.05,false,false,true,true,false,false,false,false,View-Through Attribution

@@ -3,24 +3,72 @@ marp: true
 theme: gaia
 _class: lead
 paginate: true
-backgroundColor: #0f172a
-color: #f8fafc
+backgroundColor: #060A1C
+color: #EAF0FF
 style: |
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap');
   section {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    padding: 40px;
+    font-family: 'Inter', system-ui, sans-serif;
+    padding: 44px;
+    background-color: #060A1C;
+    color: #EAF0FF;
   }
-  h1 { color: #38bdf8; font-size: 2.2rem; }
-  h2 { color: #38bdf8; font-size: 1.8rem; }
-  h3 { color: #94a3b8; font-size: 1.3rem; }
-  table { font-size: 0.75rem; width: 100%; border-collapse: collapse; }
-  th { background-color: #1e293b; color: #38bdf8; padding: 6px; }
-  td { padding: 6px; border-bottom: 1px solid #334155; }
-  .badge-pass { color: #4ade80; font-weight: bold; }
-  .badge-fail { color: #f87171; font-weight: bold; }
-  .badge-warn { color: #fbbf24; font-weight: bold; }
-  .highlight-card { background: #1e293b; border-radius: 8px; padding: 15px; margin: 10px 0; border-left: 4px solid #38bdf8; }
-  footer { font-size: 0.6rem; color: #64748b; }
+  h1, h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  h1 { font-size: 2.1rem; color: #EAF0FF; }
+  h2 { font-size: 1.65rem; color: #00CFFF; }
+  h3 {
+    font-family: 'Roboto Mono', monospace;
+    color: #A9B4D0;
+    font-size: 1.05rem;
+    font-weight: 400;
+  }
+  table {
+    font-size: 0.74rem;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Roboto Mono', monospace;
+    border: 1px solid rgba(255,255,255,0.09);
+  }
+  th {
+    background-color: #0A0F28;
+    color: #00CFFF;
+    padding: 8px 10px;
+    border-bottom: 2px solid #1E2BFF;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+  }
+  td {
+    padding: 7px 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.09);
+    color: #A9B4D0;
+  }
+  .badge-pass { color: #3DFF6E; font-weight: bold; }
+  .badge-fail { color: #FF4D4F; font-weight: bold; }
+  .badge-warn { color: #FAAD14; font-weight: bold; }
+  .highlight-card {
+    background: #0E142F;
+    border-radius: 0px;
+    padding: 16px 20px;
+    margin: 12px 0;
+    border: 1px solid rgba(255,255,255,0.09);
+    border-left: 3px solid #00CFFF;
+  }
+  code {
+    font-family: 'Roboto Mono', monospace;
+    background: rgba(0,207,255,0.08);
+    color: #00CFFF;
+    padding: 2px 6px;
+    border-radius: 0px;
+  }
+  footer {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.65rem;
+    color: #6B7699;
+  }
 ---
 
 # Programa Pontua+ · Banco Aurora
@@ -28,12 +76,23 @@ style: |
 
 **Apresentador:** Lucas Oliveira (Analytics Engineering)  
 **Data:** Outubro / 2026  
-**Case:** AE Brain003
+**Case:** Brain003 · Branch: `entrega`
+
+---
+
+## 📑 Sumário Executivo & Agenda da Apresentação
+
+* **[Bloco 1] Modelo Econômico & Ruptura do Pix:** As 5 engrenagens de lucro e o impacto da queima em dinheiro vivo *(Slides 03 e 04)*.
+* **[Bloco 2] Diagnóstico Transacional:** Salto de +70% no resgate e efeito de diluição matemática no Varejo *(Slide 05)*.
+* **[Bloco 3] Auditoria Analítica das 3 Hipóteses:** Veredito rigoroso sobre CRM (campanhas), Operador (custo de R$ 0,016) e Diretor (breakage de 40%) *(Slides 06 a 08)*.
+* **[Bloco 4] Alertas Operacionais de Sistemas:** Fricção de 14,4% de falha no Pix e 1.805 contas negativas no ledger *(Slide 09)*.
+* **[Bloco 5] Recomendações Estratégicas & Próximos Passos:** Plano em 4 pilares de viabilidade financeira e perguntas aos stakeholders *(Slides 10 e 11)*.
 
 ---
 
 ## 🏛️ Prefácio: Como o Programa Realmente Ganha Dinheiro?
 ### *O Modelo de Negócio do Pontua+ em 5 Etapas*
+
 
 1. **Venda de Pontos ao Banco [*earn*]:** O Banco Aurora recolhe a taxa de intercâmbio dos cartões e compra pontos do Pontua+ em dinheiro vivo.
 2. **Dinheiro Rendendo no Banco [*float*]:** Entre a emissão e o resgate (12 a 24 meses), o saldo recebido do banco fica investido rendendo CDI.
@@ -161,5 +220,5 @@ Ao lançar o Pix a **R$ 0,019 por ponto** em 27/05/2026:
 # Obrigado!
 ## Perguntas e Discussão
 
-Lucas Oliveira · Analytics Engineering
-Case Pontua+ · Outubro/2026
+Lucas Oliveira · Analytics Engineering  
+Brain003 · Case Pontua+ · Outubro/2026

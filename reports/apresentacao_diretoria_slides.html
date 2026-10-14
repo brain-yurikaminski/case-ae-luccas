@@ -3,38 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Apresentação Diretoria · Programa Pontua+ (Lucas Oliveira)</title>
+  <title>Brain003 · Apresentação Diretoria · Programa Pontua+ (Lucas Oliveira)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #0b1120;
-      --card-bg: #1e293b;
-      --card-border: #334155;
-      --text: #f8fafc;
-      --text-muted: #94a3b8;
-      --primary: #38bdf8;
-      --primary-dark: #0284c7;
-      --accent: #818cf8;
-      --success: #4ade80;
-      --danger: #f87171;
-      --warning: #fbbf24;
+      /* ---- Cores da Marca Brain003 ---- */
+      --blue-electric: #1E2BFF;   /* primária — display/accent */
+      --blue-royal: #2438E6;      /* fundos e capas */
+      --cyan: #00CFFF;            /* acento de dados / títulos técnicos */
+      --green-neon: #3DFF6E;      /* SOMENTE data-viz / sinapse — nunca em texto longo */
+      --navy-900: #060A1C;        /* fundo profundo (default dark) */
+      --navy-850: #0A0F28;        /* container dos slides */
+      --navy-800: #0E142F;        /* cards sobre dark */
+      --navy-700: #161D40;        /* bordas elevadas / strokes */
+      --light-bg: #F1F3F8;
+      --light-card: #FFFFFF;
+      --ink: #0C1230;
+      --text-hi: #EAF0FF;         /* texto principal sobre dark */
+      --text-mid: #A9B4D0;        /* texto secundário sobre dark (AA ok) */
+      --text-low: #6B7699;        /* legendas / apoios */
+      --stroke: rgba(255, 255, 255, 0.09);
+      --stroke-strong: rgba(255, 255, 255, 0.16);
+
+      /* ---- Status ---- */
+      --danger: #FF4D4F;
+      --warning: #FAAD14;
+      --success: #3DFF6E;
+
+      /* ---- Gradientes ---- */
+      --grad-hero: radial-gradient(120% 130% at 75% 18%, #2438E6 0%, #0E142F 46%, #060A1C 100%);
+      --grad-brand: linear-gradient(135deg, #1E2BFF 0%, #00CFFF 100%);
+      --grad-synapse: linear-gradient(135deg, #00CFFF 0%, #3DFF6E 100%);
+      --grad-cta: linear-gradient(135deg, #1E2BFF 0%, #2438E6 100%);
+
+      /* ---- Tipografia ---- */
+      --font-display: 'Roboto Mono', 'SF Mono', ui-monospace, monospace;
+      --font-mono: 'Roboto Mono', 'SF Mono', ui-monospace, monospace;
+      --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+      /* ---- Geometria v2.1: FLAT (0px absoluto) ---- */
+      --radius: 0px;
     }
 
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
+      border-radius: 0 !important;
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
+      font-family: var(--font-body);
+      background: var(--navy-900);
+      color: var(--text-hi);
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       min-height: 100vh;
       overflow: hidden;
+      -webkit-font-smoothing: antialiased;
     }
 
     /* Container do Slide */
@@ -45,70 +75,160 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 24px;
     }
 
     .slide {
       display: none;
-      width: 90%;
-      max-width: 1100px;
-      height: 85vh;
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 16px;
-      padding: 48px;
-      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+      width: 92%;
+      max-width: 1160px;
+      height: 86vh;
+      background: var(--navy-850);
+      border: 1px solid var(--stroke);
+      padding: 40px 48px;
+      box-shadow: 0 1px 0 rgba(255,255,255,.04) inset, 0 20px 40px -24px rgba(0,0,0,.7);
       flex-direction: column;
       justify-content: space-between;
-      animation: fadeIn 0.3s ease-in-out;
+      position: relative;
       overflow-y: auto;
+      animation: fadeIn 0.25s ease-out;
     }
 
     .slide.active {
       display: flex;
     }
 
+    .slide.hero-slide {
+      background: var(--grad-hero);
+    }
+
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(8px); }
+      from { opacity: 0; transform: translateY(6px); }
       to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Marca D'água Brain003 e Top Actions */
+    .sl-top-bar {
+      position: absolute;
+      top: 22px;
+      right: 36px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      z-index: 10;
+    }
+
+    .sl-brand {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1.15rem;
+      letter-spacing: -0.03em;
+      color: var(--text-hi);
+      display: inline-flex;
+      align-items: flex-start;
+      user-select: none;
+    }
+
+    .sl-brand .sup {
+      font-size: 0.45em;
+      font-weight: 700;
+      transform: translateY(0.12em);
+      margin-left: 0.08em;
+      color: var(--cyan);
+      letter-spacing: 0;
+    }
+
+    .nav-jump-chip {
+      background: var(--navy-800);
+      border: 1px solid var(--stroke);
+      color: var(--cyan);
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      padding: 4px 10px;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: all 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .nav-jump-chip:hover {
+      background: var(--blue-electric);
+      color: #fff;
+      border-color: var(--blue-electric);
+    }
+
+    .sl-footer-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 14px;
+      border-top: 1px solid var(--stroke);
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--text-low);
+      margin-top: 14px;
+    }
+
+    .sl-footer-meta a {
+      color: var(--cyan);
+      text-decoration: none;
+    }
+
+    .sl-footer-meta a:hover {
+      text-decoration: underline;
     }
 
     /* Tipografia e Títulos */
     .slide-header {
-      border-bottom: 1px solid var(--card-border);
+      border-bottom: 1px solid var(--stroke);
       padding-bottom: 16px;
-      margin-bottom: 24px;
+      margin-bottom: 18px;
+      padding-right: 220px;
     }
 
     .tag {
       display: inline-block;
-      background: rgba(56, 189, 248, 0.15);
-      color: var(--primary);
-      padding: 4px 10px;
-      border-radius: 20px;
-      font-size: 0.8rem;
-      font-weight: 600;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      color: var(--cyan);
+      background: rgba(0, 207, 255, 0.1);
+      border: 1px solid rgba(0, 207, 255, 0.3);
+      padding: 3px 10px;
       margin-bottom: 8px;
+      font-weight: 600;
     }
 
     h1 {
-      font-size: 2.2rem;
-      color: var(--primary);
-      margin-bottom: 8px;
+      font-family: var(--font-display);
+      font-size: 2.1rem;
+      letter-spacing: -0.03em;
+      color: var(--text-hi);
       font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 6px;
     }
 
     h2 {
-      font-size: 1.8rem;
-      color: var(--primary);
+      font-family: var(--font-display);
+      font-size: 1.7rem;
+      letter-spacing: -0.02em;
+      color: var(--text-hi);
+      font-weight: 700;
+      line-height: 1.2;
       margin-bottom: 6px;
     }
 
     h3 {
-      font-size: 1.15rem;
-      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.95rem;
+      color: var(--text-mid);
       font-weight: 400;
+      line-height: 1.4;
     }
 
     .slide-body {
@@ -116,98 +236,189 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      gap: 16px;
+      gap: 14px;
     }
 
     /* Grids e Cards */
     .grid-2 {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 20px;
+      gap: 16px;
     }
 
     .grid-3 {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
-    }
-
-    .grid-4 {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
       gap: 14px;
     }
 
+    .grid-5-agenda {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 12px;
+    }
+
     .card {
-      background: rgba(15, 23, 42, 0.6);
-      border: 1px solid var(--card-border);
-      border-radius: 12px;
-      padding: 20px;
+      background: var(--navy-800);
+      border: 1px solid var(--stroke);
+      padding: 16px 20px;
+      box-shadow: 0 1px 0 rgba(255,255,255,.03) inset;
+    }
+
+    .card h4 {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 0.98rem;
+      letter-spacing: -0.01em;
+      margin-bottom: 8px;
+      color: var(--text-hi);
+    }
+
+    .card p {
+      font-family: var(--font-body);
+      font-size: 0.86rem;
+      line-height: 1.6;
+      color: var(--text-mid);
     }
 
     .card-primary {
-      border-left: 4px solid var(--primary);
+      border-left: 3px solid var(--cyan);
+    }
+
+    .card-blue {
+      border-left: 3px solid var(--blue-electric);
     }
 
     .card-danger {
-      border-left: 4px solid var(--danger);
+      border-left: 3px solid var(--danger);
     }
 
     .card-success {
-      border-left: 4px solid var(--success);
+      border-left: 3px solid var(--success);
     }
 
     .card-warning {
-      border-left: 4px solid var(--warning);
+      border-left: 3px solid var(--warning);
     }
 
-    .kpi-num {
-      font-size: 2rem;
-      font-weight: 800;
-      color: var(--primary);
-      margin: 4px 0;
+    /* Cards Interativos de Agenda */
+    .agenda-card {
+      background: var(--navy-800);
+      border: 1px solid var(--stroke);
+      padding: 16px 14px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 220px;
+      transition: all 0.2s ease;
+      position: relative;
     }
 
-    .kpi-danger { color: var(--danger); }
-    .kpi-success { color: var(--success); }
-    .kpi-warning { color: var(--warning); }
+    .agenda-card:hover {
+      background: var(--navy-700);
+      border-color: var(--cyan);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px -10px rgba(0, 207, 255, 0.3);
+    }
+
+    .agenda-num {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--blue-electric);
+      filter: brightness(1.6);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .agenda-title {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--text-hi);
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .agenda-desc {
+      font-family: var(--font-body);
+      font-size: 0.8rem;
+      color: var(--text-mid);
+      line-height: 1.5;
+      flex: 1;
+    }
+
+    .agenda-action {
+      margin-top: 14px;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--cyan);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
 
     /* Tabelas */
     table {
       width: 100%;
       border-collapse: collapse;
-      font-size: 0.85rem;
-      margin-top: 8px;
+      font-size: 0.8rem;
+      margin-top: 6px;
+      border: 1px solid var(--stroke);
     }
 
     th {
-      background: rgba(15, 23, 42, 0.8);
-      color: var(--primary);
-      padding: 10px;
+      background: var(--navy-900);
+      color: var(--cyan);
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 9px 12px;
       text-align: left;
-      border-bottom: 2px solid var(--card-border);
+      border-bottom: 2px solid var(--blue-electric);
     }
 
     td {
-      padding: 9px 10px;
-      border-bottom: 1px solid var(--card-border);
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--stroke);
+      font-family: var(--font-mono);
+      color: var(--text-mid);
+      font-size: 0.8rem;
     }
 
     tr:hover {
-      background: rgba(56, 189, 248, 0.05);
+      background: rgba(30, 43, 255, 0.08);
     }
 
     /* Badges */
     .badge {
       display: inline-block;
-      padding: 3px 8px;
-      border-radius: 6px;
-      font-size: 0.75rem;
-      font-weight: 700;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      padding: 2px 7px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
     }
-    .badge-pass { background: rgba(74, 222, 128, 0.2); color: var(--success); }
-    .badge-fail { background: rgba(248, 113, 113, 0.2); color: var(--danger); }
-    .badge-warn { background: rgba(251, 191, 36, 0.2); color: var(--warning); }
+    .badge-pass {
+      background: rgba(61, 255, 110, 0.12);
+      color: var(--success);
+      border: 1px solid rgba(61, 255, 110, 0.35);
+    }
+    .badge-fail {
+      background: rgba(255, 77, 79, 0.12);
+      color: var(--danger);
+      border: 1px solid rgba(255, 77, 79, 0.35);
+    }
+    .badge-warn {
+      background: rgba(250, 173, 20, 0.12);
+      color: var(--warning);
+      border: 1px solid rgba(250, 173, 20, 0.35);
+    }
 
     /* Barra de Navegação */
     .nav-bar {
@@ -215,48 +426,60 @@
       bottom: 16px;
       display: flex;
       align-items: center;
-      gap: 16px;
-      background: rgba(30, 41, 59, 0.8);
-      backdrop-filter: blur(8px);
-      border: 1px solid var(--card-border);
-      padding: 8px 20px;
-      border-radius: 30px;
+      gap: 10px;
+      background: var(--navy-900);
+      border: 1px solid var(--stroke-strong);
+      padding: 6px 16px;
       z-index: 100;
+      box-shadow: 0 10px 25px -10px rgba(0,0,0,0.8);
     }
 
     .nav-btn {
-      background: none;
-      border: none;
-      color: var(--text);
+      background: var(--navy-800);
+      border: 1px solid var(--stroke);
+      color: var(--text-hi);
       cursor: pointer;
-      font-size: 1.2rem;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
       padding: 4px 10px;
-      border-radius: 6px;
-      transition: all 0.2s;
+      transition: all 0.15s ease;
     }
 
     .nav-btn:hover {
-      color: var(--primary);
-      background: rgba(56, 189, 248, 0.1);
+      background: var(--blue-electric);
+      color: #fff;
+      border-color: var(--blue-electric);
     }
 
     .slide-counter {
-      font-size: 0.85rem;
-      color: var(--text-muted);
-      font-weight: 600;
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--text-mid);
+      letter-spacing: 0.04em;
+      padding: 0 6px;
     }
 
     .lead-text {
-      font-size: 1.15rem;
+      font-family: var(--font-body);
+      font-size: 0.95rem;
       line-height: 1.6;
-      color: #cbd5e1;
+      color: var(--text-hi);
     }
 
-    /* Responsividade e Impressão (PDF) */
+    code {
+      font-family: var(--font-mono);
+      background: rgba(0, 207, 255, 0.08);
+      color: var(--cyan);
+      padding: 2px 6px;
+      font-size: 0.85em;
+      border: 1px solid rgba(0, 207, 255, 0.2);
+    }
+
+    /* Impressão e PDF (Cmd+P) */
     @media print {
       body { background: white; color: black; overflow: visible; }
-      .nav-bar { display: none; }
-      .deck-container { display: block; height: auto; }
+      .nav-bar, .sl-top-bar { display: none; }
+      .deck-container { display: block; height: auto; padding: 0; }
       .slide {
         display: flex !important;
         page-break-after: always;
@@ -266,11 +489,15 @@
         border: none;
         box-shadow: none;
         background: white;
-        color: black;
+        color: #0c1230;
+        padding: 40px;
       }
-      h1, h2, h3, .tag, th { color: #0284c7 !important; }
-      .card { background: #f8fafc; border: 1px solid #cbd5e1; }
-      td, th { border-color: #cbd5e1; color: black; }
+      h1, h2, h3, .tag, th { color: #1e2bff !important; }
+      .card, .agenda-card { background: #f8fafc; border: 1px solid #cbd5e1; color: #0c1230; }
+      .card h4, .agenda-title { color: #0c1230; }
+      .card p, .agenda-desc { color: #334155; }
+      td, th { border-color: #cbd5e1; color: #0c1230; }
+      code { background: #e2e8f0; color: #1e2bff; }
     }
   </style>
 </head>
@@ -278,126 +505,226 @@
 
 <div class="deck-container">
 
-  <!-- SLIDE 1: CAPA -->
-  <div class="slide active">
+  <!-- SLIDE 1: CAPA (HERO SLIDE) -->
+  <div class="slide hero-slide active">
+    <div class="sl-top-bar">
+      <div class="sl-brand">Brain<span class="sup">003</span></div>
+    </div>
     <div class="slide-header">
-      <span class="tag">Case Analytics Engineer · Brain003</span>
+      <span class="tag">Case Analytics Engineer</span>
       <h1>Programa Pontua+ · Banco Aurora</h1>
-      <h3>Diagnóstico de Resgates pós-Pix, Auditoria das 3 Afirmações e Plano Estratégico</h3>
+      <h3>Diagnóstico de Resgates pós-Pix, Auditoria das 3 Afirmações e Recomendações Estratégicas</h3>
     </div>
     <div class="slide-body">
       <div class="grid-2">
         <div class="card card-primary">
-          <h4 style="color: var(--primary); margin-bottom: 8px;">🎯 Contexto do Desafio</h4>
-          <p class="lead-text">
-            Em <strong>27/05/2026</strong>, o programa lançou o <strong>Pontos no Pix</strong> (R$ 0,019/ponto). O volume de resgate disparou, alterando o mix contratual de Aéreas (&ge;50%) e Varejo (&ge;20%) e levantando dúvidas cruciais sobre custo, sustentabilidade e campanhas.
+          <h4 style="color: var(--cyan);">🎯 Contexto do Desafio</h4>
+          <p class="lead-text" style="margin-top: 6px;">
+            Em <strong>27/05/2026</strong>, o programa lançou o <strong>Pontos no Pix</strong> (R$ 0,019/ponto). O volume de resgate saltou +70%, diluindo o mix contratual de Aéreas (&ge;50%) e Varejo (&ge;20%) e levantando questionamentos críticos da diretoria sobre custo, queima de caixa e causalidade de marketing.
           </p>
         </div>
-        <div class="card">
-          <h4 style="color: var(--text-muted); margin-bottom: 8px;">📋 Entregáveis e Pautas</h4>
-          <ul style="margin-left: 20px; line-height: 1.8; color: #cbd5e1;">
-            <li><strong>Prefácio:</strong> Como o modelo de pontos realmente lucra.</li>
-            <li><strong>Diagnóstico:</strong> Comportamento dos resgates e metas.</li>
-            <li><strong>Auditoria Analítica:</strong> Veredito das afirmações de CRM, Operador e Diretor.</li>
-            <li><strong>Recomendação Executiva:</strong> Plano em 4 pilares de viabilidade.</li>
+        <div class="card card-blue">
+          <h4 style="color: var(--blue-electric); filter: brightness(1.6);">📋 Destaques da Apresentação</h4>
+          <ul style="margin-left: 18px; line-height: 1.8; color: var(--text-mid); font-size: 0.9rem;">
+            <li><strong>Prefácio:</strong> Como o programa de pontos realmente lucra.</li>
+            <li><strong>Diagnóstico:</strong> Comportamento dos resgates e efeito diluição.</li>
+            <li><strong>Auditoria Analítica:</strong> Veredito das 3 afirmações (CRM, Operador e Diretor).</li>
+            <li><strong>Recomendação Executiva:</strong> Plano em 4 pilares de sustentabilidade.</li>
           </ul>
         </div>
       </div>
-      <div style="margin-top: 20px; font-size: 0.9rem; color: var(--text-muted); display: flex; justify-content: space-between;">
-        <span><strong>Apresentador:</strong> Lucas Oliveira</span>
-        <span><strong>Stack:</strong> SQL · DuckDB · Python · Pytest</span>
-        <span><strong>Outubro / 2026</strong></span>
+      <div style="margin-top: 10px; display: flex; justify-content: flex-end;">
+        <button class="nav-jump-chip" onclick="goToSlide(1)" style="padding: 8px 16px; font-size: 0.85rem; background: var(--blue-electric); color: #fff; border-color: var(--blue-electric);">
+          Acessar Sumário & Navegação Direta &rarr;
+        </button>
       </div>
+    </div>
+    <div class="sl-footer-meta">
+      <span><strong>Apresentador:</strong> Lucas Oliveira (Analytics Engineering)</span>
+      <span><strong>Stack:</strong> SQL · DuckDB · Python · Pytest</span>
+      <span><strong>Data:</strong> Outubro / 2026 · Branch: <code>entrega</code></span>
     </div>
   </div>
 
-  <!-- SLIDE 2: PREFÁCIO DO MODELO DE NEGÓCIOS -->
+  <!-- SLIDE 2: SUMÁRIO & AGENDA INTERATIVA COM LINKS -->
   <div class="slide">
+    <div class="sl-top-bar">
+      <div class="sl-brand">Brain<span class="sup">003</span></div>
+    </div>
     <div class="slide-header">
-      <span class="tag">Engenharia de Negócios</span>
+      <span class="tag">Mapa da Apresentação</span>
+      <h2>Sumário Executivo & Agenda de Navegação</h2>
+      <h3>Clique em qualquer bloco temático para navegar diretamente para a seção desejada</h3>
+    </div>
+    <div class="slide-body">
+      <div class="grid-5-agenda">
+        <!-- BLOCO 1 -->
+        <div class="agenda-card" onclick="goToSlide(2)" title="Ir para Bloco 1: Modelo Econômico">
+          <div>
+            <div class="agenda-num">01</div>
+            <div class="agenda-title">Modelo Econômico</div>
+            <div class="agenda-desc">Como o programa lucra (as 5 engrenagens) e por que o Pix rompeu o equilíbrio.</div>
+          </div>
+          <div class="agenda-action">Slides 03 e 04 &rarr;</div>
+        </div>
+
+        <!-- BLOCO 2 -->
+        <div class="agenda-card" onclick="goToSlide(4)" title="Ir para Bloco 2: Diagnóstico dos Dados">
+          <div>
+            <div class="agenda-num">02</div>
+            <div class="agenda-title">Diagnóstico pós-Pix</div>
+            <div class="agenda-desc">Salto de +70% nos resgates, evolução mensal e o efeito diluição no Varejo.</div>
+          </div>
+          <div class="agenda-action">Slide 05 &rarr;</div>
+        </div>
+
+        <!-- BLOCO 3 -->
+        <div class="agenda-card" onclick="goToSlide(5)" title="Ir para Bloco 3: Auditoria das 3 Hipóteses">
+          <div>
+            <div class="agenda-num">03</div>
+            <div class="agenda-title">Auditoria Analítica</div>
+            <div class="agenda-desc">Veredito rigoroso das 3 afirmações: CRM (campanhas), Operador (custo) e Diretor (breakage).</div>
+          </div>
+          <div class="agenda-action">Slides 06 a 08 &rarr;</div>
+        </div>
+
+        <!-- BLOCO 4 -->
+        <div class="agenda-card" onclick="goToSlide(8)" title="Ir para Bloco 4: Alertas Operacionais">
+          <div>
+            <div class="agenda-num">04</div>
+            <div class="agenda-title">Alertas de Sistemas</div>
+            <div class="agenda-desc">14,4% de falhas no Pix e anomalia cadastral de 1.805 contas negativas no ledger.</div>
+          </div>
+          <div class="agenda-action">Slide 09 &rarr;</div>
+        </div>
+
+        <!-- BLOCO 5 -->
+        <div class="agenda-card" onclick="goToSlide(9)" title="Ir para Bloco 5: Recomendações e Próximos Passos">
+          <div>
+            <div class="agenda-num">05</div>
+            <div class="agenda-title">Plano Estratégico</div>
+            <div class="agenda-desc">Reequilíbrio em 4 pilares, economia de R$ 60k/mês e perguntas à diretoria.</div>
+          </div>
+          <div class="agenda-action">Slides 10 e 11 &rarr;</div>
+        </div>
+      </div>
+    </div>
+    <div class="sl-footer-meta">
+      <span><a href="javascript:goToSlide(0)">&larr; Voltar à Capa</a></span>
+      <span>Use as setas do teclado ou clique nos blocos acima para navegar</span>
+      <span>02 / 11</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 3: PREFÁCIO DO MODELO DE NEGÓCIOS -->
+  <div class="slide">
+    <div class="sl-top-bar">
+      <button class="nav-jump-chip" onclick="goToSlide(1)">📑 Sumário</button>
+      <div class="sl-brand">Brain<span class="sup">003</span></div>
+    </div>
+    <div class="slide-header">
+      <span class="tag">Engenharia de Negócios · Bloco 1</span>
       <h2>Como um Programa de Pontos Realmente Ganha Dinheiro?</h2>
       <h3>As 5 engrenagens financeiras que sustentam o modelo de negócio do Pontua+</h3>
     </div>
     <div class="slide-body">
       <div class="grid-3">
         <div class="card card-primary">
-          <h4 style="color: var(--primary);">1. Venda de Pontos [earn]</h4>
-          <p style="font-size: 0.85rem; color: #cbd5e1; margin-top: 6px;">
+          <h4 style="color: var(--cyan);">1. Venda de Pontos [earn]</h4>
+          <p>
             O Banco Aurora recolhe a taxa de intercâmbio dos cartões e <strong>paga em dinheiro vivo ao Pontua+</strong> a cada ponto emitido, muito antes do cliente resgatar.
           </p>
         </div>
         <div class="card card-primary">
-          <h4 style="color: var(--primary);">2. Dinheiro Rendendo [float]</h4>
-          <p style="font-size: 0.85rem; color: #cbd5e1; margin-top: 6px;">
-            O cliente passa de 12 a 24 meses juntando pontos. Enquanto isso, o dinheiro adiantado pelo banco fica aplicado rendendo CDI para o programa.
+          <h4 style="color: var(--cyan);">2. Dinheiro Rendendo [float]</h4>
+          <p>
+            O cliente passa de 12 a 24 meses acumulando pontos. Enquanto isso, o montante adiantado pelo banco fica aplicado rendendo CDI para o programa.
           </p>
         </div>
         <div class="card card-success">
           <h4 style="color: var(--success);">3. Pontos que Vencem [breakage]</h4>
-          <p style="font-size: 0.85rem; color: #cbd5e1; margin-top: 6px;">
-            Clientes que esquecem pontos deixam o saldo expirar. Como o banco já pagou por eles, esses pontos viram <strong>100% de lucro líquido</strong>.
+          <p>
+            Clientes que esquecem pontos deixam o saldo expirar. Como o banco já pagou por eles, esses pontos viram <strong>100% de margem de lucro líquido</strong>.
           </p>
         </div>
       </div>
-      <div class="grid-2" style="margin-top: 14px;">
-        <div class="card card-primary">
-          <h4 style="color: var(--primary);">4. Margem no Resgate [burn margin]</h4>
-          <p style="font-size: 0.85rem; color: #cbd5e1; margin-top: 6px;">
-            <strong>Varejo do Grupo (Casa&Cia, MegaMagazine):</strong> compra barato de fábrica no atacado e lucra 20% a 30% na troca.<br>
-            <strong>Passagens Aéreas:</strong> produto caro, serve como <em>chamariz</em> para atrair clientes de alta renda (Black/Infinite).
+      <div class="grid-2" style="margin-top: 10px;">
+        <div class="card card-blue">
+          <h4 style="color: var(--blue-electric); filter: brightness(1.6);">4. Margem no Resgate de Produtos [burn]</h4>
+          <p>
+            <strong>Varejo Próprio (Casa&Cia, MegaMagazine):</strong> compra no atacado direto da fábrica e lucra 20% a 30% no spread comercial da troca.<br>
+            <strong>Passagens Aéreas:</strong> produto caro de margem estreita, mas funciona como <em>chamariz</em> para atrair clientes de alta renda (Black/Infinite).
           </p>
         </div>
         <div class="card card-primary">
-          <h4 style="color: var(--primary);">5. Venda Direta de Pontos [top-up]</h4>
-          <p style="font-size: 0.85rem; color: #cbd5e1; margin-top: 6px;">
-            Clientes pagam com cartão para completar saldo restante para passagens (gerou R$ 101 mil faturados no período).
+          <h4 style="color: var(--cyan);">5. Venda Direta de Pontos Extras [top-up]</h4>
+          <p>
+            Clientes pagam com cartão de crédito para completar pequenos saldos faltantes para resgatar passagens (faturou R$ 101 mil adicionais no período).
           </p>
         </div>
       </div>
     </div>
+    <div class="sl-footer-meta">
+      <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
+      <span>Pontua+ · Modelo Econômico de Fidelidade</span>
+      <span>03 / 11</span>
+    </div>
   </div>
 
-  <!-- SLIDE 3: O PONTO DE RUPTURA DO PIX -->
+  <!-- SLIDE 4: O PONTO DE RUPTURA DO PIX -->
   <div class="slide">
+    <div class="sl-top-bar">
+      <button class="nav-jump-chip" onclick="goToSlide(1)">📑 Sumário</button>
+      <div class="sl-brand">Brain<span class="sup">003</span></div>
+    </div>
     <div class="slide-header">
-      <span class="tag">Análise de Impacto</span>
+      <span class="tag">Análise de Impacto · Bloco 1</span>
       <h2>Por que o "Pontos no Pix" Rompeu Essa Lógica?</h2>
-      <h3>A nova modalidade atacou diretamente as fontes de rentabilidade do programa</h3>
+      <h3>A nova modalidade atacou diretamente as duas maiores fontes de lucro do programa</h3>
     </div>
     <div class="slide-body">
       <div class="grid-2">
         <div class="card card-danger">
           <h4 style="color: var(--danger);">🚫 Zera a Margem Comercial de Produto</h4>
-          <p style="font-size: 0.9rem; color: #cbd5e1; margin-top: 8px;">
-            Não há mercadoria comprada no atacado com desconto. O programa desembolsa moeda corrente líquida (~R$ 175 mil/mês) direto do caixa.
+          <p>
+            Não há mercadoria física comprada no atacado com desconto. O programa passa a desembolsar <strong>moeda corrente líquida (~R$ 175 mil/mês)</strong> direto da conta corrente do negócio.
           </p>
         </div>
         <div class="card card-danger">
           <h4 style="color: var(--danger);">📉 Destrói o Lucro da Expiração (Breakage)</h4>
-          <p style="font-size: 0.9rem; color: #cbd5e1; margin-top: 8px;">
-            Clientes <strong>Essencial e Gold</strong> com poucos pontos, que antes deixariam o saldo vencer (virando 100% de lucro), agora sacam R$ 20 ou R$ 50 no Pix.
+          <p>
+            Clientes de entrada (<strong>Essencial e Gold</strong>) com saldos baixos, que antes deixariam o saldo vencer (gerando 100% de lucro), agora sacam R$ 20 ou R$ 50 via Pix.
           </p>
         </div>
         <div class="card card-danger">
           <h4 style="color: var(--danger);">💸 Mais Caro do que Passagem Aérea</h4>
-          <p style="font-size: 0.9rem; color: #cbd5e1; margin-top: 8px;">
-            Pagar <strong>R$ 0,019 em dinheiro vivo</strong> é mais caro para a empresa do que bancar uma passagem aérea (~R$ 0,0162) ou produto de parceiro (~R$ 0,0125).
+          <p>
+            Pagar <strong>R$ 0,019 em dinheiro vivo</strong> é economicamente mais caro para a empresa do que bancar uma passagem aérea (~R$ 0,0162) ou produto de parceiro (~R$ 0,0125).
           </p>
         </div>
-        <div class="card card-danger">
-          <h4 style="color: var(--danger);">⚖️ Efeito Colateral nas Metas Contratuais</h4>
-          <p style="font-size: 0.9rem; color: #cbd5e1; margin-top: 8px;">
+        <div class="card card-warning">
+          <h4 style="color: var(--warning);">⚖️ Efeito Colateral nas Metas Contratuais</h4>
+          <p>
             A entrada de +10M pts/mês de dinheiro vivo inflou o denominador total e espremeu a fatia do Varejo para ~13%, furando a meta de 20% com o Banco.
           </p>
         </div>
       </div>
     </div>
+    <div class="sl-footer-meta">
+      <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
+      <span>Pontua+ · Ruptura de Equilíbrio Financeiro</span>
+      <span>04 / 11</span>
+    </div>
   </div>
 
-  <!-- SLIDE 4: DIAGNÓSTICO DOS DADOS PÓS-PIX -->
+  <!-- SLIDE 5: DIAGNÓSTICO DOS DADOS PÓS-PIX -->
   <div class="slide">
+    <div class="sl-top-bar">
+      <button class="nav-jump-chip" onclick="goToSlide(1)">📑 Sumário</button>
+      <div class="sl-brand">Brain<span class="sup">003</span></div>
+    </div>
     <div class="slide-header">
-      <span class="tag">Diagnóstico Transacional</span>
+      <span class="tag">Diagnóstico Transacional · Bloco 2</span>
       <h2>O Que Aconteceu Após o Lançamento do Pix?</h2>
       <h3>O volume total de queima saltou +70%, diluindo o mix contratual</h3>
     </div>
@@ -417,7 +744,7 @@
         </thead>
         <tbody>
           <tr>
-            <td><strong>2026-04</strong></td>
+            <td><strong>2026-04 (Pré-Pix)</strong></td>
             <td>15.212.500</td>
             <td>80,7% <span class="badge badge-pass">OK</span></td>
             <td>3.630.976</td>
@@ -427,7 +754,7 @@
             <td>18.843.476</td>
           </tr>
           <tr>
-            <td><strong>2026-05</strong></td>
+            <td><strong>2026-05 (Lançamento)</strong></td>
             <td>16.111.500</td>
             <td>74,8% <span class="badge badge-pass">OK</span></td>
             <td>4.365.976</td>
@@ -478,111 +805,140 @@
           </tr>
         </tbody>
       </table>
-      <div class="card card-warning" style="margin-top: 10px; font-size: 0.85rem;">
-        <strong>Conclusão Analítica:</strong> O Varejo não caiu em volume absoluto (permaneceu em ~4M pts/mês). O descumprimento decorre de <strong>diluição matemática do denominador</strong> pelo Pix. Cartões <strong>Essencial e Gold</strong> foram os maiores adotantes (48% do volume de Pix).
+      <div class="card card-warning" style="margin-top: 6px;">
+        <p style="font-size: 0.84rem; color: var(--text-hi);">
+          <strong>Conclusão Matemática:</strong> O Varejo não caiu em volume absoluto (permaneceu em ~4M pts/mês). O descumprimento contratual é fruto exclusivo de <strong>diluição matemática do denominador</strong> pelo Pix. Cartões <strong>Essencial e Gold</strong> foram os maiores adotantes (48% do volume Pix).
+        </p>
       </div>
+    </div>
+    <div class="sl-footer-meta">
+      <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
+      <span>Pontua+ · Evolução Mensal dos Resgates</span>
+      <span>05 / 11</span>
     </div>
   </div>
 
-  <!-- SLIDE 5: AFIRMAÇÃO 1 - CRM -->
+  <!-- SLIDE 6: AFIRMAÇÃO 1 - CRM -->
   <div class="slide">
+    <div class="sl-top-bar">
+      <button class="nav-jump-chip" onclick="goToSlide(1)">📑 Sumário</button>
+      <div class="sl-brand">Brain<span class="sup">003</span></div>
+    </div>
     <div class="slide-header">
-      <span class="tag">Auditoria de Hipótese 1</span>
+      <span class="tag">Auditoria Analítica · Hipótese 1 · Bloco 3</span>
       <h2>CRM: "A comunicação explica o sucesso do Pix?"</h2>
       <h3>Avaliação empírica do funil de marketing e causalidade de campanhas</h3>
     </div>
     <div class="slide-body">
       <div class="grid-2">
         <div class="card card-danger">
-          <span class="badge badge-fail" style="font-size: 0.9rem; margin-bottom: 8px;">VEREDITO: FALSA</span>
+          <span class="badge badge-fail" style="margin-bottom: 10px;">VEREDITO: FALSA</span>
           <p class="lead-text" style="font-size: 0.95rem;">
-            A comunicação de lançamento teve impacto marginal e tardio. A adoção decorreu majoritariamente de <strong>descoberta orgânica no app/web e boca a boca</strong>.
+            A comunicação de lançamento teve impacto marginal e tardio. A adoção decorreu de <strong>descoberta orgânica no app/web e boca a boca</strong>.
           </p>
-          <ul style="margin-left: 20px; margin-top: 12px; font-size: 0.85rem; color: #cbd5e1; line-height: 1.8;">
-            <li><strong>Anacronismo Temporal:</strong> O Pix lançou em 27/05. O email começou a ser disparado em 28/05 às 13:00. 19 clientes resgataram antes do envio.</li>
-            <li><strong>Sem Grupo de Controle:</strong> A coluna <code>control_group</code> é 100% nula. Não houve rigor científico para alegar causalidade.</li>
+          <ul style="margin-left: 18px; margin-top: 12px; font-size: 0.85rem; color: var(--text-mid); line-height: 1.8;">
+            <li><strong>Anacronismo Temporal:</strong> O Pix lançou em 27/05. O email saiu em 28/05 às 13:00. Clientes já resgatavam antes do envio.</li>
+            <li><strong>Sem Grupo de Controle:</strong> A coluna <code>control_group</code> é 100% nula. Não houve teste A/B para provar incrementalidade causal.</li>
           </ul>
         </div>
-        <div class="card">
-          <h4 style="color: var(--primary); margin-bottom: 12px;">Funil dos 2.140 Clientes de Pix</h4>
+        <div class="card card-primary">
+          <h4 style="color: var(--cyan); margin-bottom: 12px;">Funil dos 2.140 Clientes de Pix</h4>
           <div style="display: flex; flex-direction: column; gap: 8px;">
-            <div style="background: rgba(15,23,42,0.8); padding: 8px 12px; border-radius: 6px; display: flex; justify-content: space-between;">
-              <span>Total de Clientes Pix</span>
-              <strong style="color: var(--primary);">2.140 (100%)</strong>
+            <div style="background: var(--navy-900); border: 1px solid var(--stroke); padding: 8px 12px; display: flex; justify-content: space-between;">
+              <span style="font-family: var(--font-mono); font-size: 0.82rem;">Total de Clientes Pix</span>
+              <strong style="color: var(--cyan); font-family: var(--font-mono);">2.140 (100%)</strong>
             </div>
-            <div style="background: rgba(15,23,42,0.8); padding: 8px 12px; border-radius: 6px; display: flex; justify-content: space-between;">
-              <span>Nunca abriram o email</span>
-              <strong style="color: var(--warning);">1.658 (77,5%)</strong>
+            <div style="background: var(--navy-900); border: 1px solid var(--stroke); padding: 8px 12px; display: flex; justify-content: space-between;">
+              <span style="font-family: var(--font-mono); font-size: 0.82rem;">Nunca abriram o email</span>
+              <strong style="color: var(--warning); font-family: var(--font-mono);">1.658 (77,5%)</strong>
             </div>
-            <div style="background: rgba(15,23,42,0.8); padding: 8px 12px; border-radius: 6px; display: flex; justify-content: space-between;">
-              <span>Nunca sequer receberam email</span>
-              <strong style="color: var(--danger);">484 (22,6%)</strong>
+            <div style="background: var(--navy-900); border: 1px solid var(--stroke); padding: 8px 12px; display: flex; justify-content: space-between;">
+              <span style="font-family: var(--font-mono); font-size: 0.82rem;">Nunca sequer receberam email</span>
+              <strong style="color: var(--danger); font-family: var(--font-mono);">484 (22,6%)</strong>
             </div>
-            <div style="background: rgba(15,23,42,0.8); padding: 8px 12px; border-radius: 6px; display: flex; justify-content: space-between;">
-              <span>Converteram por clique no email</span>
-              <strong style="color: var(--danger);">39 (1,8%)</strong>
+            <div style="background: var(--navy-900); border: 1px solid var(--stroke); padding: 8px 12px; display: flex; justify-content: space-between;">
+              <span style="font-family: var(--font-mono); font-size: 0.82rem;">Converteram por clique no email</span>
+              <strong style="color: var(--danger); font-family: var(--font-mono);">39 (1,8%)</strong>
             </div>
-            <div style="background: rgba(15,23,42,0.8); padding: 8px 12px; border-radius: 6px; display: flex; justify-content: space-between;">
-              <span>Converteram por clique (Email + Pushes)</span>
-              <strong style="color: var(--danger);">63 (2,9%)</strong>
+            <div style="background: var(--navy-900); border: 1px solid var(--stroke); padding: 8px 12px; display: flex; justify-content: space-between;">
+              <span style="font-family: var(--font-mono); font-size: 0.82rem;">Converteram por clique (Email + Pushes)</span>
+              <strong style="color: var(--danger); font-family: var(--font-mono);">63 (2,9%)</strong>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="sl-footer-meta">
+      <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
+      <span>Pontua+ · Auditoria de Causalidade CRM</span>
+      <span>06 / 11</span>
+    </div>
   </div>
 
-  <!-- SLIDE 6: AFIRMAÇÃO 2 - OPERADOR -->
+  <!-- SLIDE 7: AFIRMAÇÃO 2 - OPERADOR -->
   <div class="slide">
+    <div class="sl-top-bar">
+      <button class="nav-jump-chip" onclick="goToSlide(1)">📑 Sumário</button>
+      <div class="sl-brand">Brain<span class="sup">003</span></div>
+    </div>
     <div class="slide-header">
-      <span class="tag">Auditoria de Hipótese 2</span>
+      <span class="tag">Auditoria Analítica · Hipótese 2 · Bloco 3</span>
       <h2>Operador: "O Pix sai a R$ 0,016 por ponto?"</h2>
       <h3>Desmascarando o erro contábil de agregação bruta vs. custo liquidado</h3>
     </div>
     <div class="slide-body">
       <div class="grid-2">
         <div class="card card-danger">
-          <span class="badge badge-fail" style="font-size: 0.9rem; margin-bottom: 8px;">VEREDITO: FALSA</span>
+          <span class="badge badge-fail" style="margin-bottom: 10px;">VEREDITO: FALSA</span>
           <p class="lead-text" style="font-size: 0.95rem;">
             O custo real para o programa é de <strong>EXATAMENTE R$ 0,019 por ponto</strong> em 100% dos pedidos aprovados.
           </p>
-          <p style="font-size: 0.85rem; color: #cbd5e1; margin-top: 10px;">
+          <p style="margin-top: 10px; font-size: 0.85rem; color: var(--text-mid);">
             O operador gerou uma <strong>ilusão de custo 15,8% menor</strong>, ocultando da diretoria uma queima de caixa <strong>~R$ 30k/mês maior</strong> e uma taxa de cancelamento de <strong>14,4%</strong> nas transferências Pix.
           </p>
         </div>
         <div class="card card-primary">
-          <h4 style="color: var(--primary);">Reconciliação Matemática (Junho/2026)</h4>
-          <div style="margin: 12px 0; font-size: 0.85rem; line-height: 1.8;">
+          <h4 style="color: var(--cyan);">Reconciliação Matemática (Junho/2026)</h4>
+          <div style="margin: 10px 0; font-size: 0.84rem; line-height: 1.8; font-family: var(--font-mono);">
             <p>✅ <strong>Aprovados:</strong> 704 pedidos | 9.215.135 pts | R$ 175.087,95<br>
-            &rarr; Custo Real: <strong>R$ 0,019000/pt</strong></p>
+            &rarr; Custo Real Liquidado: <strong>R$ 0,019000/pt</strong></p>
             <p style="color: var(--danger);">❌ <strong>Cancelados/Estornados:</strong> 118 pedidos | 1.494.284 pts | R$ 0 pago</p>
             <p>📋 <strong>Total Bruto do Relatório:</strong> 822 transações | 10.709.419 pts</p>
-            <div style="background: rgba(15,23,42,0.9); padding: 10px; border-radius: 6px; margin-top: 8px; border: 1px dashed var(--warning);">
-              <strong>A Conta Errada do Operador:</strong><br>
+            <div style="background: var(--navy-900); border: 1px dashed var(--warning); padding: 10px; margin-top: 8px;">
+              <strong style="color: var(--warning);">A Conta Errada do Operador:</strong><br>
               <code>R$ 174.261,75 &divide; 10.709.419 pts = R$ 0,016272</code><br>
-              <em>Dividiu Reais aprovados por Pontos brutos de pedidos falhados!</em>
+              <span style="color: var(--text-low); font-size: 0.78rem;">Dividiu Reais aprovados por Pontos brutos de pedidos falhados!</span>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="sl-footer-meta">
+      <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
+      <span>Pontua+ · Reconciliação Contábil Pix</span>
+      <span>07 / 11</span>
+    </div>
   </div>
 
-  <!-- SLIDE 7: AFIRMAÇÃO 3 - DIRETOR -->
+  <!-- SLIDE 8: AFIRMAÇÃO 3 - DIRETOR -->
   <div class="slide">
+    <div class="sl-top-bar">
+      <button class="nav-jump-chip" onclick="goToSlide(1)">📑 Sumário</button>
+      <div class="sl-brand">Brain<span class="sup">003</span></div>
+    </div>
     <div class="slide-header">
-      <span class="tag">Auditoria de Hipótese 3</span>
+      <span class="tag">Auditoria Analítica · Hipótese 3 · Bloco 3</span>
       <h2>Diretor: "Nosso breakage está em 40%?"</h2>
-      <h3>Distinção entre norma contábil IFRS 15 e a razão expiração/resgates</h3>
+      <h3>Distinção entre a norma contábil IFRS 15 e a razão expiração/resgates</h3>
     </div>
     <div class="slide-body">
       <div class="grid-2">
         <div class="card card-success">
-          <span class="badge badge-pass" style="font-size: 0.9rem; margin-bottom: 8px;">VEREDITO: META CUMPRIDA</span>
+          <span class="badge badge-pass" style="margin-bottom: 10px;">VEREDITO: META CUMPRIDA</span>
           <p class="lead-text" style="font-size: 0.95rem;">
             O Breakage real da base de migração é de <strong>19,78%</strong>, estando estritamente <strong>DENTRO da meta contratual de &le; 20%</strong>.
           </p>
-          <div style="margin-top: 14px; font-size: 0.85rem; line-height: 1.8;">
+          <div style="margin-top: 14px; font-size: 0.85rem; line-height: 1.8; font-family: var(--font-mono);">
             <p><strong>Cálculo Contábil Oficial (IFRS 15):</strong></p>
             <code>Breakage = Expirados &divide; Emitidos</code><br>
             <code>64.090.805 pts &divide; 324.024.198 pts = 19,78%</code>
@@ -590,124 +946,158 @@
         </div>
         <div class="card card-warning">
           <h4 style="color: var(--warning);">De Onde Veio o Número de 40%?</h4>
-          <p style="font-size: 0.85rem; color: #cbd5e1; margin-top: 8px;">
+          <p style="font-size: 0.85rem; color: var(--text-mid); margin-top: 6px;">
             O diretor olhou para a relação de curto prazo entre <strong>Expiração vs. Resgates no início de 2026</strong>:
           </p>
-          <ul style="margin-left: 20px; font-size: 0.85rem; color: #cbd5e1; margin-top: 8px; line-height: 1.6;">
+          <ul style="margin-left: 18px; font-size: 0.82rem; color: var(--text-mid); margin-top: 8px; line-height: 1.6; font-family: var(--font-mono);">
             <li>Fev/26: 7,05M exp / 16,11M resg = <strong>43,8%</strong></li>
             <li>Mar/26: 7,29M exp / 19,36M resg = <strong>37,7%</strong></li>
             <li>Abr/26: 6,92M exp / 19,15M resg = <strong>36,2%</strong></li>
             <li><strong>Média Trimestral Pré-Pix: ~38,9% (&asymp;40%)</strong></li>
           </ul>
-          <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 8px;">
+          <p style="font-size: 0.8rem; color: var(--text-low); margin-top: 8px;">
             Confundiu velocidade de queima/vencimento mensal com taxa de perda sobre estoque emitido.
           </p>
         </div>
       </div>
     </div>
+    <div class="sl-footer-meta">
+      <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
+      <span>Pontua+ · Breakage vs. Burn Ratio</span>
+      <span>08 / 11</span>
+    </div>
   </div>
 
-  <!-- SLIDE 8: ANOMALIAS OPERACIONAIS -->
+  <!-- SLIDE 9: ANOMALIAS OPERACIONAIS -->
   <div class="slide">
+    <div class="sl-top-bar">
+      <button class="nav-jump-chip" onclick="goToSlide(1)">📑 Sumário</button>
+      <div class="sl-brand">Brain<span class="sup">003</span></div>
+    </div>
     <div class="slide-header">
-      <span class="tag">Engenharia de Dados & Sistemas</span>
+      <span class="tag">Engenharia de Dados & Sistemas · Bloco 4</span>
       <h2>Alertas Operacionais: Duas Falhas Críticas Encontradas</h2>
       <h3>Problemas que demandam intervenção imediata da TI e Operações</h3>
     </div>
     <div class="slide-body">
       <div class="grid-2">
         <div class="card card-danger">
-          <h3 style="color: var(--danger); margin-bottom: 8px;">1. Alta Taxa de Falha no Pix (14,4%)</h3>
-          <p style="font-size: 0.9rem; color: #cbd5e1; line-height: 1.6;">
+          <h4 style="color: var(--danger); font-size: 1.05rem;">1. Alta Taxa de Falha no Pix (14,4%)</h4>
+          <p style="font-size: 0.88rem; color: var(--text-mid); line-height: 1.6;">
             118 de 822 transações Pix em Junho foram canceladas, estornadas ou invalidadas.
           </p>
-          <div style="background: rgba(15,23,42,0.8); padding: 10px; border-radius: 6px; margin-top: 10px; font-size: 0.85rem;">
-            <strong>Riscos:</strong> Fricção com o cliente em emergências financeiras, custo de atendimento no SAC e atrito com a marca Banco Aurora.<br>
-            <strong>Causa provável:</strong> CPF divergente da chave Pix, timeout de gateway e falso-positivo em antifraude.
+          <div style="background: var(--navy-900); border: 1px solid var(--stroke); padding: 10px; margin-top: 10px; font-size: 0.82rem; color: var(--text-hi);">
+            <strong>Riscos:</strong> Fricção com o cliente em emergências financeiras, custo de SAC e desgaste da marca.<br>
+            <strong>Causa provável:</strong> Chave Pix em CPF de terceiros, timeout de gateway e falso-positivo em antifraude.
           </div>
         </div>
         <div class="card card-danger">
-          <h3 style="color: var(--danger); margin-bottom: 8px;">2. Saldo Negativo no Ledger (1.805 Contas)</h3>
-          <p style="font-size: 0.9rem; color: #cbd5e1; line-height: 1.6;">
+          <h4 style="color: var(--danger); font-size: 1.05rem;">2. Saldo Negativo no Ledger (1.805 Contas)</h4>
+          <p style="font-size: 0.88rem; color: var(--text-mid); line-height: 1.6;">
             1.805 contas sofreram débito de <code>EXPIRACAO_MIGRACAO</code> (op 103) totalizando <strong>10,18M pontos</strong> sem nunca terem recebido o <code>CREDITO_MIGRACAO</code> (op 100).
           </p>
-          <div style="background: rgba(15,23,42,0.8); padding: 10px; border-radius: 6px; margin-top: 10px; font-size: 0.85rem;">
+          <div style="background: var(--navy-900); border: 1px solid var(--stroke); padding: 10px; margin-top: 10px; font-size: 0.82rem; color: var(--text-hi);">
             <strong>Riscos:</strong> Contas operando com saldo negativo no banco de dados e potencial distorção nas provisões contábeis de passivo do programa.
           </div>
         </div>
       </div>
     </div>
+    <div class="sl-footer-meta">
+      <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
+      <span>Pontua+ · Integridade Transacional e Riscos</span>
+      <span>09 / 11</span>
+    </div>
   </div>
 
-  <!-- SLIDE 9: RECOMENDAÇÃO ESTRATÉGICA -->
+  <!-- SLIDE 10: RECOMENDAÇÃO ESTRATÉGICA -->
   <div class="slide">
+    <div class="sl-top-bar">
+      <button class="nav-jump-chip" onclick="goToSlide(1)">📑 Sumário</button>
+      <div class="sl-brand">Brain<span class="sup">003</span></div>
+    </div>
     <div class="slide-header">
-      <span class="tag">Decisão Executiva</span>
+      <span class="tag">Decisão Executiva · Bloco 5</span>
       <h2>Recomendação: Não Coibir, mas Reequilibrar a Operação</h2>
       <h3>Plano de Ação em 4 Pilares de Viabilidade Financeira e Contratual</h3>
     </div>
     <div class="slide-body">
       <div class="grid-2">
         <div class="card card-primary">
-          <h4 style="color: var(--primary);">1. Repactuação de Meta com o Banco</h4>
-          <p style="font-size: 0.85rem; color: #cbd5e1; margin-top: 6px;">
+          <h4 style="color: var(--cyan);">1. Repactuação de Meta com o Banco</h4>
+          <p>
             Propor <em>carve-out</em> do Pix no cálculo do catálogo. Se expurgarmos o Pix, o Varejo atinge <strong>20,1%</strong> das trocas de catálogo, cumprindo a meta contratual original.
           </p>
         </div>
         <div class="card card-primary">
-          <h4 style="color: var(--primary);">2. Reprecificação do Ponto no Pix</h4>
-          <p style="font-size: 0.85rem; color: #cbd5e1; margin-top: 6px;">
+          <h4 style="color: var(--cyan);">2. Reprecificação do Ponto no Pix</h4>
+          <p>
             Ajustar a taxa para <strong>R$ 0,013 - R$ 0,014/ponto</strong> (~75 pts/R$ 1). Estanca o subsídio e gera economia imediata de <strong>~R$ 60 mil/mês</strong> no caixa.
           </p>
         </div>
         <div class="card card-success">
           <h4 style="color: var(--success);">3. Smart Nudge para o Varejo Próprio</h4>
-          <p style="font-size: 0.85rem; color: #cbd5e1; margin-top: 6px;">
+          <p>
             Na tela do Pix, oferecer <strong>R$ 0,022/pt</strong> em vouchers da Casa&Cia e MegaMagazine vs. R$ 0,014 no Pix. O cliente ganha 40% a mais de poder de compra e o dinheiro fica no grupo.
           </p>
         </div>
         <div class="card card-warning">
           <h4 style="color: var(--warning);">4. Saneamento do Ledger e Trava de CPF</h4>
-          <p style="font-size: 0.85rem; color: #cbd5e1; margin-top: 6px;">
+          <p>
             Exigir mesma titularidade (CPF) para transferências Pix e regularizar com a Engenharia as 1.805 contas com débito indevido de migração.
           </p>
         </div>
       </div>
     </div>
+    <div class="sl-footer-meta">
+      <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
+      <span>Pontua+ · Plano Estratégico de Viabilidade</span>
+      <span>10 / 11</span>
+    </div>
   </div>
 
-  <!-- SLIDE 10: O QUE FALTA SABER & PRÓXIMOS PASSOS -->
+  <!-- SLIDE 11: O QUE FALTA SABER & PRÓXIMOS PASSOS -->
   <div class="slide">
+    <div class="sl-top-bar">
+      <button class="nav-jump-chip" onclick="goToSlide(1)">📑 Sumário</button>
+      <div class="sl-brand">Brain<span class="sup">003</span></div>
+    </div>
     <div class="slide-header">
-      <span class="tag">Governança & Próximos Passos</span>
+      <span class="tag">Governança & Próximos Passos · Bloco 5</span>
       <h2>O Que Ainda Falta Saber?</h2>
       <h3>Perguntas essenciais para os responsáveis pelos sistemas e pelo negócio</h3>
     </div>
     <div class="slide-body">
       <div class="grid-3">
-        <div class="card">
-          <h4 style="color: var(--primary); margin-bottom: 8px;">🏛️ Jurídico & Banco</h4>
-          <p style="font-size: 0.85rem; color: #cbd5e1; line-height: 1.6;">
+        <div class="card card-primary">
+          <h4 style="color: var(--cyan);">🏛️ Jurídico & Banco</h4>
+          <p style="font-size: 0.84rem; line-height: 1.6;">
             Existe penalidade pecuniária expressa no contrato pelo não atingimento dos 20% de Varejo em Jun-Set/2026 antes de abrirmos a repactuação?
           </p>
         </div>
-        <div class="card">
-          <h4 style="color: var(--primary); margin-bottom: 8px;">💰 Finanças & Parcerias</h4>
-          <p style="font-size: 0.85rem; color: #cbd5e1; line-height: 1.6;">
+        <div class="card card-primary">
+          <h4 style="color: var(--cyan);">💰 Finanças & Parcerias</h4>
+          <p style="font-size: 0.84rem; line-height: 1.6;">
             Qual é a margem de contribuição média que Casa&Cia e MegaMagazine repassam à operadora por produto trocado no catálogo?
           </p>
         </div>
-        <div class="card">
-          <h4 style="color: var(--primary); margin-bottom: 8px;">💻 Engenharia de Sistemas</h4>
-          <p style="font-size: 0.85rem; color: #cbd5e1; line-height: 1.6;">
-            Os 10,18M pontos debitados na migração sem crédito correspondente existiam no sistema legado ou foram gerados por falha de script?
+        <div class="card card-primary">
+          <h4 style="color: var(--cyan);">💻 Engenharia de Sistemas</h4>
+          <p style="font-size: 0.84rem; line-height: 1.6;">
+            Os 10,18M pontos debitados na migração sem crédito correspondente existiam no legado ou foram gerados por falha de script?
           </p>
         </div>
       </div>
-      <div class="card card-primary" style="margin-top: 16px; text-align: center;">
-        <h3 style="color: var(--text);">Obrigado! Aberto para Perguntas da Banca</h3>
-        <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 4px;">Lucas Oliveira · Analytics Engineering · Repositório: branch <code>entrega</code></p>
+      <div class="card card-blue" style="margin-top: 14px; text-align: center; border-left: 3px solid var(--blue-electric);">
+        <h4 style="color: var(--text-hi); font-size: 1.15rem;">Obrigado! Aberto para Perguntas da Banca</h4>
+        <p style="color: var(--text-mid); font-family: var(--font-mono); font-size: 0.85rem; margin-top: 4px;">
+          Lucas Oliveira · Analytics Engineering · Repositório: branch <code>entrega</code>
+        </p>
       </div>
+    </div>
+    <div class="sl-footer-meta">
+      <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
+      <span>Brain003 · Processo Seletivo Analytics Engineer</span>
+      <span>11 / 11</span>
     </div>
   </div>
 
@@ -716,7 +1106,8 @@
 <!-- Barra de Navegação -->
 <div class="nav-bar">
   <button class="nav-btn" onclick="prevSlide()" title="Anterior (Seta Esquerda)">&#8592;</button>
-  <span class="slide-counter" id="counter">Slide 1 / 10</span>
+  <button class="nav-btn" onclick="goToSlide(1)" title="Ir para o Sumário Executivo" style="color: var(--cyan); font-weight: 600;">📑 Sumário</button>
+  <span class="slide-counter" id="counter">01 / 11</span>
   <button class="nav-btn" onclick="nextSlide()" title="Próximo (Seta Direita / Espaço)">&#8594;</button>
   <button class="nav-btn" onclick="toggleFullscreen()" title="Tela Cheia (F)">&#x26F6;</button>
   <button class="nav-btn" onclick="window.print()" title="Imprimir / Exportar PDF (Cmd+P)">&#x1F5A8;</button>
@@ -731,7 +1122,16 @@
     slides.forEach((s, i) => {
       s.classList.toggle('active', i === index);
     });
-    counter.textContent = `Slide ${index + 1} / ${slides.length}`;
+    const currentNum = String(index + 1).padStart(2, '0');
+    const totalNum = String(slides.length).padStart(2, '0');
+    counter.textContent = `${currentNum} / ${totalNum}`;
+  }
+
+  function goToSlide(index) {
+    if (index >= 0 && index < slides.length) {
+      currentSlide = index;
+      updateSlide(currentSlide);
+    }
   }
 
   function nextSlide() {
@@ -763,8 +1163,12 @@
       prevSlide();
     } else if (e.key.toLowerCase() === 'f') {
       toggleFullscreen();
+    } else if (e.key.toLowerCase() === 'm' || e.key.toLowerCase() === 's') {
+      goToSlide(1); // Atalho para Sumário
     }
   });
+
+  updateSlide(0);
 </script>
 
 </body>
