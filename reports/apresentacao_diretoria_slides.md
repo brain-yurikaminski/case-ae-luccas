@@ -84,15 +84,15 @@ style: |
 
 * **[Bloco 1] Modelo Econômico & Ruptura do Pix:** As 5 engrenagens de lucro e o impacto da queima em dinheiro vivo *(Slides 03 e 04)*.
 * **[Bloco 2] Diagnóstico Transacional:** Salto de +70% no resgate e efeito de diluição matemática no Varejo *(Slide 05)*.
-* **[Bloco 3] Auditoria Analítica das 3 Hipóteses:** Veredito rigoroso sobre CRM (campanhas), Operador (custo de R$ 0,016) e Diretor (breakage de 40%) *(Slides 06 a 08)*.
-* **[Bloco 4] Alertas Operacionais de Sistemas:** Fricção de 14,4% de falha no Pix e 1.805 contas negativas no ledger *(Slide 09)*.
-* **[Bloco 5] Recomendações Estratégicas & Próximos Passos:** Plano em 4 pilares de viabilidade financeira e perguntas aos stakeholders *(Slides 10 e 11)*.
+* **[Bloco 3] Auditoria Analítica das 3 Hipóteses:** Veredito sobre CRM (campanhas), Operador (custo) e Diretor (breakage) *(Slides 06 a 08)*.
+* **[Bloco 4] Engenharia de Dados & Decisões Técnicas:** Arquitetura DuckDB, modelagem dimensional em camadas, grain e 12 testes no Pytest *(Slides 09 a 11)*.
+* **[Bloco 5] Alertas Operacionais de Sistemas:** Fricção de 14,4% de falha no Pix e 1.805 contas negativas no ledger *(Slide 12)*.
+* **[Bloco 6] Recomendações Estratégicas & Próximos Passos:** Plano em 4 pilares de viabilidade financeira e governança *(Slides 13 e 14)*.
 
 ---
 
 ## 🏛️ Prefácio: Como o Programa Realmente Ganha Dinheiro?
 ### *O Modelo de Negócio do Pontua+ em 5 Etapas*
-
 
 1. **Venda de Pontos ao Banco [*earn*]:** O Banco Aurora recolhe a taxa de intercâmbio dos cartões e compra pontos do Pontua+ em dinheiro vivo.
 2. **Dinheiro Rendendo no Banco [*float*]:** Entre a emissão e o resgate (12 a 24 meses), o saldo recebido do banco fica investido rendendo CDI.
@@ -175,6 +175,47 @@ Ao lançar o Pix a **R$ 0,019 por ponto** em 27/05/2026:
   * Sobre a base total emitida (orgânica + migrada): **8,38%**.
 * **De onde veio o 40% do Diretor?** No trimestre anterior ao Pix (Fev-Abr/2026), a razão $\frac{\text{Expiração}}{\text{Resgate}}$ foi de 43,8% (Fev), 37,7% (Mar) e 36,2% (Abr) $\rightarrow$ **Média de ~39%**.
 * O diretor olhou para a relação de curto prazo entre *vencimento e resgate*, e não para o estoque emitido.
+
+---
+
+## 🛠️ Decisão Técnica 1: Arquitetura DuckDB + Camadas dbt-like
+### *Por que DuckDB e SQL modular em vez de scripts soltos de Pandas?*
+
+* ⚡ **Engine OLAP In-Process (DuckDB):** Vetorizado, colunar e ultra-rápido. Executa ANSI SQL puro sobre os CSVs em milissegundos sem necessidade de configurar infraestrutura pesada de cluster.
+* 📦 **Camada Staging (`models/staging/*.sql` - 7 views):**
+  * Tipagem estrita (`TIMESTAMP`, `DOUBLE`, `VARCHAR`), saneamento de nulos e deduplicação de cartões.
+  * Se a estrutura bruta mudar, apenas o staging é ajustado.
+* 🏛️ **Camada Marts (`models/marts/*.sql` - 5 fatos):**
+  * Modela as regras de negócio puras (reconciliação contábil, atribuição de CRM e breakage contábil).
+* 🔁 **Idempotência:** O pipeline `src/pipeline.py` pode ser executado $N$ vezes produzindo exatamente o mesmo estado determinístico.
+
+---
+
+## 📐 Decisão Técnica 2: Modelagem Dimensional & Grain
+### *Engenharia Reversa de Chaves e Contratos de Granularidade*
+
+* 🔍 **A Descoberta da Chave Oculta:**
+  * A tabela `orders` **não tinha** a coluna `user_id`.
+  * Deduzimos e modelamos o join via `carts`:
+    $$\text{orders} \xrightarrow{\text{cart\_id}} \text{carts} \xrightarrow{\text{user\_id}} \text{cards / crm\_events}$$
+* 🎯 **Declaração Estrita de Grain para Evitar Fan-Out:**
+  * `fct_order_items`: 1 linha por item de pedido (`order_item_id`).
+  * `fct_monthly_redemptions`: 1 linha por mês e categoria (`ano_mes, categoria`).
+  * `fct_pix_reconciliation`: 1 linha por mês de Pix (`ano_mes`).
+  * `fct_crm_attribution`: 1 linha por cliente único de Pix (`user_id`).
+  * `fct_breakage_analysis`: 1 linha por método contábil avaliado.
+
+---
+
+## 🧪 Decisão Técnica 3: Confiabilidade & 12 Testes no Pytest
+### *Blindagem matemática contra alucinações e erros de reconciliação*
+
+* 🔑 **Integridade Estrutural:** Unicidade de PKs e não-nulidade em campos monetários e temporais.
+* 💰 **Invariâncias Contábeis:**
+  * $\text{Aprovados} + \text{Cancelados} = \text{Bruto Total}$ validado centavo a centavo.
+  * Custo real do Pix comprovado em **R$ 0,019000** com tolerância numérica de $10^{-5}$.
+* 📋 **Validação de Regras Contratuais:** Asserções de que as metas de Aéreas ($\ge 50\%$) e Varejo ($\ge 20\%$) respondem dinamicamente às regras.
+* ⏱️ **Execução Instantânea:** 12/12 testes executados em **0.20s** (`pytest tests/test_models.py`).
 
 ---
 

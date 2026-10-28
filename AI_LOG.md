@@ -20,4 +20,11 @@ Uma entrada por sessão, da mais antiga para a mais recente. Formato e regras em
 - **O que o candidato conferiu, corrigiu ou rejeitou:** Solicitou confirmação de acesso prévio à URL do Brandbook; tirou dúvidas sobre a instrução de gitignore e compreendeu o valor do log para demonstrar seu raciocínio; instruiu a inclusão definitiva do arquivo no Git; solicitou a criação de um slide com links de navegação entre os slides.
 - **Arquivos criados ou alterados:** `reports/apresentacao_diretoria_slides.html`, `reports/apresentacao_diretoria_slides.md`, `.gitignore`, `AI_LOG.md`
 
+### 2026-10-27T22:50:00-03:00 · Antigravity (Gemini 3.8 Flash)
+- **Pedido:** Transcrição e decodificação das orientações de áudio do entrevistador e adição de 3 slides dedicados justificando as decisões técnicas de engenharia de dados (arquitetura DuckDB/SQL em camadas, modelagem dimensional com declaração de grain/schema discovery, e suíte de 12 testes no Pytest).
+- **O que a IA fez ou sugeriu:** Analisou o áudio do entrevistador, que destacou a importância da cadeia de raciocínio e o encorajamento explícito para adicionar slides técnicos; criou 3 novos slides analíticos (`reports/apresentacao_diretoria_slides.html` e `reports/apresentacao_diretoria_slides.md`) detalhando a escolha do DuckDB in-process, o desacoplamento staging/marts, a descoberta da chave oculta `cart_id` ligando `orders` a `user_id`, a declaração estrita de grão para evitar fan-out, e a pirâmide de 12 testes automatizados; atualizou a agenda interativa de navegação com 6 blocos temáticos e recalculou o total para 14 slides.
+- **O que o candidato conferiu, corrigiu ou rejeitou:** Enviou o áudio do entrevistador para decodificação estratégica; aprovou a criação e inclusão dos slides técnicos de engenharia de dados.
+- **Arquivos criados ou alterados:** `reports/apresentacao_diretoria_slides.html`, `reports/apresentacao_diretoria_slides.md`, `AI_LOG.md`
+
+
 

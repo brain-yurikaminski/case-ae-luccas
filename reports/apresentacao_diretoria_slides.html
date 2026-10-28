@@ -85,7 +85,7 @@
       height: 86vh;
       background: var(--navy-850);
       border: 1px solid var(--stroke);
-      padding: 40px 48px;
+      padding: 38px 46px;
       box-shadow: 0 1px 0 rgba(255,255,255,.04) inset, 0 20px 40px -24px rgba(0,0,0,.7);
       flex-direction: column;
       justify-content: space-between;
@@ -252,10 +252,10 @@
       gap: 14px;
     }
 
-    .grid-5-agenda {
+    .grid-6-agenda {
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 12px;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 10px;
     }
 
     .card {
@@ -305,7 +305,7 @@
     .agenda-card {
       background: var(--navy-800);
       border: 1px solid var(--stroke);
-      padding: 16px 14px;
+      padding: 14px 12px;
       cursor: pointer;
       display: flex;
       flex-direction: column;
@@ -322,37 +322,41 @@
       box-shadow: 0 8px 24px -10px rgba(0, 207, 255, 0.3);
     }
 
+    .agenda-card.tech-accent {
+      border-top: 3px solid var(--cyan);
+    }
+
     .agenda-num {
       font-family: var(--font-display);
-      font-size: 1.8rem;
+      font-size: 1.7rem;
       font-weight: 700;
       color: var(--blue-electric);
       filter: brightness(1.6);
       line-height: 1;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
 
     .agenda-title {
       font-family: var(--font-display);
       font-weight: 700;
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       color: var(--text-hi);
-      margin-bottom: 8px;
+      margin-bottom: 6px;
       line-height: 1.3;
     }
 
     .agenda-desc {
       font-family: var(--font-body);
-      font-size: 0.8rem;
+      font-size: 0.76rem;
       color: var(--text-mid);
-      line-height: 1.5;
+      line-height: 1.45;
       flex: 1;
     }
 
     .agenda-action {
-      margin-top: 14px;
+      margin-top: 12px;
       font-family: var(--font-mono);
-      font-size: 0.72rem;
+      font-size: 0.68rem;
       color: var(--cyan);
       text-transform: uppercase;
       letter-spacing: 0.05em;
@@ -525,11 +529,11 @@
         </div>
         <div class="card card-blue">
           <h4 style="color: var(--blue-electric); filter: brightness(1.6);">📋 Destaques da Apresentação</h4>
-          <ul style="margin-left: 18px; line-height: 1.8; color: var(--text-mid); font-size: 0.9rem;">
-            <li><strong>Prefácio:</strong> Como o programa de pontos realmente lucra.</li>
-            <li><strong>Diagnóstico:</strong> Comportamento dos resgates e efeito diluição.</li>
-            <li><strong>Auditoria Analítica:</strong> Veredito das 3 afirmações (CRM, Operador e Diretor).</li>
-            <li><strong>Recomendação Executiva:</strong> Plano em 4 pilares de sustentabilidade.</li>
+          <ul style="margin-left: 18px; line-height: 1.8; color: var(--text-mid); font-size: 0.88rem;">
+            <li><strong>Prefácio & Negócios:</strong> Como o programa de pontos lucra e a quebra pelo Pix.</li>
+            <li><strong>Diagnóstico & Auditoria:</strong> Veredito rigoroso sobre CRM, Operador e Diretor.</li>
+            <li><strong>Engenharia de Dados:</strong> Decisões de arquitetura DuckDB, modelagem de grão e 12 testes Pytest.</li>
+            <li><strong>Plano Estratégico:</strong> Reequilíbrio em 4 pilares e governança.</li>
           </ul>
         </div>
       </div>
@@ -557,13 +561,13 @@
       <h3>Clique em qualquer bloco temático para navegar diretamente para a seção desejada</h3>
     </div>
     <div class="slide-body">
-      <div class="grid-5-agenda">
+      <div class="grid-6-agenda">
         <!-- BLOCO 1 -->
         <div class="agenda-card" onclick="goToSlide(2)" title="Ir para Bloco 1: Modelo Econômico">
           <div>
             <div class="agenda-num">01</div>
             <div class="agenda-title">Modelo Econômico</div>
-            <div class="agenda-desc">Como o programa lucra (as 5 engrenagens) e por que o Pix rompeu o equilíbrio.</div>
+            <div class="agenda-desc">Como o programa lucra (as 5 engrenagens) e a ruptura causada pelo Pix.</div>
           </div>
           <div class="agenda-action">Slides 03 e 04 &rarr;</div>
         </div>
@@ -573,7 +577,7 @@
           <div>
             <div class="agenda-num">02</div>
             <div class="agenda-title">Diagnóstico pós-Pix</div>
-            <div class="agenda-desc">Salto de +70% nos resgates, evolução mensal e o efeito diluição no Varejo.</div>
+            <div class="agenda-desc">Salto de +70% nos resgates e o efeito diluição matemática no Varejo.</div>
           </div>
           <div class="agenda-action">Slide 05 &rarr;</div>
         </div>
@@ -583,36 +587,46 @@
           <div>
             <div class="agenda-num">03</div>
             <div class="agenda-title">Auditoria Analítica</div>
-            <div class="agenda-desc">Veredito rigoroso das 3 afirmações: CRM (campanhas), Operador (custo) e Diretor (breakage).</div>
+            <div class="agenda-desc">Veredito das afirmações: CRM (campanhas), Operador (custo) e Diretor (breakage).</div>
           </div>
           <div class="agenda-action">Slides 06 a 08 &rarr;</div>
         </div>
 
-        <!-- BLOCO 4 -->
-        <div class="agenda-card" onclick="goToSlide(8)" title="Ir para Bloco 4: Alertas Operacionais">
+        <!-- BLOCO 4: ENGENHARIA DE DADOS (NOVO DESTAQUE) -->
+        <div class="agenda-card tech-accent" onclick="goToSlide(8)" title="Ir para Bloco 4: Engenharia de Dados & Decisões Técnicas">
           <div>
-            <div class="agenda-num">04</div>
-            <div class="agenda-title">Alertas de Sistemas</div>
-            <div class="agenda-desc">14,4% de falhas no Pix e anomalia cadastral de 1.805 contas negativas no ledger.</div>
+            <div class="agenda-num" style="color: var(--cyan);">04</div>
+            <div class="agenda-title" style="color: var(--cyan);">Engenharia de Dados</div>
+            <div class="agenda-desc">Arquitetura DuckDB, modelagem em camadas, grain e 12 testes no Pytest.</div>
           </div>
-          <div class="agenda-action">Slide 09 &rarr;</div>
+          <div class="agenda-action">Slides 09 a 11 &rarr;</div>
         </div>
 
         <!-- BLOCO 5 -->
-        <div class="agenda-card" onclick="goToSlide(9)" title="Ir para Bloco 5: Recomendações e Próximos Passos">
+        <div class="agenda-card" onclick="goToSlide(11)" title="Ir para Bloco 5: Alertas Operacionais">
           <div>
             <div class="agenda-num">05</div>
-            <div class="agenda-title">Plano Estratégico</div>
-            <div class="agenda-desc">Reequilíbrio em 4 pilares, economia de R$ 60k/mês e perguntas à diretoria.</div>
+            <div class="agenda-title">Alertas de Sistemas</div>
+            <div class="agenda-desc">14,4% de falha no Pix e anomalia cadastral de 1.805 contas negativas no ledger.</div>
           </div>
-          <div class="agenda-action">Slides 10 e 11 &rarr;</div>
+          <div class="agenda-action">Slide 12 &rarr;</div>
+        </div>
+
+        <!-- BLOCO 6 -->
+        <div class="agenda-card" onclick="goToSlide(12)" title="Ir para Bloco 6: Recomendações e Próximos Passos">
+          <div>
+            <div class="agenda-num">06</div>
+            <div class="agenda-title">Plano Estratégico</div>
+            <div class="agenda-desc">Reequilíbrio em 4 pilares, economia de R$ 60k/mês e governança com stakeholders.</div>
+          </div>
+          <div class="agenda-action">Slides 13 e 14 &rarr;</div>
         </div>
       </div>
     </div>
     <div class="sl-footer-meta">
       <span><a href="javascript:goToSlide(0)">&larr; Voltar à Capa</a></span>
       <span>Use as setas do teclado ou clique nos blocos acima para navegar</span>
-      <span>02 / 11</span>
+      <span>02 / 14</span>
     </div>
   </div>
 
@@ -667,7 +681,7 @@
     <div class="sl-footer-meta">
       <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
       <span>Pontua+ · Modelo Econômico de Fidelidade</span>
-      <span>03 / 11</span>
+      <span>03 / 14</span>
     </div>
   </div>
 
@@ -713,7 +727,7 @@
     <div class="sl-footer-meta">
       <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
       <span>Pontua+ · Ruptura de Equilíbrio Financeiro</span>
-      <span>04 / 11</span>
+      <span>04 / 14</span>
     </div>
   </div>
 
@@ -814,7 +828,7 @@
     <div class="sl-footer-meta">
       <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
       <span>Pontua+ · Evolução Mensal dos Resgates</span>
-      <span>05 / 11</span>
+      <span>05 / 14</span>
     </div>
   </div>
 
@@ -871,7 +885,7 @@
     <div class="sl-footer-meta">
       <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
       <span>Pontua+ · Auditoria de Causalidade CRM</span>
-      <span>06 / 11</span>
+      <span>06 / 14</span>
     </div>
   </div>
 
@@ -916,7 +930,7 @@
     <div class="sl-footer-meta">
       <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
       <span>Pontua+ · Reconciliação Contábil Pix</span>
-      <span>07 / 11</span>
+      <span>07 / 14</span>
     </div>
   </div>
 
@@ -964,18 +978,189 @@
     <div class="sl-footer-meta">
       <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
       <span>Pontua+ · Breakage vs. Burn Ratio</span>
-      <span>08 / 11</span>
+      <span>08 / 14</span>
     </div>
   </div>
 
-  <!-- SLIDE 9: ANOMALIAS OPERACIONAIS -->
+  <!-- SLIDE 9: ENGENHARIA DE DADOS 1 - ARQUITETURA & STACK (NOVO) -->
   <div class="slide">
     <div class="sl-top-bar">
       <button class="nav-jump-chip" onclick="goToSlide(1)">📑 Sumário</button>
       <div class="sl-brand">Brain<span class="sup">003</span></div>
     </div>
     <div class="slide-header">
-      <span class="tag">Engenharia de Dados & Sistemas · Bloco 4</span>
+      <span class="tag">Decisão Técnica 1 · Bloco 4 (Engenharia de Dados)</span>
+      <h2>Arquitetura do Pipeline: Por que DuckDB + SQL em Camadas?</h2>
+      <h3>Separação estrita de responsabilidades inspirada no dbt/Medallion (Staging & Marts)</h3>
+    </div>
+    <div class="slide-body">
+      <div class="grid-3">
+        <div class="card card-primary">
+          <h4 style="color: var(--cyan);">1. Engine OLAP In-Process</h4>
+          <p style="font-size: 0.84rem;">
+            <strong>Por que DuckDB e não Pandas?</strong> DuckDB é colunar, vetorizado e executa ANSI SQL diretamente sobre os dados em milissegundos com zero overhead de infraestrutura pesada de banco/nuvem.
+          </p>
+        </div>
+        <div class="card card-blue">
+          <h4 style="color: var(--blue-electric); filter: brightness(1.6);">2. Desacoplamento em Camadas</h4>
+          <p style="font-size: 0.84rem;">
+            <strong>Camada Staging (7 views):</strong> Limpeza técnica, casts de tipos, trim e deduplicação de cartões.<br>
+            <strong>Camada Marts (5 fatos):</strong> Regras puras de negócio e métricas executivas sem acoplamento ao schema bruto.
+          </p>
+        </div>
+        <div class="card card-success">
+          <h4 style="color: var(--success);">3. Idempotência e Reprodutibilidade</h4>
+          <p style="font-size: 0.84rem;">
+            O pipeline <code>src/pipeline.py</code> é 100% idempotente: executar 1 vez ou 1.000 vezes reconstrói a base sem gerar duplicações nem efeitos colaterais nos arquivos brutos.
+          </p>
+        </div>
+      </div>
+      <div class="card card-primary" style="margin-top: 6px; padding: 12px 18px;">
+        <span style="font-family: var(--font-mono); font-size: 0.82rem; color: var(--cyan); text-transform: uppercase;">Fluxo Arquitetural:</span>
+        <div style="font-family: var(--font-mono); font-size: 0.82rem; color: var(--text-hi); margin-top: 6px; display: flex; justify-content: space-between; align-items: center;">
+          <span>RAW (CSVs Imutáveis)</span> &rarr;
+          <span>STAGING (Views SQL Limpas)</span> &rarr;
+          <span>MARTS (Fatos Analíticos)</span> &rarr;
+          <span>PYTEST (12 Asserções)</span> &rarr;
+          <span>OUTPUT (Exports & Deck)</span>
+        </div>
+      </div>
+    </div>
+    <div class="sl-footer-meta">
+      <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
+      <span>Brain003 · Arquitetura de Analytics Engineering</span>
+      <span>09 / 14</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 10: ENGENHARIA DE DADOS 2 - MODELAGEM & GRAIN (NOVO) -->
+  <div class="slide">
+    <div class="sl-top-bar">
+      <button class="nav-jump-chip" onclick="goToSlide(1)">📑 Sumário</button>
+      <div class="sl-brand">Brain<span class="sup">003</span></div>
+    </div>
+    <div class="slide-header">
+      <span class="tag">Decisão Técnica 2 · Bloco 4 (Engenharia de Dados)</span>
+      <h2>Modelagem Dimensional: Schema Discovery e Declaração de Grain</h2>
+      <h3>Engenharia reversa das chaves de negócio e blindagem contra duplicação de métricas</h3>
+    </div>
+    <div class="slide-body">
+      <div class="grid-2">
+        <div class="card card-primary">
+          <h4 style="color: var(--cyan);">🔍 O Desafio da Chave Oculta: Orders &rarr; Carts</h4>
+          <p style="font-size: 0.85rem; line-height: 1.6;">
+            A tabela bruta <code>orders</code> <strong>não possuía a coluna <code>user_id</code></strong>. Uma abordagem ingênua não conseguiria correlacionar quem resgatou Pix com os eventos de CRM e dados cadastrais.
+          </p>
+          <div style="background: var(--navy-900); border: 1px solid var(--stroke); padding: 10px; margin-top: 10px; font-family: var(--font-mono); font-size: 0.8rem;">
+            <strong>Mapeamento Dimensional:</strong><br>
+            <code>orders.cart_id &rarr; carts.cart_id &rarr; carts.user_id</code><br>
+            <span style="color: var(--text-low); font-size: 0.75rem;">Permitiu ligar com precisão cirúrgica a <code>cards</code> e <code>crm_events</code>.</span>
+          </div>
+        </div>
+        <div class="card card-blue">
+          <h4 style="color: var(--blue-electric); filter: brightness(1.6);">📐 Grain Estrito Declarado por Tabela</h4>
+          <p style="font-size: 0.82rem; margin-bottom: 8px;">
+            Para evitar o clássico erro de <em>fan-out</em> (multiplicação de métricas por join N:N), cada fato analítico possui granularidade formal:
+          </p>
+          <table style="font-size: 0.75rem;">
+            <thead>
+              <tr>
+                <th>Modelo</th>
+                <th>Grão Declarado (Grain)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>fct_order_items</code></td>
+                <td>1 linha por item de pedido (<code>order_item_id</code>)</td>
+              </tr>
+              <tr>
+                <td><code>fct_monthly_redemptions</code></td>
+                <td>1 linha por mês e categoria (<code>ano_mes, categoria</code>)</td>
+              </tr>
+              <tr>
+                <td><code>fct_pix_reconciliation</code></td>
+                <td>1 linha por mês de transação Pix (<code>ano_mes</code>)</td>
+              </tr>
+              <tr>
+                <td><code>fct_crm_attribution</code></td>
+                <td>1 linha por cliente único de Pix (<code>user_id</code>)</td>
+              </tr>
+              <tr>
+                <td><code>fct_breakage_analysis</code></td>
+                <td>1 linha por escopo contábil avaliado</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="sl-footer-meta">
+      <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
+      <span>Brain003 · Modelagem Dimensional e Governança</span>
+      <span>10 / 14</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 11: ENGENHARIA DE DADOS 3 - PYTEST & QUALIDADE (NOVO) -->
+  <div class="slide">
+    <div class="sl-top-bar">
+      <button class="nav-jump-chip" onclick="goToSlide(1)">📑 Sumário</button>
+      <div class="sl-brand">Brain<span class="sup">003</span></div>
+    </div>
+    <div class="slide-header">
+      <span class="tag">Decisão Técnica 3 · Bloco 4 (Engenharia de Dados)</span>
+      <h2>Confiabilidade dos Dados: Pirâmide de 12 Testes Automatizados</h2>
+      <h3>Como garantimos matematicamente a reconciliação financeira e zero alucinações</h3>
+    </div>
+    <div class="slide-body">
+      <div class="grid-3">
+        <div class="card card-primary">
+          <h4 style="color: var(--cyan);">1. Integridade de Schema e Chaves</h4>
+          <p style="font-size: 0.84rem;">
+            • Unicidade absoluta de PKs em staging e marts.<br>
+            • Não-nulidade em colunas financeiras (pontos, moeda, data).<br>
+            • Reconciliação dos 2.140 clientes únicos de Pix em CRM.
+          </p>
+        </div>
+        <div class="card card-success">
+          <h4 style="color: var(--success);">2. Reconciliação Contábil Exata</h4>
+          <p style="font-size: 0.84rem;">
+            • Invariância: Aprovados + Cancelados = Bruto Total.<br>
+            • Custo unitário comprovado em R$ 0,019 com tolerância de ponto flutuante de <code>10e-5</code>.<br>
+            • Bate centavo a centavo com o relatório financeiro.
+          </p>
+        </div>
+        <div class="card card-blue">
+          <h4 style="color: var(--blue-electric); filter: brightness(1.6);">3. Validação de Regras de Negócio</h4>
+          <p style="font-size: 0.84rem;">
+            • Teste dinâmico de atingimento de metas contratuais.<br>
+            • Validação da regra IFRS 15 de breakage (19,78% &le; 20%).<br>
+            • Execução contínua em <code>0.20s</code> via Pytest (12/12 passing).
+          </p>
+        </div>
+      </div>
+      <div class="card card-warning" style="margin-top: 6px; padding: 12px 18px;">
+        <p style="font-size: 0.84rem; color: var(--text-hi);">
+          <strong>Raciocínio de Engenharia:</strong> Ao invés de checar números "no olho", o pipeline é blindado por asserções em código. Qualquer mudança futura nos dados brutos ou nos modelos que viole a reconciliação contábil quebra o teste imediatamente antes de subir para produção.
+        </p>
+      </div>
+    </div>
+    <div class="sl-footer-meta">
+      <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
+      <span>Brain003 · Data Quality & Testes Automatizados</span>
+      <span>11 / 14</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 12: ANOMALIAS OPERACIONAIS (ANTIGO SLIDE 9) -->
+  <div class="slide">
+    <div class="sl-top-bar">
+      <button class="nav-jump-chip" onclick="goToSlide(1)">📑 Sumário</button>
+      <div class="sl-brand">Brain<span class="sup">003</span></div>
+    </div>
+    <div class="slide-header">
+      <span class="tag">Engenharia de Dados & Sistemas · Bloco 5</span>
       <h2>Alertas Operacionais: Duas Falhas Críticas Encontradas</h2>
       <h3>Problemas que demandam intervenção imediata da TI e Operações</h3>
     </div>
@@ -1005,18 +1190,18 @@
     <div class="sl-footer-meta">
       <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
       <span>Pontua+ · Integridade Transacional e Riscos</span>
-      <span>09 / 11</span>
+      <span>12 / 14</span>
     </div>
   </div>
 
-  <!-- SLIDE 10: RECOMENDAÇÃO ESTRATÉGICA -->
+  <!-- SLIDE 13: RECOMENDAÇÃO ESTRATÉGICA (ANTIGO SLIDE 10) -->
   <div class="slide">
     <div class="sl-top-bar">
       <button class="nav-jump-chip" onclick="goToSlide(1)">📑 Sumário</button>
       <div class="sl-brand">Brain<span class="sup">003</span></div>
     </div>
     <div class="slide-header">
-      <span class="tag">Decisão Executiva · Bloco 5</span>
+      <span class="tag">Decisão Executiva · Bloco 6</span>
       <h2>Recomendação: Não Coibir, mas Reequilibrar a Operação</h2>
       <h3>Plano de Ação em 4 Pilares de Viabilidade Financeira e Contratual</h3>
     </div>
@@ -1051,18 +1236,18 @@
     <div class="sl-footer-meta">
       <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
       <span>Pontua+ · Plano Estratégico de Viabilidade</span>
-      <span>10 / 11</span>
+      <span>13 / 14</span>
     </div>
   </div>
 
-  <!-- SLIDE 11: O QUE FALTA SABER & PRÓXIMOS PASSOS -->
+  <!-- SLIDE 14: O QUE FALTA SABER & PRÓXIMOS PASSOS (ANTIGO SLIDE 11) -->
   <div class="slide">
     <div class="sl-top-bar">
       <button class="nav-jump-chip" onclick="goToSlide(1)">📑 Sumário</button>
       <div class="sl-brand">Brain<span class="sup">003</span></div>
     </div>
     <div class="slide-header">
-      <span class="tag">Governança & Próximos Passos · Bloco 5</span>
+      <span class="tag">Governança & Próximos Passos · Bloco 6</span>
       <h2>O Que Ainda Falta Saber?</h2>
       <h3>Perguntas essenciais para os responsáveis pelos sistemas e pelo negócio</h3>
     </div>
@@ -1097,7 +1282,7 @@
     <div class="sl-footer-meta">
       <span><a href="javascript:goToSlide(1)">&larr; Voltar ao Sumário</a></span>
       <span>Brain003 · Processo Seletivo Analytics Engineer</span>
-      <span>11 / 11</span>
+      <span>14 / 14</span>
     </div>
   </div>
 
@@ -1107,7 +1292,7 @@
 <div class="nav-bar">
   <button class="nav-btn" onclick="prevSlide()" title="Anterior (Seta Esquerda)">&#8592;</button>
   <button class="nav-btn" onclick="goToSlide(1)" title="Ir para o Sumário Executivo" style="color: var(--cyan); font-weight: 600;">📑 Sumário</button>
-  <span class="slide-counter" id="counter">01 / 11</span>
+  <span class="slide-counter" id="counter">01 / 14</span>
   <button class="nav-btn" onclick="nextSlide()" title="Próximo (Seta Direita / Espaço)">&#8594;</button>
   <button class="nav-btn" onclick="toggleFullscreen()" title="Tela Cheia (F)">&#x26F6;</button>
   <button class="nav-btn" onclick="window.print()" title="Imprimir / Exportar PDF (Cmd+P)">&#x1F5A8;</button>
